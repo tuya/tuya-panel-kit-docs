@@ -9,13 +9,11 @@ export const useCondition = (
   const hasDemo = !!meta?.demo;
   const { demoUrl } = useThemeConfig();
 
-  const isCN = locale && /^zh|cn$/i.test(locale);
   if (condition === 'isCN') {
     return locale && /^zh|cn$/i.test(locale);
   }
 
-  const homeUrl = isCN ? `/` : `/${locale}`;
-  const isHome = location.pathname === homeUrl;
+  const isHome = location.pathname.replace(locale, '') === '/';
   if (condition === 'isHome') {
     return isHome;
   }
