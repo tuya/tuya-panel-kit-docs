@@ -1,7 +1,7 @@
 ---
-name: 快速上手
-menu: Getting Started
-route: /
+group:
+  title: 开发指南
+title: 快速上手
 order: 1
 ---
 

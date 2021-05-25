@@ -13,12 +13,14 @@ export type WriteAbleCtx<T extends WriteAbleKeys = WriteAbleKeys> = {
 type CodeCtxType = {
   themes: string[];
   currentTheme: string;
+  apiData: any;
   update: (arg: Partial<WriteAbleCtx>) => void;
 };
 
 export const CodeContext = createContext<CodeCtxType>({
   themes: [],
   currentTheme: null,
+  apiData: {},
   update: ({}) => {},
 });
 

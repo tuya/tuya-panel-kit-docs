@@ -4,6 +4,6 @@ image: https://images.tuyacn.com/rms-static/3dec3ee0-b3d9-11eb-9adb-1b12f902f79d
 title: Tuya Design
 desc: Efficient, unified and visual
 actions:
-  - link: /components
+  - link: /docs
     text: Start
 ---

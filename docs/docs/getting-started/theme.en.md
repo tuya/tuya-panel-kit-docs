@@ -1,7 +1,8 @@
 ---
-name: Theme
-menu: Getting Started
-route: /en/getting-started/theme
+group:
+  title: Guides
+  order: 1
+title: Theme
 order: 4
 ---
 

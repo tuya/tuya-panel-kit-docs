@@ -1,7 +1,8 @@
 ---
-name: FullView
-menu: Layout
-route: /en/layout/FullView
+group:
+  title: Layout
+title: FullView
+order: 1
 ---
 
 # FullView
