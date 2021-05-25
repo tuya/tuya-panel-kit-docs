@@ -1,7 +1,8 @@
 ---
-name: Getting Started
-menu: Getting Started
-route: /en
+group:
+  title: Guides
+  order: 1
+title: Getting Started
 order: 1
 ---
 

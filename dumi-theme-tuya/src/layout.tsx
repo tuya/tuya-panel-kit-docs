@@ -1,7 +1,7 @@
 import './style/layout.less';
 
 import { context } from 'dumi/theme';
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 
 import { IRouteComponentProps } from '@umijs/types';
 
@@ -13,10 +13,14 @@ import { CodeContext, WriteAbleCtx } from './context';
 import { useCondition } from './hooks';
 import { Renderer } from './pages';
 import { Home } from './pages/home';
+import axios from 'axios';
 
 const Layout: React.FC<IRouteComponentProps> = ({ children, location }) => {
   const {
-    config: { mode },
+    config: {
+      mode,
+      theme: { apiData },
+    },
     meta,
   } = useContext(context);
   const isHome = useCondition('isHome');
@@ -28,7 +32,14 @@ const Layout: React.FC<IRouteComponentProps> = ({ children, location }) => {
   const [ctxValues, setCtxValues] = useState<WriteAbleCtx>({
     themes: [],
     currentTheme: null,
+    apiData: {},
   });
+
+  useEffect(() => {
+    axios
+      .get(apiData)
+      .then(res => setCtxValues({ ...ctxValues, apiData: res.data }));
+  }, []);
 
   return (
     <CodeContext.Provider

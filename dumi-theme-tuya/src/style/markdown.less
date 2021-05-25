@@ -168,7 +168,7 @@
     box-shadow: 0 0 0 1px @c-border;
     // 溢出背景处理
     overflow: hidden;
-
+    table-layout: fixed;
     th,
     td {
       padding: 15px 25px;
@@ -188,7 +188,6 @@
         background-color: #f3f4f5;
         height: 20px;
         line-height: 20px;
-        white-space: nowrap;
         text-align: center;
         padding: 0 6px;
         display: inline-block;
@@ -196,6 +195,27 @@
         border-radius: 2px;
         color: rgba(0, 0, 0, 0.65);
       }
+    }
+
+    .col-0 {
+      width: 25%;
+      overflow: auto;
+      text-align: left;
+    }
+    .col-1 {
+      width: 34%;
+      overflow: auto;
+      text-align: left;
+    }
+    .col-2 {
+      width: 20%;
+      overflow: auto;
+      text-align: left;
+    }
+    .col-3 {
+      width: 21%;
+      overflow: auto;
+      text-align: left;
     }
 
     a {

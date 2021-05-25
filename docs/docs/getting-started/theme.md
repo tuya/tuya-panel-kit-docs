@@ -1,7 +1,7 @@
 ---
-name: 主题
-menu: Getting Started
-route: /getting-started/theme
+group:
+  title: 开发指南
+title: 主题
 order: 4
 ---
 

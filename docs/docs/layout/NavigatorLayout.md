@@ -1,34 +1,35 @@
 ---
-name: NavigatorLayout
-menu: Layout
-route: /en/layout/NavigatorLayout
+group:
+  title: 布局
+title: NavigatorLayout 导航布局
+order: 2
 ---
 
-# NavigatorLayout
+# NavigatorLayout 导航布局
 
-## Introduction
+## 简介
 
-Tuya device control panel will hardly consist of a single page, And `NavigatorLayout` is a basic layout that provides navigation routing and can easily handle switching between panel pages. Its internal bottom layer uses [React Native Navigator](https://archive.reactnative.dev/docs/0.43/navigator#docsNav), and integrates the `FullView` component built-in.
+涂鸦设备控制面板几乎不会是由单个页面组成，而 `NavigatorLayout` 就是一个提供了导航路由的基础布局，能方便的处理面板页面间的切换的组件，其内部底层使用了 [React Native Navigator](https://archive.reactnative.dev/docs/0.43/navigator#docsNav)，并内置集成了 `FullView` 组件。
 
-## Basic Usage
+## 基础使用
 
-> Can refer to [basic demp `src/main.js` file](https://github.com/tuya/tuya-panel-demo/blob/master/examples/basic/src/main.js)
+> 可参考[基础模板 src/main.js 文件](https://github.com/tuya/tuya-panel-demo/blob/master/examples/basic/src/main.js)
 
-Use `NavigatorLayout`, The following steps are required:
+使用 `NavigatorLayout`，需要以下步骤：
 
-1. Write a `React` component that inherits the `NavigatorLayout` provided by `tuya-panel-kit`.
-2. Override the `renderScene` method to render the user's own page, which needs to return a valid `React` component
-3. If you need to achieve more refined routing control, such as page title, page background and other functions, you can override the `hookRoute` method to achieve.
+1. 写一个 `React` 组件，继承 `tuya-panel-kit` 提供的 `NavigatorLayout`。
+2. 重写 `renderScene` 方法以渲染用户自己的页面，需要返回一个合法的 `React` 组件。
+3. 如果需要实现更精细的路由控制，如实现页面标题、页面背景等功能，可以通过重写 `hookRoute` 方法去实现。
 
-## Code demo
+## 代码演示
 
-<h3 id="h3Title">Jump between two pages</h3>
+<h3 id="h3Title">在两个页面之间跳转</h3>
 
-> Can run our [demo](https://github.com/tuya/tuya-panel-kit/tree/master/demos/navigator-layout/basic-jump) on Github for preview
+> 可运行我们托管在 Github 提供的 [demo](https://github.com/tuya/tuya-panel-kit/tree/master/demos/navigator-layout/basic-jump) 查看效果
 
-First define a routing configuration, and then write a component inherited from `NavigatorLayout`.
+首先定义好一个路由配置，然后写一个组件继承自 `NavigatorLayout`。
 
-Here we define routing tables for two pages (`routers`), They are `page1` and `page2`, In the `renderScene` method, we can get the `Navigator` and the current routing object. Then when we render the page, we look for the correspnoding page in the routing table according to the id of the current route, If there is no corresponding page, we render the default home page.
+这里我们定义了两个页面的路由表 (`routers`), 分别是 `page1` 和 `page2`，在 `renderScene` 方法里我们可以拿到 `Navigator`，以及当前路由对象的情况，然后我们在渲染页面的时候, 根据当前路由的 `id` 去路由表查找相应的页面，如果没有对应的页面，我们就渲染默认的主页。
 
 ```jsx
 import React from 'react';
@@ -56,7 +57,7 @@ class MainLayout extends NavigatorLayout {
       ...route,
       topbarStyle: { backgroundColor: '#ff6024' },
       topbarTextStyle: { color: '#fff' },
-      showOfflineView: false, // The offline mask of the device is turned off for basic function debugging, and the production environment needs to be turned on
+      showOfflineView: false, // 此处为了基础功能调试才关闭设备离线蒙层，生产环境需要开启
       title: route.id === 'main' ? 'Basic Jump Usage' : theRoute.title,
     };
   }
@@ -83,7 +84,7 @@ const ThemedMainLayout = props => (
 export default ThemedMainLayout;
 ```
 
-The following is the implementation of `page` and `home`, through the `push` method of `Navigator`, we can **jump to a certain page**, and through the `pop` method, **return to the previous page **.
+下面是 `page` 和 `home` 的实现，通过 `Navigator` 的 `push` 方法，我们能**跳转到某个页面**，通过 `pop` 方法，能**回退到上一个页面**。
 
 <center>
   <p align="center">
@@ -135,11 +136,11 @@ export default ({ navigator }) => (
 );
 ```
 
-<h3 id="h3Title">Custom transition animation effect</h3>
+<h3 id="h3Title">自定义过渡动画效果</h3>
 
-> Can run our [demo](https://github.com/tuya/tuya-panel-kit/tree/master/demos/navigator-layout/screen-transition) on github for preview
+> 可运行我们托管在 Github 提供的 [demo](https://github.com/tuya/tuya-panel-kit/tree/master/demos/navigator-layout/screen-transition) 查看效果
 
-`NavigatorLayout` uses the **default page transition animation configuration**, and the behavior will be: **New pages are displayed from left to right, and fallbacks are displayed from right to left**.
+`NavigatorLayout` 使用了**默认的页面过渡动画配置**，体现出的行为将会是: **新增页面表现为从左向右, 回退则是表现为从右到左**。
 
 ```jsx
 const SceneConfigs = {
@@ -152,9 +153,7 @@ const SceneConfigs = {
 };
 ```
 
-If you want to customize the page transition animation configuration, we can modify the parameters passed in `navigator.push` to customize the transition animation.
-
-Below we use the effects `VerticalUpSwipeJump` and `SwipeFromLeft`, the following is the effect diagram:
+如果想要自定义页面过渡动画配置，我们可以修改下 `navigator.push` 传入的参数，即可自定义过渡动画，下面我们使用了效果 `VerticalUpSwipeJump` 和 `SwipeFromLeft`, 以下是效果图：
 
 <center>
   <p align="center">
@@ -166,7 +165,7 @@ Below we use the effects `VerticalUpSwipeJump` and `SwipeFromLeft`, the followin
   </p>
 </center>
 
-If you have other transition animation needs, can refer to [React Native Navigator Transition](https://archive.reactnative.dev/docs/0.43/navigator#configurescene) to configure the transition animation effect you want.
+如果有其他过渡动画需求的用户可以参考 [React Native Navigator 过渡动画](https://archive.reactnative.dev/docs/0.43/navigator#configurescene)来配置自己想要的过渡动画效果。
 
 ```jsx
 // home.js
@@ -239,10 +238,10 @@ class NavigatorLayout<P = {}, S = {}> extends React.Component<
 
 <h3 id="h3Title">hookRoute</h3>
 
-> Used to control common page UI, see previous type signature. `hookRoute` receives a parameter `route` and needs to return a legal `NavigationOptions`, Inside `NavigatorLayout`, the return value of `hookRoute` will be used to render the relevant UI of the current page.
+> 用于控制常见页面 UI，参见此前类型签名，`hookRoute` 接收一个参数 `route`，需要返回一个合法的 `NavigationOptions`，`NavigatorLayout` 内部会通过 `hookRoute` 的返回值去对应渲染当前页面的相关 UI。
 
 ```typescript
-// The routing information of the page, the home page is a fixed value, and the other pages are determined by the parameters attached when the user passes `navigator.push`
+// 页面的路由信息，首页为固定值，其他页面由用户通过 navigator.push 时附带的参数决定
 interface DeprecatedNavigatorRoute {
   id: string;
   [routeProp: string]: any;
@@ -250,12 +249,12 @@ interface DeprecatedNavigatorRoute {
 
 interface NavigationOptions {
   /**
-   * @desc Custom panel background
-   * number: render local image
-   * string: render color
-   * { uri: string }: render network image
-   * RadialGradientBackground: render radial gradient
-   * LinearGradientBackground: render linear gradient
+   * @desc 自定义面板背景
+   * number: 渲染本地图片
+   * string: 渲染颜色
+   * { uri: string }: 渲染网络图片
+   * RadialGradientBackground: 渲染径向渐变
+   * LinearGradientBackground: 渲染线性渐变
    *
    */
   background?:
@@ -265,44 +264,44 @@ interface NavigationOptions {
     | RadialGradientBackground
     | (LinearGradientBackground & LinearGradientBackgroundOffset);
   /**
-   * @desc Custom header bar style
+   * @desc 自定义头部栏样式
    */
   topbarStyle?: StyleProp<ViewStyle>;
   /**
-   * @desc Custom header text style
+   * @desc 自定义头部栏文字样式
    */
   topbarTextStyle?: StyleProp<TextStyle>;
   /**
-   * @desc Custom panel background style
+   * @desc 自定义面板背景样式
    */
   backgroundStyle?: StyleProp<ViewStyle>;
   /**
-   * @desc Custom header bar title
+   * @desc 自定义头部栏标题
    */
   title?: string;
   hideTopbar?: boolean;
   /**
-   * @desc Control whether to show offline mask
+   * @desc 控制是否显示离线遮罩
    * @default true
    */
   showOfflineView?: boolean;
   gesture?: boolean;
   /**
-   * @desc Whether to enable homepage gestures to return to the app list page
+   * @desc 是否启用首页手势返回 app 列表页面
    * @default true
    */
   enablePopGesture?: boolean;
   /**
-   * @desc Bluetooth offline prompt whether to cover the entire panel (except for the header bar)
+   * @desc 蓝牙离线提示是否覆盖整个面板(除头部栏外)
    * @default true
    */
   isBleOfflineOverlay?: boolean;
   /**
-   * @desc Custom rendering header bar
+   * @desc 自定义渲染头部栏
    */
   renderTopBar?: () => JSX.Element;
   /**
-   * @desc Custom rendering status bar
+   * @desc 自定义渲染状态栏
    */
   renderStatusBar?: () => JSX.Element;
 }
@@ -310,18 +309,16 @@ interface NavigationOptions {
 
 <h3 id="h3Title">renderScene</h3>
 
-> Used to render page components, see the previous type signature, `renderScene` receives two parameters, `route` and `navigator`, and needs to return a valid `JSXElement`.
->
-> The specific type signatures of the parameters are shown below. Note that the `route.id` on the home page is fixed to `main`.
+> 用于渲染页面组件，参见此前类型签名，`renderScene` 接收两个参数，`route` 和 `navigator`，需要返回一个合法的 `JSXElement`，参数的具体类型签名见下，其中需要注意的是首页的 `route.id` 固定为 `main`。
 
 ```typescript
-// The routing information of the page, the home page is a fixed value, and the other pages are determined by the parameters attached when the user passes navigator.push
+// 页面的路由信息，首页为固定值，其他页面由用户通过 navigator.push 时附带的参数决定
 interface DeprecatedNavigatorRoute {
   id: string;
   [routeProp: string]: any;
 }
 
-// The Navigator api provided by React Native
+// 即 React Native 提供的 Navigator api
 interface DeprecatedNavigator {
   getCurrentRoutes(): DeprecatedNavigatorRoute[];
   immediatelyResetRouteStack(nextRouteStack: DeprecatedNavigatorRoute[]): void;

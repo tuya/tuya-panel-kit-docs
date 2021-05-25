@@ -1,10 +1,9 @@
 ---
-name: Changelog
-menu: Getting Started
-route: /en/getting-started/changelog
-order: 2
 group:
   title: Guides
+  order: 1
+title: Changelog
+order: 2
 ---
 
 # Changelog

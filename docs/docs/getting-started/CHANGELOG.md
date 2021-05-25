@@ -1,10 +1,8 @@
 ---
-name: 更新日志
-menu: Getting Started
-route: /getting-started/changelog
-order: 2
 group:
   title: 开发指南
+title: 更新日志
+order: 2
 ---
 
 # 更新日志

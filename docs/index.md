@@ -4,6 +4,6 @@ image: https://images.tuyacn.com/rms-static/3dec3ee0-b3d9-11eb-9adb-1b12f902f79d
 title: Tuya Design
 desc: 高效、统一、可视化
 actions:
-  - link: /components
+  - link: /docs
     text: 开发组件
 ---
