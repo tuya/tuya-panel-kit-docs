@@ -1,14 +1,7 @@
 ---
-group:
-  title: 通用
 title: IconFont 图标
+desc: IconFont 是语义化的矢量图标。内置图标 TuyaRNSvgs 来自于 tuya-panel-kit/src/components/iconfont/svg/defaultSvg。
 ---
-
-# IconFont 图标
-
-## 简介
-
-`IconFont` 是语义化的矢量图标。内置图标 TuyaRNSvgs 来自于 `tuya-panel-kit/src/components/iconfont/svg/defaultSvg`。
 
 ## 代码演示
 

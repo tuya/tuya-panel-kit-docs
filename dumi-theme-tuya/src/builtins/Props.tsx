@@ -46,7 +46,7 @@ export default ({ name }) => {
   return (
     <>
       {data && (
-        <table style={{ marginTop: 24 }}>
+        <table>
           <thead>
             <tr>
               <th className="col-0">{texts.name}</th>

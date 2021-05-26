@@ -1,14 +1,7 @@
 ---
-group:
-  title: basic
 title: Button
+desc: Button is one of the most commonly used components, used in some occasions that need to be clicked, such as plain text, pictures, and icons.
 ---
-
-# Button
-
-## Introduction
-
-`Button` is one of the most commonly used components, used in some occasions that need to be clicked, such as plain text, pictures, and icons.
 
 ## Code demo
 
