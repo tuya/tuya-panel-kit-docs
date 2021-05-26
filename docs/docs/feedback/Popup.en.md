@@ -308,7 +308,9 @@ Popup.toast({
 
 ## API
 
-### Popup 通用
+### Popup Common
+
+extends [ModalProps](/en/docs/feedback/modal#modal-common)
 
 <Props name="PopupProps" ></Props>
 
@@ -321,6 +323,8 @@ Popup.toast({
 <Props name="PopupDatePickerProps" ></Props>
 
 ### Popup.list
+
+extends [TYFlatListProps]()
 
 <Props name="PopUpListProps" ></Props>
 

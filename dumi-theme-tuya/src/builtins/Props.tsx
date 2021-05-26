@@ -45,7 +45,7 @@ export default ({ name }) => {
 
   return (
     <>
-      {data && (
+      {data && data.length > 0 && (
         <table>
           <thead>
             <tr>
