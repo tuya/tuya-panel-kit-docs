@@ -1,14 +1,7 @@
 ---
-group:
-  title: basic
 title: Motion
+desc: Motion is a component used to enrich component actions.
 ---
-
-# Motion
-
-## Introduction
-
-Motion is a component used to enrich component actions.
 
 ## Code demo
 

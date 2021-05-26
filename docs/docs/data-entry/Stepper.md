@@ -1,0 +1,34 @@
+---
+title: Stepper 步进器
+desc: Stepper 由增加按钮、减少按钮和输入框组成，用于在一定范围内输入、调整数字。
+---
+
+## 代码演示
+
+### 风格一
+
+```jsx
+<Stepper value={0} editable={false} />
+<Stepper value={21} disabled={true} />'
+<Stepper value={93.5} stepValue={0.5} inputStyle={{ width: 40 }} editable={false} />
+<Stepper value={99} stepValue={5} />
+```
+
+### 风格二
+
+```jsx
+<Stepper buttonType="triangle" value={0} editable={false} />
+<Stepper value={24} buttonType="triangle" disabled={true} />
+<Stepper
+  value={93.5}
+  stepValue={0.5}
+  inputStyle={{ width: 40 }}
+  buttonType="triangle"
+  editable={false}
+/>
+<Stepper value={99} stepValue={5} buttonType="triangle" />
+```
+
+## API
+
+<Props name="StepperProps" />

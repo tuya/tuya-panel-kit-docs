@@ -1,14 +1,12 @@
 ---
 group:
   title: 通用
+  order: 2
+nav:
+  title: 文档
 title: BrickButton 块状按钮
+desc: BrickButton 是在原 Button 功能基础上进行的丰富。
 ---
-
-# BrickButton 块状按钮
-
-## 简介
-
-`BrickButton` 是在原 Button 功能基础上进行的丰富。
 
 ## 代码演示
 

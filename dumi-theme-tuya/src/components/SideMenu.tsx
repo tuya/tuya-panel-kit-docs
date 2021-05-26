@@ -112,7 +112,12 @@ const SideMenu: FC<INavbarProps> = ({ mobileMenuCollapsed, location }) => {
         {/* menu list */}
         <ul className="__dumi-default-menu-list">
           {!isHiddenMenus && (
-            <Menu openKeys={openKeys} onOpenChange={setOpenKeys} mode="inline">
+            <Menu
+              openKeys={openKeys}
+              selectedKeys={[meta.title]}
+              onOpenChange={setOpenKeys}
+              mode="inline"
+            >
               {menu.map(item => {
                 // always use meta from routes to reduce menu data size
                 const hasSlugs = Boolean(meta.slugs?.length);

@@ -1,14 +1,12 @@
 ---
 group:
-  title: basic
+  title: Basic
+  order: 2
+nav:
+  title: Docs
 title: BrickButton
+desc: BrickButton is enriched on the basis of the original Button function.
 ---
-
-# BrickButton
-
-## Introduction
-
-`BrickButton` is enriched on the basis of the original Button function.
 
 ## Code demo
 

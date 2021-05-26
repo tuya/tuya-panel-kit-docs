@@ -1,14 +1,7 @@
 ---
-group:
-  title: 通用
 title: Motion 动效
+desc: Motion 是一个用于丰富组件动作的组件。
 ---
-
-# Motion 动效
-
-## 简介
-
-`Motion` 是一个用于丰富组件动作的组件。
 
 ## 代码演示
 

@@ -1,7 +1,4 @@
 ---
-group:
-  title: Guides
-  order: 1
 title: Getting Started
 order: 1
 ---

@@ -1,6 +1,4 @@
 ---
-group:
-  title: 开发指南
 title: 主题
 order: 4
 ---
