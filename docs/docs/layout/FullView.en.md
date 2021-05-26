@@ -1,8 +1,8 @@
 ---
 group:
   title: Layout
+  order: 2
 title: FullView
-order: 1
 ---
 
 # FullView

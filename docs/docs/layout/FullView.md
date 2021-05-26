@@ -1,8 +1,8 @@
 ---
 group:
   title: 布局
+  order: 2
 title: FullView 面板布局
-order: 1
 ---
 
 # FullView 面板布局

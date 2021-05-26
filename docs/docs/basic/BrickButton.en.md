@@ -1,7 +1,6 @@
 ---
 group:
   title: Basic
-  order: 2
 nav:
   title: Docs
 title: BrickButton
