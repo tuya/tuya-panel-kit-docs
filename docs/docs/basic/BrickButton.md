@@ -1,7 +1,6 @@
 ---
 group:
   title: 通用
-  order: 2
 nav:
   title: 文档
 title: BrickButton 块状按钮

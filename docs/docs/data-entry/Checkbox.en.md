@@ -1,7 +1,6 @@
 ---
 group:
   title: Data Entry
-  order: 3
 title: Checkbox
 desc: Checkbox is a single check box or multiple check box.
 ---

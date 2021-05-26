@@ -2,7 +2,6 @@
 group:
   title: 布局
 title: NavigatorLayout 导航布局
-order: 2
 ---
 
 # NavigatorLayout 导航布局

@@ -2,7 +2,6 @@
 group:
   title: Layout
 title: NavigatorLayout
-order: 2
 ---
 
 # NavigatorLayout
