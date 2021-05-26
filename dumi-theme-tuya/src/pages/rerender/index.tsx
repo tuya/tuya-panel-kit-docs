@@ -15,7 +15,6 @@ export interface RerenderProps {
 export const Renderer: React.FC<RerenderProps> = ({ content }) => {
   const { title, desc, demo } = useMeta();
   const { demoUrl } = useThemeConfig();
-  console.log(useMeta());
 
   const themeCtx = useContext(CodeContext);
   const { themes, currentTheme, update } = themeCtx;
