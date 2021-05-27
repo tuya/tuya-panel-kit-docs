@@ -1,6 +1,6 @@
 ---
 title: GlobalToast
-desc: GlobalToast is a global prompt attached to FullView with fade-in and fade-out animation effects.
+desc: '`GlobalToast` is a global prompt attached to FullView with fade-in and fade-out animation effects.'
 ---
 
 ## Code demo

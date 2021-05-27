@@ -1,6 +1,6 @@
 ---
 title: SwitchButton 开关
-desc: SwitchButton 是一个开关组件。
+desc: '`SwitchButton` 是一个开关组件。'
 ---
 
 ## 代码演示

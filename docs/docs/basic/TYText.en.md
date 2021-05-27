@@ -1,7 +1,6 @@
 ---
 title: TYText
-desc: In React Native, the default props of the Text component are inconsistent on Android and IOS.
-TYText has a layer of encapsulation on the Text component to ensure that the IOS and Android are consistent.
+desc: 'In **React Native**, the default props of the `Text` component are inconsistent on Android and IOS.<br/>`TYText` has a layer of encapsulation on the `Text` component to ensure that the IOS and Android are consistent.'
 ---
 
 ## Code demo
@@ -54,5 +53,7 @@ TYText has a layer of encapsulation on the Text component to ensure that the IOS
 ```
 
 ## API
+
+extends [TextProps](https://reactnative.dev/docs/text#props)
 
 <Props name="TYTextProps"></Props>

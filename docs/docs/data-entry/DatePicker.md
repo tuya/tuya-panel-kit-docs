@@ -1,6 +1,6 @@
 ---
 title: DatePicker 日期选择器
-desc: DatePicker 是一个灵活的支持多种模式的时间日期选择组件。
+desc: '`DatePicker` 是一个灵活的支持多种模式的时间日期选择组件。'
 ---
 
 ## 代码演示

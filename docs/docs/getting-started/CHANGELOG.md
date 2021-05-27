@@ -14,9 +14,6 @@ order: 2
 
 <h><font size='3'>发布周期</font></h>
 
-<br />
-<br />
-
 <font size='2' color='#595959'>
 · 修订版本号：&nbsp;&nbsp;每周进行日常 bug 的修复。<br />
 · 主版本号：&nbsp;&nbsp;包含破坏性更新和较大的功能更新，发布时间不定。<br />

@@ -157,7 +157,9 @@ const closePickerOneModal = () => setState({ pickerOneVisible: false });
 
 ## API
 
-### Modal Common
+### Modal 通用
+
+继承自 [ModalProps](https://reactnative.dev/docs/modal#props)
 
 <Props name="ModalProps"></Props>
 
@@ -167,12 +169,18 @@ const closePickerOneModal = () => setState({ pickerOneVisible: false });
 
 ### Modal.DatePicker
 
+继承自 [DatePickerProps](/docs/data-entry/date-picker#api)
+
 <Props name="PopupDatePickerProps"></Props>
 
 ### Modal.List
 
+继承自 [TYFlatListProps](/docs/presentation/tyflat-list#tyflatlist)
+
 <Props name="PopUpListProps"></Props>
 
 ### Modal.Picker
+
+继承自 [PickerViewProps](/docs/data-entry/picker-view#api)
 
 <Props name="PopupPickerProps"></Props>

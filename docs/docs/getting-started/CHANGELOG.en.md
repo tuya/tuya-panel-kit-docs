@@ -14,9 +14,6 @@ order: 2
 
 <h><font size='3'>Release cycle</font></h>
 
-<br />
-<br />
-
 <font size='2' color='#595959'>
 · Revision number:&nbsp;&nbsp;daily bug fixes are carried out every week.<br />
 · Major version number:&nbsp;&nbsp;including disruptive updates and larger feature updates, the release time is variable.<br />

@@ -1,6 +1,6 @@
 ---
 title: Stepper 步进器
-desc: Stepper 由增加按钮、减少按钮和输入框组成，用于在一定范围内输入、调整数字。
+desc: '`Stepper` 由增加按钮、减少按钮和输入框组成，用于在一定范围内输入、调整数字。'
 ---
 
 ## 代码演示
@@ -30,5 +30,7 @@ desc: Stepper 由增加按钮、减少按钮和输入框组成，用于在一定
 ```
 
 ## API
+
+继承自 [TextInputProps](https://reactnative.dev/docs/textinput#props)
 
 <Props name="StepperProps" />

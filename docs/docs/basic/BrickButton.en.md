@@ -4,7 +4,7 @@ group:
 nav:
   title: Docs
 title: BrickButton
-desc: BrickButton is enriched on the basis of the original Button function.
+desc: '`BrickButton` is enriched on the basis of the original Button function.'
 ---
 
 ## Code demo

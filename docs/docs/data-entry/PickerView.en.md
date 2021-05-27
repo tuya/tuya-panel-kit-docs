@@ -79,6 +79,8 @@ const [day, setDay] = React.useState(['3', '1']);
 
 ### PickerView (IOS)
 
+extends [PickerPropsIOS](https://reactnative.dev/docs/picker#props)
+
 <Props name="PickerViewIOSProps" />
 
 ### PickerView (Android)

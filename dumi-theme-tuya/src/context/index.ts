@@ -1,3 +1,4 @@
+import { IMenuItem } from '@umijs/preset-dumi/lib/routes/getMenuFromRoutes';
 import { createContext } from 'react';
 
 export type GetKeys<T, Filter = any> = {
@@ -14,6 +15,7 @@ type CodeCtxType = {
   themes: string[];
   currentTheme: string;
   apiData: any;
+  linkMap: { [key: string]: IMenuItem };
   update: (arg: Partial<WriteAbleCtx>) => void;
 };
 
@@ -21,6 +23,7 @@ export const CodeContext = createContext<CodeCtxType>({
   themes: [],
   currentTheme: null,
   apiData: {},
+  linkMap: {},
   update: ({}) => {},
 });
 

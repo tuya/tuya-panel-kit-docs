@@ -1,6 +1,6 @@
 ---
 title: Stepper
-desc: Stepper is composed of increase button, decrease button and input box, used to input and adjust numbers within a certain range.
+desc: '`Stepper` is composed of increase button, decrease button and input box, used to input and adjust numbers within a certain range.'
 ---
 
 ## Code demo
@@ -30,5 +30,7 @@ desc: Stepper is composed of increase button, decrease button and input box, use
 ```
 
 ## API
+
+extends [TextInputProps](https://reactnative.dev/docs/textinput#props)
 
 <Props name="StepperProps" />

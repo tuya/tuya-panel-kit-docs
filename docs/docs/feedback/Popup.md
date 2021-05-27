@@ -310,7 +310,9 @@ Popup.toast({
 
 ### Popup 通用
 
-<Props name="PopupProps" ></Props>
+<Jump extend="true" name="Modal" label="ModalProps" ></Jump>
+
+<Props name="PopupProps"></Props>
 
 ### Popup.countdown
 

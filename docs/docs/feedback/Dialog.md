@@ -222,6 +222,8 @@ Dialog.custom({
 
 ### Dialog.checkbox
 
+继承自 [TYFlatListProps](/docs/presentation/tyflat-list#tyflatlist)
+
 <Props name="DialogCheckboxProps"></Props>
 
 ### Dialog.confirm
@@ -230,9 +232,13 @@ Dialog.custom({
 
 ### Dialog.list
 
+继承自 [TYFlatListProps](/docs/presentation/tyflat-list#tyflatlist)
+
 <Props name="DialogListProps"></Props>
 
 ### Dialog.prompt
+
+继承自 [TextInputProps](https://reactnative.dev/docs/textinput#props)
 
 <Props name="DialogPromptProps"></Props>
 

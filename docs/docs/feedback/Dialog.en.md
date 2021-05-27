@@ -2,7 +2,7 @@
 group:
   title: Feedback
 title: Dialog
-desc: Dialog is a collection containing a series of commonly used dialog boxes, used to display some Native-like components.
+desc: '`Dialog` is a collection containing a series of commonly used dialog boxes, used to display some Native-like components.'
 ---
 
 ## Code demo
@@ -222,6 +222,8 @@ Dialog.custom({
 
 ### Dialog.checkbox
 
+extends [TYFlatListProps](/en/docs/presentation/tyflat-list#tyflatlist)
+
 <Props name="DialogCheckboxProps"></Props>
 
 ### Dialog.confirm
@@ -230,9 +232,13 @@ Dialog.custom({
 
 ### Dialog.list
 
+extends [TYFlatListProps](/en/docs/presentation/tyflat-list#tyflatlist)
+
 <Props name="DialogListProps"></Props>
 
 ### Dialog.prompt
+
+extends [TextInputProps](https://reactnative.dev/docs/textinput#props)
 
 <Props name="DialogPromptProps"></Props>
 

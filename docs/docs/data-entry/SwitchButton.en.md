@@ -1,6 +1,6 @@
 ---
 title: SwitchButton
-desc: SwitchButton is a switch component.
+desc: '`SwitchButton` is a switch component.'
 ---
 
 ## Code demo
