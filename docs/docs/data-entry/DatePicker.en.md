@@ -1,6 +1,6 @@
 ---
 title: DatePicker
-desc: DatePicker is a flexible time and date selection component that supports multiple modes.
+desc: '`DatePicker` is a flexible time and date selection component that supports multiple modes.'
 ---
 
 ## Code demo

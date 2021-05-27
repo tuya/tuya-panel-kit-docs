@@ -96,6 +96,8 @@ const data = [
 
 ### TYFlatList
 
+extends [FlatListProps](https://reactnative.dev/docs/flatlist#props)
+
 <Props name="TYFlatListProps"></Props>
 
 ### TYFlatList.Item
@@ -115,14 +117,3 @@ const data = [
 <Props name="TYSectionSliderProps"></Props>
 
 ### TYFlatList.SwitchItem
-
-<Props language="en-US" otherProps={[
-{
-name: "TYListItemProps",
-link: "/en/components/PresentationComponents_TYListItem"
-},
-{
-name: "SwitchButtonProps",
-link: "/en/components/DataEntryComponent_SwitchButton#api"
-}
-]} />

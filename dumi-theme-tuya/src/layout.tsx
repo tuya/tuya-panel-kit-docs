@@ -1,7 +1,7 @@
 import './style/layout.less';
 
 import { context } from 'dumi/theme';
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useMemo, useState } from 'react';
 
 import { IRouteComponentProps } from '@umijs/types';
 
@@ -22,6 +22,7 @@ const Layout: React.FC<IRouteComponentProps> = ({ children, location }) => {
       theme: { apiData },
     },
     meta,
+    menu,
   } = useContext(context);
   const isHome = useCondition('isHome');
   const showSideMenu = useCondition('showSideMenu');
@@ -41,10 +42,25 @@ const Layout: React.FC<IRouteComponentProps> = ({ children, location }) => {
       .then(res => setCtxValues({ ...ctxValues, apiData: res.data }));
   }, []);
 
+  const linkMap = useMemo(() => {
+    const stack = Array.isArray(menu) ? menu.slice() : [];
+    const map: { [title: string]: any } = {};
+    while (stack.length) {
+      const current = stack.pop();
+      if (Array.isArray(current.children)) {
+        stack.push(...current.children);
+      }
+      map[current.title.split(' ')[0]] = current;
+      map[current.title] = current;
+    }
+    return map;
+  }, [menu]);
+
   return (
     <CodeContext.Provider
       value={{
         ...ctxValues,
+        linkMap,
         update: args => setCtxValues({ ...ctxValues, ...args }),
       }}
     >

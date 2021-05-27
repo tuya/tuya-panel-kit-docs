@@ -1,6 +1,6 @@
 ---
 title: Motion
-desc: Motion is a component used to enrich component actions.
+desc: '`Motion` is a component used to enrich component actions.'
 ---
 
 ## Code demo

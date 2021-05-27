@@ -1,6 +1,6 @@
 ---
 title: Notification
-desc: 'Notification is the notification bar, which can display three types of information: success, warning, and error.'
+desc: '`Notification` is the notification bar, which can display three types of information: success, warning, and error.'
 ---
 
 ## Code demo

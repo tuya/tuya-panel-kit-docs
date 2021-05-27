@@ -96,6 +96,8 @@ const data = [
 
 ### TYFlatList
 
+继承自 [FlatListProps](https://reactnative.dev/docs/flatlist#props)
+
 <Props name="TYFlatListProps"></Props>
 
 ### TYFlatList.Item

@@ -61,7 +61,7 @@ export default ({ name }) => {
                 <td className="col-0">{row.name}</td>
                 <td className="col-1">{row.description || '--'}</td>
                 <td className="col-2">
-                  <code dangerouslySetInnerHTML={{ __html: row.types }}></code>
+                  <div dangerouslySetInnerHTML={{ __html: row.types }}></div>
                 </td>
                 <td className="col-3">
                   <code>

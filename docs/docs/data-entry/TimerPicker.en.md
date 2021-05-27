@@ -1,6 +1,6 @@
 ---
 title: TimerPicker
-desc: TimerPicker is a time period selection component, that is, select the start time and end time.
+desc: '`TimerPicker` is a time period selection component, that is, select the start time and end time.'
 ---
 
 ## Code demo
@@ -33,5 +33,7 @@ const [time, setTime] = React.useState({ startTime: 0, endTime: 0 });
 ```
 
 ## API
+
+extends [PickerViewProps](/en/docs/data-entry/picker-view#api)
 
 <Props name="TimerPickerProps" />

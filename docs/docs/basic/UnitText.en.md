@@ -1,6 +1,6 @@
 ---
 title: UnitText
-desc: UnitText can be used to display some bold display text types.
+desc: '`UnitText` can be used to display some bold display text types.'
 ---
 
 ## Code demo

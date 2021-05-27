@@ -1,6 +1,6 @@
 ---
 title: GlobalToast 全局吐司
-desc: GlobalToast 是一个挂载在 FullView 上伴有淡入淡出动画效果的全局提示。
+desc: '`GlobalToast` 是一个挂载在 FullView 上伴有淡入淡出动画效果的全局提示。'
 ---
 
 ## 代码演示
