@@ -1,12 +1,12 @@
 import './style.less';
 
 import React, { ReactNode, useContext } from 'react';
-
 import Device from '../../components/Device';
 import { CodeContext } from '../../context';
 import { useMeta } from '../../hooks/useMeta';
 import { useThemeConfig } from '../../hooks/useThemeConfig';
 import { classnames } from '../../utils/classnames';
+import { transform } from '../../parser';
 
 export interface RerenderProps {
   content: ReactNode;
@@ -24,9 +24,17 @@ export const Renderer: React.FC<RerenderProps> = ({ content }) => {
       <div className="__dumi-default-mobile-content">
         <article>
           {title && desc && (
-            <div className="__dumi-default-content-header">
-              <h1>{title}</h1>
-              <p>{desc}</p>
+            <div className="__dumi-default-content-header markdown">
+              <h1
+                dangerouslySetInnerHTML={{
+                  __html: transform(title),
+                }}
+              ></h1>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: transform(desc),
+                }}
+              ></p>
             </div>
           )}
           {demo && themes?.length > 1 && (
