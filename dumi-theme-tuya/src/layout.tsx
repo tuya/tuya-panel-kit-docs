@@ -1,7 +1,8 @@
 import './style/layout.less';
 
+import axios from 'axios';
 import { context } from 'dumi/theme';
-import React, { useContext, useEffect, useMemo, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 
 import { IRouteComponentProps } from '@umijs/types';
 
@@ -10,10 +11,9 @@ import SearchBar from './components/SearchBar';
 import SideMenu from './components/SideMenu';
 import SlugsList from './components/SlugList';
 import { CodeContext, WriteAbleCtx } from './context';
-import { useCondition } from './hooks';
+import { useCondition, useLinkMap } from './hooks';
 import { Renderer } from './pages';
 import { Home } from './pages/home';
-import axios from 'axios';
 
 const Layout: React.FC<IRouteComponentProps> = ({ children, location }) => {
   const {
@@ -42,19 +42,7 @@ const Layout: React.FC<IRouteComponentProps> = ({ children, location }) => {
       .then(res => setCtxValues({ ...ctxValues, apiData: res.data }));
   }, []);
 
-  const linkMap = useMemo(() => {
-    const stack = Array.isArray(menu) ? menu.slice() : [];
-    const map: { [title: string]: any } = {};
-    while (stack.length) {
-      const current = stack.pop();
-      if (Array.isArray(current.children)) {
-        stack.push(...current.children);
-      }
-      map[current.title.split(' ')[0]] = current;
-      map[current.title] = current;
-    }
-    return map;
-  }, [menu]);
+  const linkMap = useLinkMap();
 
   return (
     <CodeContext.Provider

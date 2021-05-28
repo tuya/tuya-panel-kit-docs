@@ -113,22 +113,34 @@ const sections = [
 
 ### TYSectionList
 
+继承自 [SectionListProps](https://reactnative.dev/docs/sectionlist#props)
+
 <Props name="TYSectionListProps"></Props>
 
 ### TYSectionList.Item
+
+继承自 <HLink to="TYListItem">TYListItemProps</HLink>
 
 <Props name="TYListItemProps"></Props>
 
 ### TYSectionList.InputItem
 
+继承自 <HLink to="TYListItem#api">TYListItemProps</HLink>、<HLink to="https://reactnative.dev/docs/textinput#props">TextInputProps</HLink>
+
 <Props name="TYSectionInputProps"></Props>
 
 ### TYSectionList.CheckboxItem
+
+继承自 <HLink to="TYListItem#api">TYListItemProps</HLink>、<HLink to="Checkbox#api">CheckboxProps</HLink>
 
 <Props name="TYListItemProps"></Props>
 
 ### TYSectionList.SliderItem
 
+继承自 <HLink to="Slider#api">SliderProps</HLink>
+
 <Props name="TYSectionSliderProps"></Props>
 
 ### TYSectionList.SwitchItem
+
+继承自 <HLink to="TYListItem#api">TYListItemProps</HLink>、<HLink to="SwitchButton#api">SwitchButtonProps</HLink>

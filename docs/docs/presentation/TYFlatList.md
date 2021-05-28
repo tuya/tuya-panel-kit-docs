@@ -102,29 +102,28 @@ const data = [
 
 ### TYFlatList.Item
 
+继承自 <HLink to="Modal#api">ModalProps</HLink>
+
 <Props name="TYListItemProps"></Props>
 
 ### TYFlatList.InputItem
+
+继承自 <HLink to="TYListItem#api">TYListItemProps</HLink>、<HLink to="https://reactnative.dev/docs/textinput#props">TextInputProps</HLink>
 
 <Props name="TYSectionInputProps"></Props>
 
 ### TYFlatList.CheckboxItem
 
+继承自 <HLink to="TYListItem#api">TYListItemProps</HLink>、<HLink to="Checkbox#api">CheckboxProps</HLink>
+
 <Props name="TYListItemProps"></Props>
 
 ### TYFlatList.SliderItem
+
+继承自 <HLink to="Slider#api">SliderProps</HLink>
 
 <Props name="TYSectionSliderProps"></Props>
 
 ### TYFlatList.SwitchItem
 
-<Props language="en-US" otherProps={[
-{
-name: "TYListItemProps",
-link: "/en/components/PresentationComponents_TYListItem"
-},
-{
-name: "SwitchButtonProps",
-link: "/en/components/DataEntryComponent_SwitchButton#api"
-}
-]} />
+继承自 <HLink to="TYListItem#api">TYListItemProps</HLink>、<HLink to="SwitchButton#api">SwitchButtonProps</HLink>

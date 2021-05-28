@@ -102,18 +102,26 @@ extends [FlatListProps](https://reactnative.dev/docs/flatlist#props)
 
 ### TYFlatList.Item
 
+extends <HLink to="Modal#api">ModalProps</HLink>
+
 <Props name="TYListItemProps"></Props>
 
 ### TYFlatList.InputItem
+
+extends <HLink to="TYListItem#api">TYListItemProps</HLink>、<HLink to="https://reactnative.dev/docs/textinput#props">TextInputProps</HLink>
 
 <Props name="TYSectionInputProps"></Props>
 
 ### TYFlatList.CheckboxItem
 
-<Props name="TYListItemProps"></Props>
+extends <HLink to="TYListItem#api">TYListItemProps</HLink>、<HLink to="Checkbox#api">CheckboxProps</HLink>
 
 ### TYFlatList.SliderItem
+
+extends <HLink to="Slider#api">SliderProps</HLink>
 
 <Props name="TYSectionSliderProps"></Props>
 
 ### TYFlatList.SwitchItem
+
+extends <HLink to="TYListItem#api">TYListItemProps</HLink>、<HLink to="SwitchButton#api">SwitchButtonProps</HLink>

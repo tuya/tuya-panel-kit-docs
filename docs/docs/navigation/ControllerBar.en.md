@@ -93,4 +93,6 @@ desc: '`ControllerBar` is a control bar with one or more buttons；`ControllerBa
 
 ## API
 
+继承自 [ViewProps](https://reactnative.dev/docs/view#props)
+
 <Props name="ControllerBarProps" />

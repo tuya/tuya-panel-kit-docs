@@ -1,6 +1,7 @@
-import { useThemeConfig } from './useThemeConfig';
 import { context } from 'dumi/theme';
 import { useContext } from 'react';
+
+import { useThemeConfig } from './useThemeConfig';
 
 export const useCondition = (
   condition: 'isCN' | 'isHome' | 'showSideMenu' | 'showSlugs' | 'showDevice',

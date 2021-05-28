@@ -1,9 +1,8 @@
 import './Navbar.less';
 
-import { context, Link, NavLink, useLocaleProps } from 'dumi/theme';
+import { context, Link, NavLink } from 'dumi/theme';
 import React, { FC, MouseEvent, useContext } from 'react';
 
-import { useCondition } from '../hooks';
 import { classnames } from '../utils';
 import LocaleSelect from './LocaleSelect';
 

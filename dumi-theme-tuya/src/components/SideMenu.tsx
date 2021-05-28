@@ -41,8 +41,6 @@ const SideMenu: FC<INavbarProps> = ({ mobileMenuCollapsed, location }) => {
     [menu],
   );
 
-  console.log('menu', menu);
-
   const [openKeys, setOpenKeys] = useDerivedStateFromProps(defaultOpenKeys);
 
   return (
