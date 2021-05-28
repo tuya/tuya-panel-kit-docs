@@ -17,7 +17,6 @@ a {
 
 .@{prefix}-layout {
   box-sizing: border-box;
-  overflow: hidden;
   min-height: 100vh;
   padding: 16px (@s-content-margin + @s-toc-width) 50px @s-menu-width +
     @s-content-margin;
@@ -55,7 +54,7 @@ a {
     }
 
     &[data-show-slugs='true'] {
-      padding-right: @s-content-margin + @s-toc-width + 33;
+      padding-right: @s-content-margin + @s-toc-width + 12;
     }
 
     .@{prefix}-layout-content > .markdown:first-child > *:first-child {
@@ -143,7 +142,7 @@ a {
     width: @s-toc-width - @s-content-margin;
     max-height: calc(90vh - 80px);
     margin: 0;
-    margin-right: @s-content-margin;
+    margin-right: 0;
     padding: 0 24px 0 0;
     background-color: #fff;
     box-sizing: content-box;
