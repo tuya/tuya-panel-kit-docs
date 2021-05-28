@@ -1,12 +1,13 @@
 import './style.less';
 
 import React, { ReactNode, useContext } from 'react';
+
 import Device from '../../components/Device';
 import { CodeContext } from '../../context';
 import { useMeta } from '../../hooks/useMeta';
 import { useThemeConfig } from '../../hooks/useThemeConfig';
-import { classnames } from '../../utils/classnames';
 import { transform } from '../../parser';
+import { classnames } from '../../utils/classnames';
 
 export interface RerenderProps {
   content: ReactNode;

@@ -310,7 +310,7 @@ Popup.toast({
 
 ### Popup Common
 
-<Jump extend="true" name="Modal" label="ModalProps" ></Jump>
+extends <HLink to="Modal#api">ModalProps</HLink>
 
 <Props name="PopupProps" ></Props>
 

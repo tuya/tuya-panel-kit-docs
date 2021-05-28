@@ -310,7 +310,7 @@ Popup.toast({
 
 ### Popup 通用
 
-<Jump extend="true" name="Modal" label="ModalProps" ></Jump>
+继承自 <HLink to="Modal#api">ModalProps</HLink>
 
 <Props name="PopupProps"></Props>
 

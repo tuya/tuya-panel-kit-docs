@@ -1,5 +1,6 @@
-import React, { useEffect, useState, useContext } from 'react';
 import { context } from 'dumi/theme';
+import React, { useContext, useEffect, useState } from 'react';
+
 import { CodeContext } from '../context';
 
 const LOCALE_TEXTS = {

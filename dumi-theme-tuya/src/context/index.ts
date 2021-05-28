@@ -1,5 +1,6 @@
-import { IMenuItem } from '@umijs/preset-dumi/lib/routes/getMenuFromRoutes';
 import { createContext } from 'react';
+
+import { IMenuItem } from '@umijs/preset-dumi/lib/routes/getMenuFromRoutes';
 
 export type GetKeys<T, Filter = any> = {
   [P in keyof T]: T[P] extends Filter ? P : never;

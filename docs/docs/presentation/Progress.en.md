@@ -52,6 +52,8 @@ desc: Progress is a commonly used component that can control the current progres
 
 ### Progress
 
+extends [ViewProps](https://reactnative.dev/docs/view#props)
+
 <Props name="ProgressProps"></Props>
 
 ### Progress.Space

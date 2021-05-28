@@ -236,4 +236,6 @@ const [state, setState] = React.useState({
 
 ### Tabs.TabPanel
 
+继承自 [ViewProps](https://reactnative.dev/docs/view#props)
+
 <Props name="TabPanelProps"></Props>
