@@ -21,7 +21,7 @@
     ]
   },
   "devDependencies": {
-    "@tuya-fe/dumi-theme-tuya": "^1.0.4",
+    "@tuya-fe/dumi-theme-tuya": "^1.0.5",
     "@types/qrcode.react": "^1.0.1",
     "antd": "^4.15.2",
     "axios": "^0.21.1",
