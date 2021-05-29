@@ -7,13 +7,12 @@ import { useCondition } from '../hooks';
 import { useI18N } from '../hooks/useI18N';
 import { SearchIcon } from './svg';
 
-export default () => {
+export default ({ location }) => {
   const [keywords, setKeywords] = useState<string>('');
   const [items, setItems] = useState<any[]>([]);
   const input = useRef<HTMLInputElement>(null);
   const result = useSearch(keywords);
-
-  const isHome = useCondition('isHome');
+  const isHome = useCondition('isHome', location);
 
   const i18n = useI18N({
     placeholder: {

@@ -1,10 +1,12 @@
 import { context } from 'dumi/theme';
+import { Location } from 'history-with-query';
 import { useContext } from 'react';
 
 import { useThemeConfig } from './useThemeConfig';
 
 export const useCondition = (
   condition: 'isCN' | 'isHome' | 'showSideMenu' | 'showSlugs' | 'showDevice',
+  location: Location,
 ) => {
   const { meta, locale } = useContext(context);
   const hasDemo = !!meta?.demo;
@@ -14,7 +16,7 @@ export const useCondition = (
     return locale && /^zh|cn$/i.test(locale);
   }
 
-  const isHome = location.pathname.replace(locale, '') === '/';
+  const isHome = location?.pathname.replace(locale, '') === '/';
   if (condition === 'isHome') {
     return isHome;
   }
