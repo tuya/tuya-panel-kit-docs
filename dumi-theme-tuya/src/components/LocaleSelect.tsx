@@ -8,7 +8,7 @@ import React, { FC, useContext } from 'react';
 import { useCondition } from '../hooks';
 
 const LocaleSelect: FC<{ location: any }> = ({ location }) => {
-  const isHome = useCondition('isHome');
+  const isHome = useCondition('isHome', location);
   const {
     base,
     locale,

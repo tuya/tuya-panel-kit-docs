@@ -1,6 +1,7 @@
 import { defineConfig, IConfig } from 'dumi';
 
 export default defineConfig({
+  ssr: {},
   exportStatic: {},
   title: 'Tuya Design',
   mode: 'site',
@@ -32,32 +33,60 @@ export default defineConfig({
         ? 'http://localhost:8001'
         : 'https://docya-demo.vercel.app',
   },
-  navs: [
-    null,
-    {
-      title: 'Github',
-      path: 'https://github.com/tuya/tuya-panel-kit',
-    },
-    {
-      title: 'Contact Us',
-      path: 'https://service.console.tuya.com/8/3/create',
-    },
-    {
-      title: 'More',
-      path: 'https://developer.tuya.com/cn/docs/iot/preface?id=K9m1fn6ycetd0',
-    },
-    {
-      title: '版本',
-      children: [
-        {
-          title: 'v1',
-        },
-        {
-          title: 'v2',
-        },
-      ],
-    },
-  ],
+  navs: {
+    zh: [
+      null,
+      {
+        title: 'Github',
+        path: 'https://github.com/tuya/tuya-panel-kit',
+      },
+      {
+        title: 'Contact Us',
+        path: 'https://service.console.tuya.com/8/3/create',
+      },
+      {
+        title: 'More',
+        path: 'https://developer.tuya.com/cn/docs/iot/preface?id=K9m1fn6ycetd0',
+      },
+      {
+        title: '版本',
+        children: [
+          {
+            title: 'v1',
+          },
+          {
+            title: 'v2',
+          },
+        ],
+      },
+    ],
+    en: [
+      null,
+      {
+        title: 'Github',
+        path: 'https://github.com/tuya/tuya-panel-kit',
+      },
+      {
+        title: 'Contact Us',
+        path: 'https://service.console.tuya.com/8/3/create',
+      },
+      {
+        title: 'More',
+        path: 'https://developer.tuya.com/cn/docs/iot/preface?id=K9m1fn6ycetd0',
+      },
+      {
+        title: 'Version',
+        children: [
+          {
+            title: 'v1',
+          },
+          {
+            title: 'v2',
+          },
+        ],
+      },
+    ],
+  },
   resolve: {
     passivePreview: true,
   },

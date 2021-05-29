@@ -24,9 +24,9 @@ const Layout: React.FC<IRouteComponentProps> = ({ children, location }) => {
     meta,
     menu,
   } = useContext(context);
-  const isHome = useCondition('isHome');
-  const showSideMenu = useCondition('showSideMenu');
-  const showSlugs = useCondition('showSlugs');
+  const isHome = useCondition('isHome', location);
+  const showSideMenu = useCondition('showSideMenu', location);
+  const showSlugs = useCondition('showSlugs', location);
 
   const [menuCollapsed, setMenuCollapsed] = useState<boolean>(true);
 
@@ -68,14 +68,14 @@ const Layout: React.FC<IRouteComponentProps> = ({ children, location }) => {
           backgroundImage: `url(${meta.background})`,
           paddingBottom: isHome ? 198 : 50,
           overflow: isHome ? 'hidden' : 'unset',
-          backgroundSize: 'cover'
+          backgroundSize: 'cover',
         }}
       >
         {/* 顶部导航渲染 */}
         <Navbar
           isHome={isHome}
           location={location}
-          navPrefix={<SearchBar />}
+          navPrefix={<SearchBar location={location} />}
           onMobileMenuClick={ev => {
             setMenuCollapsed(val => !val);
             ev.stopPropagation();
