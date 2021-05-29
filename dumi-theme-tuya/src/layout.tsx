@@ -68,6 +68,7 @@ const Layout: React.FC<IRouteComponentProps> = ({ children, location }) => {
           backgroundImage: `url(${meta.background})`,
           paddingBottom: isHome ? 198 : 50,
           overflow: isHome ? 'hidden' : 'unset',
+          backgroundSize: 'cover'
         }}
       >
         {/* 顶部导航渲染 */}
