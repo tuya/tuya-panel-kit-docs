@@ -51,4 +51,4 @@ const tabRadios = Array.from(Array(3), (v, k) => k + 1).map(v => {
 
 ## API
 
-<Props name="TabBarProps" />
+<API name="TabBarProps" />

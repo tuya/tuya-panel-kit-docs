@@ -98,19 +98,19 @@ const data = [
 
 extends [FlatListProps](https://reactnative.dev/docs/flatlist#props)
 
-<Props name="TYFlatListProps"></Props>
+<API name="TYFlatListProps"></API>
 
 ### TYFlatList.Item
 
 extends <HLink to="Modal#api">ModalProps</HLink>
 
-<Props name="TYListItemProps"></Props>
+<API name="TYListItemProps"></API>
 
 ### TYFlatList.InputItem
 
 extends <HLink to="TYListItem#api">TYListItemProps</HLink>、<HLink to="https://reactnative.dev/docs/textinput#props">TextInputProps</HLink>
 
-<Props name="TYSectionInputProps"></Props>
+<API name="TYSectionInputProps"></API>
 
 ### TYFlatList.CheckboxItem
 
@@ -120,7 +120,7 @@ extends <HLink to="TYListItem#api">TYListItemProps</HLink>、<HLink to="Checkbox
 
 extends <HLink to="Slider#api">SliderProps</HLink>
 
-<Props name="TYSectionSliderProps"></Props>
+<API name="TYSectionSliderProps"></API>
 
 ### TYFlatList.SwitchItem
 

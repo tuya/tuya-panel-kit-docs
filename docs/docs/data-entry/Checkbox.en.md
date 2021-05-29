@@ -59,4 +59,4 @@ const [checked, setChecked] = React.useState(false);
 
 ## API
 
-<Props name="CheckboxProps"></Props>
+<API name="CheckboxProps"></API>

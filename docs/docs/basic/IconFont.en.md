@@ -34,7 +34,7 @@ desc: '`IconFont` is a semantic vector icon。The built-in icon TuyaRNSvgs comes
 
 ## API
 
-<Props name="IconFontProps"></Props>
+<API name="IconFontProps"></API>
 
 ## FAQ
 

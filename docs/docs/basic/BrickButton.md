@@ -38,4 +38,4 @@ desc: '`BrickButton` 是在原 Button 功能基础上进行的丰富。'
 
 ## API
 
-<Props name="BrickButtonProps"></Props>
+<API name="BrickButtonProps"></API>

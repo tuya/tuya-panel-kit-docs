@@ -56,4 +56,4 @@ desc: '在 **React Native** 中，`Text` 组件的默认 props 在 Android 和 I
 
 继承自 [TextProps](https://reactnative.dev/docs/text#props)
 
-<Props name="TYTextProps"></Props>
+<API name="TYTextProps"></API>

@@ -56,4 +56,4 @@ desc: 'In **React Native**, the default props of the `Text` component are incons
 
 extends [TextProps](https://reactnative.dev/docs/text#props)
 
-<Props name="TYTextProps"></Props>
+<API name="TYTextProps"></API>

@@ -15,4 +15,4 @@ desc: 'NotificationLegacy is the notification bar, which can display three types
 
 extends [TouchableOpacityProps](https://reactnative.dev/docs/touchableopacity#props)
 
-<Props name="NotificationLegacyProps"/>
+<API name="NotificationLegacyProps"/>

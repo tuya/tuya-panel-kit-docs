@@ -24,4 +24,4 @@ desc: Divider is the dividing line.
 
 ## API
 
-<Props name="DividerProps" />
+<API name="DividerProps" />

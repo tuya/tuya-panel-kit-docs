@@ -48,4 +48,4 @@ desc: RotationView encapsulates the view container that needs to rotate animatio
 
 ## API
 
-<Props name="RotationViewProps" />
+<API name="RotationViewProps" />

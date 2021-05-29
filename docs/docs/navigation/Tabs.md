@@ -228,14 +228,14 @@ const [state, setState] = React.useState({
 
 ### Tabs
 
-<Props name="TabsProps"></Props>
+<API name="TabsProps"></API>
 
 ### Tabs.TabContent
 
-<Props name="TabContentProps"></Props>
+<API name="TabContentProps"></API>
 
 ### Tabs.TabPanel
 
 继承自 [ViewProps](https://reactnative.dev/docs/view#props)
 
-<Props name="TabPanelProps"></Props>
+<API name="TabPanelProps"></API>

@@ -34,7 +34,7 @@ desc: '`IconFont` 是语义化的矢量图标。内置图标 TuyaRNSvgs 来自�
 
 ## API
 
-<Props name="IconFontProps"></Props>
+<API name="IconFontProps"></API>
 
 ## FAQ
 

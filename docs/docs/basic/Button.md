@@ -50,4 +50,4 @@ desc: '`Button` 是一个最常用的组件，用于一些纯文本、图片、I
 
 继承自 [TouchableOpacityProps](https://reactnative.dev/docs/touchableopacity#props)
 
-<Props name="ButtonProps"></Props>
+<API name="ButtonProps"></API>

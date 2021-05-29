@@ -140,19 +140,19 @@ const linearBackground = {
 
 ### TopBar
 
-<Props name="TopBarProps"></Props>
+<API name="TopBarProps"></API>
 
 ### TopBar.Container
 
-<Props name="TopBarContainerProps"></Props>
+<API name="TopBarContainerProps"></API>
 
 ### TopBar.Content
 
-<Props name="TopBarContentProps"></Props>
+<API name="TopBarContentProps"></API>
 
 ### TopBar.Action
 
-<Props name="TopBarActionProps"></Props>
+<API name="TopBarActionProps"></API>
 
 ## FAQ
 

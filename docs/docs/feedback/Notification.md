@@ -23,4 +23,4 @@ Notification.show({
 
 ## API
 
-<Props name="NotificationProps" />
+<API name="NotificationProps" />

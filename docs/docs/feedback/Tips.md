@@ -127,4 +127,4 @@ const bigTips = {
 
 ## API
 
-<Props name="TipsProps" />
+<API name="TipsProps" />

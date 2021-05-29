@@ -33,4 +33,4 @@ desc: '`Stepper` 由增加按钮、减少按钮和输入框组成，用于在一
 
 继承自 [TextInputProps](https://reactnative.dev/docs/textinput#props)
 
-<Props name="StepperProps" />
+<API name="StepperProps" />

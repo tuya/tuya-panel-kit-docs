@@ -46,4 +46,4 @@ desc: '`UnitText` 可用于显示一些加粗的展示型文字类型。'
 
 ## API
 
-<Props name="UnitTextProps"></Props>
+<API name="UnitTextProps"></API>

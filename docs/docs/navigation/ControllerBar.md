@@ -95,4 +95,4 @@ desc: '`ControllerBar` 是有着一个或以上按钮的控制栏；`ControllerB
 
 extends [ViewProps](https://reactnative.dev/docs/view#props)
 
-<Props name="ControllerBarProps" />
+<API name="ControllerBarProps" />

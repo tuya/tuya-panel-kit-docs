@@ -48,8 +48,8 @@ const tabPanes = tabPaneArr.map((item, idx) => (
 
 ### Tab
 
-<Props name="TabProps"></Props>
+<API name="TabProps"></API>
 
 ### Tab.TabPane
 
-<Props name="TabPaneProps"></Props>
+<API name="TabPaneProps"></API>
