@@ -1,6 +1,7 @@
 import { defineConfig, IConfig } from 'dumi';
 
 export default defineConfig({
+  exportStatic: {},
   title: 'Tuya Design',
   mode: 'site',
   locales: [
