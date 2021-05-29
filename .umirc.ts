@@ -48,17 +48,17 @@ export default defineConfig({
         title: 'More',
         path: 'https://developer.tuya.com/cn/docs/iot/preface?id=K9m1fn6ycetd0',
       },
-      {
-        title: '版本',
-        children: [
-          {
-            title: 'v1',
-          },
-          {
-            title: 'v2',
-          },
-        ],
-      },
+//       {
+//         title: '版本',
+//         children: [
+//           {
+//             title: 'v1',
+//           },
+//           {
+//             title: 'v2',
+//           },
+//         ],
+//       },
     ],
     en: [
       null,
@@ -74,17 +74,17 @@ export default defineConfig({
         title: 'More',
         path: 'https://developer.tuya.com/cn/docs/iot/preface?id=K9m1fn6ycetd0',
       },
-      {
-        title: 'Version',
-        children: [
-          {
-            title: 'v1',
-          },
-          {
-            title: 'v2',
-          },
-        ],
-      },
+//       {
+//         title: 'Version',
+//         children: [
+//           {
+//             title: 'v1',
+//           },
+//           {
+//             title: 'v2',
+//           },
+//         ],
+//       },
     ],
   },
   resolve: {
