@@ -11,7 +11,7 @@ git clone https://github.com/youngjuning/tuya-panel-kit-docs.git
 cd tuya-panel-kit-docs
 
 yarn
-# yarn add @tuya-fe/dumi-theme-tuya -D
+# yarn add @tuya/dumi-theme-tuya -D
 yarn start
 ```
 
@@ -22,7 +22,7 @@ yarn start
 git clone https://github.com/youngjuning/tuya-panel-kit-docs.git
 
 cd tuya-panel-kit-docs
-# yarn remove @tuya-fe/dumi-theme-tuya -D
+# yarn remove @tuya/dumi-theme-tuya -D
 
 # link deps
 cd dumi-theme-tuya
