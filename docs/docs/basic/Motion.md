@@ -109,24 +109,24 @@ const contentStyles = {
 
 ### Motion.Fade
 
-<Props name="MotionFadeProps"></Props>
+<API name="MotionFadeProps"></API>
 
 ### Motion.PullUp
 
-<Props name="MotionPullUpProps"></Props>
+<API name="MotionPullUpProps"></API>
 
 ### Motion.ScaleFadeIn
 
-<Props name="MotionScaleFadeInProps"></Props>
+<API name="MotionScaleFadeInProps"></API>
 
 ### Motion.ScalePullDown
 
-<Props name="MotionScalePullDownProps" ></Props>
+<API name="MotionScalePullDownProps" ></API>
 
 ### Motion.PushDown
 
-<Props name="MotionPushDownProps" ></Props>
+<API name="MotionPushDownProps" ></API>
 
 ### Motion.Toast
 
-<Props name="MotionToastProps"></Props>
+<API name="MotionToastProps"></API>

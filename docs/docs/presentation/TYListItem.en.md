@@ -65,4 +65,4 @@ desc: '`TYListItem` is a list item component.'
 
 extends [TouchableOpacityProps](https://reactnative.dev/docs/touchableopacity#props)
 
-<Props name="TYListItemProps" />
+<API name="TYListItemProps" />

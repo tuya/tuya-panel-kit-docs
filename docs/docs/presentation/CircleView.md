@@ -43,4 +43,4 @@ desc: CircleView 为圆形视图。
 
 继承自 [ViewProps](https://reactnative.dev/docs/view#props)
 
-<Props name="CircleViewProps" />
+<API name="CircleViewProps" />

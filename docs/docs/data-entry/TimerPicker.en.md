@@ -36,4 +36,4 @@ const [time, setTime] = React.useState({ startTime: 0, endTime: 0 });
 
 extends [PickerViewProps](/en/docs/data-entry/picker-view#api)
 
-<Props name="TimerPickerProps" />
+<API name="TimerPickerProps" />

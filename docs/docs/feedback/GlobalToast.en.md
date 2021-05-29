@@ -33,4 +33,4 @@ GlobalToast.show({
 
 ## API
 
-<Props name="GlobalToastProps" />
+<API name="GlobalToastProps" />

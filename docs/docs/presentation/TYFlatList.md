@@ -98,31 +98,31 @@ const data = [
 
 继承自 [FlatListProps](https://reactnative.dev/docs/flatlist#props)
 
-<Props name="TYFlatListProps"></Props>
+<API name="TYFlatListProps"></API>
 
 ### TYFlatList.Item
 
 继承自 <HLink to="Modal#api">ModalProps</HLink>
 
-<Props name="TYListItemProps"></Props>
+<API name="TYListItemProps"></API>
 
 ### TYFlatList.InputItem
 
 继承自 <HLink to="TYListItem#api">TYListItemProps</HLink>、<HLink to="https://reactnative.dev/docs/textinput#props">TextInputProps</HLink>
 
-<Props name="TYSectionInputProps"></Props>
+<API name="TYSectionInputProps"></API>
 
 ### TYFlatList.CheckboxItem
 
 继承自 <HLink to="TYListItem#api">TYListItemProps</HLink>、<HLink to="Checkbox#api">CheckboxProps</HLink>
 
-<Props name="TYListItemProps"></Props>
+<API name="TYListItemProps"></API>
 
 ### TYFlatList.SliderItem
 
 继承自 <HLink to="Slider#api">SliderProps</HLink>
 
-<Props name="TYSectionSliderProps"></Props>
+<API name="TYSectionSliderProps"></API>
 
 ### TYFlatList.SwitchItem
 

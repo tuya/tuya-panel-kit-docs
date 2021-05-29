@@ -46,4 +46,4 @@ desc: '`UnitText` can be used to display some bold display text types.'
 
 ## API
 
-<Props name="UnitTextProps"></Props>
+<API name="UnitTextProps"></API>

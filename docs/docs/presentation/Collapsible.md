@@ -55,4 +55,4 @@ const [collapsed, setCollapsed] = React.useState(false);
 
 ## API
 
-<Props name="CollapsibleProps" />
+<API name="CollapsibleProps" />

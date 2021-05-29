@@ -48,4 +48,4 @@ desc: RotationView 封装了需要旋转动画的视图容器。
 
 ## API
 
-<Props name="RotationViewProps" />
+<API name="RotationViewProps" />

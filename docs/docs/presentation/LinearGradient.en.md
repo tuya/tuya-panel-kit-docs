@@ -107,7 +107,7 @@ export default composeLayout(store, MainLayout);
 
 ## API
 
-<Props name="LinearGradientProps"></Props>
+<API name="LinearGradientProps"></API>
 
 ## FAQ
 

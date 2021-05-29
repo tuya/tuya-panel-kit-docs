@@ -54,16 +54,16 @@ desc: Progress 是一个常用的组件，可以手势控制当前进度，也�
 
 继承自 [ViewProps](https://reactnative.dev/docs/view#props)
 
-<Props name="ProgressProps"></Props>
+<API name="ProgressProps"></API>
 
 ### Progress.Space
 
-<Props name="SpaceProps"></Props>
+<API name="SpaceProps"></API>
 
 ### Progress.Double
 
-<Props name="DoubleProps"></Props>
+<API name="DoubleProps"></API>
 
 ### Progress.Compose
 
-<Props name="ComposeProps"></Props>
+<API name="ComposeProps"></API>

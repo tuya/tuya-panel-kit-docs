@@ -124,7 +124,7 @@ export default composeLayout(store, MainLayout);
 
 ## API
 
-<Props name="RadialGradientProps"></Props>
+<API name="RadialGradientProps"></API>
 
 ## FAQ
 

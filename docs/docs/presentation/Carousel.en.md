@@ -31,7 +31,7 @@ desc: Carousel is a carousel component.
 
 ## API
 
-<Props name="CarouselProps"></Props>
+<API name="CarouselProps"></API>
 
 ## FAQ
 

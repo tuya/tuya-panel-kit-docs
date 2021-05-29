@@ -33,4 +33,4 @@ desc: '`Stepper` is composed of increase button, decrease button and input box, 
 
 extends [TextInputProps](https://reactnative.dev/docs/textinput#props)
 
-<Props name="StepperProps" />
+<API name="StepperProps" />

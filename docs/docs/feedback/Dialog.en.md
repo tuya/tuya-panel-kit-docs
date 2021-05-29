@@ -218,30 +218,30 @@ Dialog.custom({
 
 ### Dialog.alert
 
-<Props name="DialogAlertProps"></Props>
+<API name="DialogAlertProps"></API>
 
 ### Dialog.checkbox
 
 extends [TYFlatListProps](/en/docs/presentation/tyflat-list#tyflatlist)
 
-<Props name="DialogCheckboxProps"></Props>
+<API name="DialogCheckboxProps"></API>
 
 ### Dialog.confirm
 
-<Props name="DialogConfirmProps"></Props>
+<API name="DialogConfirmProps"></API>
 
 ### Dialog.list
 
 extends [TYFlatListProps](/en/docs/presentation/tyflat-list#tyflatlist)
 
-<Props name="DialogListProps"></Props>
+<API name="DialogListProps"></API>
 
 ### Dialog.prompt
 
 extends [TextInputProps](https://reactnative.dev/docs/textinput#props)
 
-<Props name="DialogPromptProps"></Props>
+<API name="DialogPromptProps"></API>
 
 ### Dialog.custom
 
-<Props name="DialogCustomProps"></Props>
+<API name="DialogCustomProps"></API>

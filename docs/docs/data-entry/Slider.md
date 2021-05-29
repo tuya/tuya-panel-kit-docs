@@ -92,4 +92,4 @@ const sliderView = {
 
 ## API
 
-<Props name="SliderProps" />
+<API name="SliderProps" />

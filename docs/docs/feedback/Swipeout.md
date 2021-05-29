@@ -89,4 +89,4 @@ desc: Swipeout 是一个仿 IOS 样式的侧滑操作组件。
 
 ## API
 
-<Props name="SwipeoutProps" />
+<API name="SwipeoutProps" />

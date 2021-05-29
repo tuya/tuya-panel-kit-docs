@@ -31,7 +31,7 @@ desc: Carousel 是一个轮播图组件。
 
 ## API
 
-<Props name="CarouselProps"></Props>
+<API name="CarouselProps"></API>
 
 ## FAQ
 

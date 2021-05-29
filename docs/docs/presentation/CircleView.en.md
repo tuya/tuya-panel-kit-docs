@@ -43,4 +43,4 @@ desc: CircleView is a circular view.
 
 extends [ViewProps](https://reactnative.dev/docs/view#props)
 
-<Props name="CircleViewProps" />
+<API name="CircleViewProps" />

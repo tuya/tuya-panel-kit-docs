@@ -145,4 +145,4 @@ const [value2, setValue2] = React.useState(false);
 
 ## API
 
-<Props name="SwitchButtonProps" />
+<API name="SwitchButtonProps" />

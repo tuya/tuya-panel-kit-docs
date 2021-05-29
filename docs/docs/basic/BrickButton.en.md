@@ -38,4 +38,4 @@ desc: '`BrickButton` is enriched on the basis of the original Button function.'
 
 ## API
 
-<Props name="BrickButtonProps"></Props>
+<API name="BrickButtonProps"></API>

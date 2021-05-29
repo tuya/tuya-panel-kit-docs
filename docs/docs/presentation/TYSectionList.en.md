@@ -115,31 +115,31 @@ const sections = [
 
 extends [SectionListProps](https://reactnative.dev/docs/sectionlist#props)
 
-<Props name="TYSectionListProps"></Props>
+<API name="TYSectionListProps"></API>
 
 ### TYSectionList.Item
 
 extends <HLink to="TYListItem">TYListItemProps</HLink>
 
-<Props name="TYListItemProps"></Props>
+<API name="TYListItemProps"></API>
 
 ### TYSectionList.InputItem
 
 extends <HLink to="TYListItem#api">TYListItemProps</HLink>、<HLink to="https://reactnative.dev/docs/textinput#props">TextInputProps</HLink>
 
-<Props name="TYSectionInputProps"></Props>
+<API name="TYSectionInputProps"></API>
 
 ### TYSectionList.CheckboxItem
 
 extends <HLink to="TYListItem#api">TYListItemProps</HLink>、<HLink to="Checkbox#api">CheckboxProps</HLink>
 
-<Props name="TYListItemProps"></Props>
+<API name="TYListItemProps"></API>
 
 ### TYSectionList.SliderItem
 
 extends <HLink to="Slider#api">SliderProps</HLink>
 
-<Props name="TYSectionSliderProps"></Props>
+<API name="TYSectionSliderProps"></API>
 
 ### TYSectionList.SwitchItem
 

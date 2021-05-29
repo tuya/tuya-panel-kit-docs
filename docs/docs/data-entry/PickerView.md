@@ -81,8 +81,8 @@ const [day, setDay] = React.useState(['3', '1']);
 
 继承自 [PickerPropsIOS](https://reactnative.dev/docs/picker#props)
 
-<Props name="PickerViewIOSProps"></Props>
+<API name="PickerViewIOSProps"></API>
 
 ### PickerView (Android)
 
-<Props name="PickerViewProps"></Props>
+<API name="PickerViewProps"></API>

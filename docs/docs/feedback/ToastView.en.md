@@ -61,20 +61,20 @@ const [show, setShow] = React.useState(false);
 
 ### ToastView
 
-<Props name="ToastProps"></Props>
+<API name="ToastProps"></API>
 
 ### ToastView.Success
 
-<Props name="ToastSuccessProps"></Props>
+<API name="ToastSuccessProps"></API>
 
 ### ToastView.Warning
 
-<Props name="ToastWarningProps"></Props>
+<API name="ToastWarningProps"></API>
 
 ### ToastView.Error
 
-<Props name="ToastErrorProps"></Props>
+<API name="ToastErrorProps"></API>
 
 ### ToastView.Loading
 
-<Props name="ToastLoadingProps"></Props>
+<API name="ToastLoadingProps"></API>

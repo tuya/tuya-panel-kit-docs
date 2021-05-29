@@ -15,4 +15,4 @@ desc: NotificationLegacy 是通知栏，可以显示成功、警告、错误此�
 
 继承自 [TouchableOpacityProps](https://reactnative.dev/docs/touchableopacity#props)
 
-<Props name="NotificationLegacyProps"/>
+<API name="NotificationLegacyProps"/>

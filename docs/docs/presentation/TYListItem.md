@@ -65,4 +65,4 @@ desc: '`TYListItem` 是一个列表项组件。'
 
 继承自 [TouchableOpacityProps](https://reactnative.dev/docs/touchableopacity#props)
 
-<Props name="TYListItemProps" />
+<API name="TYListItemProps" />

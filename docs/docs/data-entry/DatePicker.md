@@ -35,4 +35,4 @@ const [selectDate, setDate] = React.useState(new Date());
 
 继承自 [PickerViewProps](/docs/data-entry/picker-view#api)
 
-<Props name="DatePickerProps" />
+<API name="DatePickerProps" />

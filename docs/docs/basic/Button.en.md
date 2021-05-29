@@ -50,4 +50,4 @@ desc: '`Button` is one of the most commonly used components, used in some occasi
 
 extends [TouchableOpacityProps](https://reactnative.dev/docs/touchableopacity#props)
 
-<Props name="ButtonProps"></Props>
+<API name="ButtonProps"></API>

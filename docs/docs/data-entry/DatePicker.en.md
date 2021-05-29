@@ -34,4 +34,4 @@ const [selectDate, setDate] = React.useState(new Date());
 ## API
 
 extends [PickerViewProps](/docs/data-entry/picker-view#api)
-<Props name="DatePickerProps" />
+<API name="DatePickerProps" />

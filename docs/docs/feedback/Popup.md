@@ -312,32 +312,32 @@ Popup.toast({
 
 继承自 <HLink to="Modal#api">ModalProps</HLink>
 
-<Props name="PopupProps"></Props>
+<API name="PopupProps"></API>
 
 ### Popup.countdown
 
-<Props name="PopUpCountdownProps" ></Props>
+<API name="PopUpCountdownProps" ></API>
 
 ### Popup.datePicker
 
-<Props name="PopupDatePickerProps" ></Props>
+<API name="PopupDatePickerProps" ></API>
 
 ### Popup.list
 
-<Props name="PopUpListProps" ></Props>
+<API name="PopUpListProps" ></API>
 
 ### Popup.numberSelector
 
-<Props name="PopupNumberSelectorProps" ></Props>
+<API name="PopupNumberSelectorProps" ></API>
 
 ### Popup.picker
 
-<Props name="PopupPickerProps" ></Props>
+<API name="PopupPickerProps" ></API>
 
 ### Popup.timerPicker
 
-<Props name="PopupTimerPickerProps" ></Props>
+<API name="PopupTimerPickerProps" ></API>
 
 ### Popup.custom
 
-<Props name="PopupCustomProps" ></Props>
+<API name="PopupCustomProps" ></API>

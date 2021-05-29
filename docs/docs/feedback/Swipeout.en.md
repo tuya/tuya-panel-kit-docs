@@ -89,4 +89,4 @@ desc: Swipeout is a sliding operation component imitating IOS style.
 
 ## API
 
-<Props name="SwipeoutProps" />
+<API name="SwipeoutProps" />

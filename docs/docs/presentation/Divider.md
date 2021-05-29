@@ -24,4 +24,4 @@ desc: Divider 为分隔线。
 
 ## API
 
-<Props name="DividerProps" />
+<API name="DividerProps" />
