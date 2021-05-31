@@ -12,7 +12,7 @@ export type WriteAbleCtx<T extends WriteAbleKeys = WriteAbleKeys> = {
   [K in T]: CodeCtxType[K];
 };
 
-type CodeCtxType = {
+export type CodeCtxType = {
   themes: string[];
   currentTheme: string;
   apiData: any;
@@ -25,7 +25,7 @@ export const CodeContext = createContext<CodeCtxType>({
   currentTheme: null,
   apiData: {},
   linkMap: {},
-  update: ({}) => {},
+  update: ({ }) => { },
 });
 
 export type IFProps = {
