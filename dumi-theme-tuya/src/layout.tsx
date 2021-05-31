@@ -22,7 +22,6 @@ const Layout: React.FC<IRouteComponentProps> = ({ children, location }) => {
       theme: { apiData },
     },
     meta,
-    menu,
   } = useContext(context);
   const isHome = useCondition('isHome', location);
   const showSideMenu = useCondition('showSideMenu', location);
@@ -33,23 +32,25 @@ const Layout: React.FC<IRouteComponentProps> = ({ children, location }) => {
   const [ctxValues, setCtxValues] = useState<WriteAbleCtx>({
     themes: [],
     currentTheme: null,
-    apiData: {},
+    apiData: null,
   });
 
-  useEffect(() => {
-    axios
-      .get(apiData)
-      .then(res => setCtxValues({ ...ctxValues, apiData: res.data }));
-  }, []);
-
   const linkMap = useLinkMap();
+
+  useEffect(() => {
+    if (ctxValues.apiData === null) {
+      axios
+        .get(apiData)
+        .then(res => setCtxValues({ ...ctxValues, apiData: res.data }));
+    }
+  }, [ctxValues]);
 
   return (
     <CodeContext.Provider
       value={{
         ...ctxValues,
         linkMap,
-        update: args => setCtxValues({ ...ctxValues, ...args }),
+        update: args => args && setCtxValues({ ...ctxValues, ...args }),
       }}
     >
       <div

@@ -11,7 +11,6 @@ export default ({ children }: { children: React.ReactElement<IFProps>[] }) => {
   }, [children]);
 
   const codeCtx = useContext(CodeContext);
-  codeCtx.themes = themes;
 
   useEffect(() => {
     codeCtx.update({
