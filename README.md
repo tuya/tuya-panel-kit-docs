@@ -26,10 +26,10 @@ cd tuya-panel-kit-docs
 
 # link deps
 cd dumi-theme-tuya
-yarn unlink dumi-theme-tuya
+yarn unlink @tuya/dumi-theme-tuya
 yarn link
 cd ..
-yarn link dumi-theme-tuya
+yarn link @tuya/dumi-theme-tuya
 
 yarn
 yarn start
