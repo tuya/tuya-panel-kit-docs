@@ -18,6 +18,15 @@
     margin-left: 32px;
   }
 
+  @media @mobile {
+    &[data-is-home='true'] {
+      padding-left: 16px;
+      .__dumi-default-navbar-toggle {
+        display: none;
+      }
+    }
+  }
+
   nav {
     > span {
       position: relative;
@@ -186,15 +195,7 @@
     height: @s-mobile-nav-height;
 
     .navbar_links {
-      &-item {
-        a {
-          &.active {
-            &::after {
-              bottom: -17px;
-            }
-          }
-        }
-      }
+      display: none;
     }
   }
 
@@ -215,12 +216,14 @@
     }
   }
 
-  @media only screen and (max-width: 1024px) {
-    .logo_wrapper {
-      .search_wrapper {
-        margin-left: 0;
-      }
+  @media @mobile {
+    .__dumi-default-locale-select {
+      display: none;
     }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    padding-right: 16px;
   }
 
   &-toggle {
