@@ -10,6 +10,10 @@
   padding: 24px;
   border-radius: 8px;
 
+  @media @mobile {
+    padding: 16px !important;
+  }
+
   > *:nth-child(1) {
     margin-top: 0;
   }
@@ -174,6 +178,13 @@
       padding: 15px 25px;
       border: 1px solid @c-border;
       font-weight: normal;
+    }
+
+    @media @mobile {
+      th,
+      td {
+        padding: 4px;
+      }
     }
 
     th {
