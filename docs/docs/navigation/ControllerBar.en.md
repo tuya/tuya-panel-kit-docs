@@ -3,6 +3,7 @@ group:
   title: Navigation
 title: ControllerBar
 desc: '`ControllerBar` is a control bar with one or more buttons；`ControllerBar.Group` is a collection of control bars.'
+demo: /navigation/controller-bar
 ---
 
 ## Code demo

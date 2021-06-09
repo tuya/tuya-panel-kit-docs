@@ -1,6 +1,7 @@
 ---
 title: TYListItem 列表项
 desc: '`TYListItem` 是一个列表项组件。'
+demo: /presentation/tylist-item
 ---
 
 ## 代码演示

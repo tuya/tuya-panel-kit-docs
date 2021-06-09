@@ -1,6 +1,7 @@
 ---
 title: Swipeout
 desc: Swipeout is a sliding operation component imitating IOS style.
+demo: /feedback/swipeout
 ---
 
 ## Code demo

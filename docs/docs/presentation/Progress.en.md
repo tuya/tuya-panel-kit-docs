@@ -1,6 +1,7 @@
 ---
 title: Progress
 desc: Progress is a commonly used component that can control the current progress with gestures, or it can only be used for display.
+demo: /presentation/progress
 ---
 
 ## Code demo

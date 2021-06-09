@@ -1,6 +1,7 @@
 ---
 title: NotificationLegacy
 desc: 'NotificationLegacy is the notification bar, which can display three types of information: success, warning, and error.'
+demo: /feedback/notification-legacy
 ---
 
 ## Code demo

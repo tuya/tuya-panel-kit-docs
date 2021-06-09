@@ -1,6 +1,7 @@
 ---
 title: Modal 遮罩
 desc: Modal 是一个遮罩层。
+demo: /feedback/modal
 ---
 
 ## 代码演示

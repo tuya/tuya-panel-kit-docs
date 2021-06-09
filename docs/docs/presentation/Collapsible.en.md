@@ -1,6 +1,7 @@
 ---
 title: Collapsible
 desc: Collapsible is used to show the animation effect of a collapsed drop-down.
+demo: /presentation/collapsible
 ---
 
 ## Code demo

@@ -1,6 +1,7 @@
 ---
 title: Getting Started
 order: 1
+demo: /
 ---
 
 <br/>

@@ -1,6 +1,7 @@
 ---
 title: Tab
 desc: '`Tab` is a tab bar component used to allow users to switch between different views.'
+demo: /navigation/tab
 ---
 
 ## Code demo

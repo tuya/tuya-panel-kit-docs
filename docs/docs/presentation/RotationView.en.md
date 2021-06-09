@@ -1,6 +1,7 @@
 ---
 title: RotationView
 desc: RotationView encapsulates the view container that needs to rotate animation.
+demo: /presentation/rotation-view
 ---
 
 ## Code demo

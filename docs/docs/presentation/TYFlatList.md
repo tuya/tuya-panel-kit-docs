@@ -1,6 +1,7 @@
 ---
 title: TYFlatList 列表
 desc: '`TYFlatList` 是基于 RN 自带的 `FlatList` 组件做了一层简单的封装，因此该组件可以复用所有 [FlatList 的属性](https://facebook.github.io/react-native/docs/flatlist#props)。<br/>在需要列表的情况下只需要传递 `data` 即可定制对应列表项，其中 data 中的所有值将会被作为 `props` 传递给 `TYFlatList.Item` 组件。<br/>如果列表项需要定制，给 `TYFlatList` 覆盖 `renderItem` 即可，如果列表项中有单独几个项需要定制，那么您甚至可以在 `data` 字段里面传入 `renderItem` 定制该列表项组件。'
+demo: /presentation/tyflat-list
 ---
 
 ## 代码演示

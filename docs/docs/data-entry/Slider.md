@@ -1,6 +1,7 @@
 ---
 title: Slider 滑动选择器
 desc: '`Slider` 是滑动选择器，一般在面板内部用于处理可上报下发的数值型 dp 点。'
+demo: /data-entry/slider
 ---
 
 ## 代码演示

@@ -1,6 +1,7 @@
 ---
 title: Motion 动效
 desc: '`Motion` 是一个用于丰富组件动作的组件。'
+demo: /basic/motion
 ---
 
 ## 代码演示

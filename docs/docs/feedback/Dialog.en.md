@@ -3,6 +3,7 @@ group:
   title: Feedback
 title: Dialog
 desc: '`Dialog` is a collection containing a series of commonly used dialog boxes, used to display some Native-like components.'
+demo: /feedback/dialog
 ---
 
 ## Code demo

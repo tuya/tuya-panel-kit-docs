@@ -3,6 +3,7 @@ group:
   title: 导航
 title: ControllerBar 底部栏
 desc: '`ControllerBar` 是有着一个或以上按钮的控制栏；`ControllerBar.Group` 是控制栏的集合。'
+demo: /navigation/controller-bar
 ---
 
 ## 代码演示

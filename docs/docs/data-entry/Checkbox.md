@@ -3,6 +3,7 @@ group:
   title: 数据录入
 title: Checkbox 选择框
 desc: '`Checkbox` 为单选框或多选框。'
+demo: /data-entry/checkbox
 ---
 
 ## 代码演示

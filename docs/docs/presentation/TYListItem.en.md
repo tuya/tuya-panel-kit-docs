@@ -1,6 +1,7 @@
 ---
 title: TYListItem
 desc: '`TYListItem` is a list item component.'
+demo: /presentation/tylist-item
 ---
 
 ## Code demo
