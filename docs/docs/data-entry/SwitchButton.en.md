@@ -1,6 +1,7 @@
 ---
 title: SwitchButton
 desc: '`SwitchButton` is a switch component.'
+demo: /data-entry/switch-button
 ---
 
 ## Code demo

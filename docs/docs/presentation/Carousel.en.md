@@ -3,6 +3,7 @@ group:
   title: Presentation
 title: Carousel
 desc: Carousel is a carousel component.
+demo: /presentation/carousel
 ---
 
 ## Code demo

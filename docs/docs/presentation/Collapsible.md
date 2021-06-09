@@ -1,6 +1,7 @@
 ---
 title: Collapsible 折叠
 desc: Collapsible 用于展示一个折叠下拉的动画效果。
+demo: /presentation/collapsible
 ---
 
 ## 代码演示

@@ -3,6 +3,7 @@ group:
   title: 展示
 title: Carousel 轮播
 desc: Carousel 是一个轮播图组件。
+demo: /presentation/carousel
 ---
 
 ## 代码演示

@@ -1,6 +1,7 @@
 ---
 title: Progress 进度条
 desc: Progress 是一个常用的组件，可以手势控制当前进度，也可仅作展示作用。
+demo: /presentation/progress
 ---
 
 ## 代码演示

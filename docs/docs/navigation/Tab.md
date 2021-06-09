@@ -1,6 +1,7 @@
 ---
 title: Tab 标签栏
 desc: '`Tab` 是一个标签栏组件，用于让用户在不同的视图中进行切换。'
+demo: /navigation/tab
 ---
 
 ## 代码演示

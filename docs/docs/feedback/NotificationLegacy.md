@@ -1,6 +1,7 @@
 ---
 title: NotificationLegacy 通知栏
 desc: NotificationLegacy 是通知栏，可以显示成功、警告、错误此类三种信息。
+demo: /feedback/notification-legacy
 ---
 
 ## 代码演示

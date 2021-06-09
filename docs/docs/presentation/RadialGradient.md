@@ -1,6 +1,7 @@
 ---
 title: RadialGradient 径向渐变
 desc: RadialGradient 为径向渐变，与线性渐变相似，只是它是从一个点开始发散绘制渐变。
+demo: /presentation/radial-gradient
 ---
 
 ## 代码演示

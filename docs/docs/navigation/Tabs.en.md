@@ -1,6 +1,7 @@
 ---
 title: Tabs
 desc: 'The Tabs tab bar is written by pure gestures, which solves the nesting problem caused by the previous implementation of ScrollView. In addition, the function of **lazy loading** is added, and the **TabContent** component is split out, which can be used separately.'
+demo: /navigation/tabs
 ---
 
 ## Code demo

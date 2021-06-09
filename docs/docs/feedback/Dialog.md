@@ -3,6 +3,7 @@ group:
   title: 反馈
 title: Dialog 对话框
 desc: Dialog 是一个包含了一系列常用对话框的集合，用于显示一些类似 Native 效果的组件。
+demo: /feedback/dialog
 ---
 
 ## 代码演示

@@ -1,6 +1,7 @@
 ---
 title: TimerPicker
 desc: '`TimerPicker` is a time period selection component, that is, select the start time and end time.'
+demo: /data-entry/timer-picker
 ---
 
 ## Code demo

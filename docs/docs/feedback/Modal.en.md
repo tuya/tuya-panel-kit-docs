@@ -1,6 +1,7 @@
 ---
 title: Modal
 desc: Modal is a mask layer.
+demo: /feedback/modal
 ---
 
 ## Code demo

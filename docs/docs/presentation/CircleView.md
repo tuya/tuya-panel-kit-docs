@@ -1,6 +1,7 @@
 ---
 title: CircleView 圆形视图
 desc: CircleView 为圆形视图。
+demo: /presentation/circle-view
 ---
 
 ## 代码演示

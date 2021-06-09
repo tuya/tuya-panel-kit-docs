@@ -1,6 +1,7 @@
 ---
 title: TimerPicker 时间段选择器
 desc: '`TimerPicker` 是一个时间段选择组件，即选择开始时间和结束时间。'
+demo: /data-entry/timer-picker
 ---
 
 ## 代码演示

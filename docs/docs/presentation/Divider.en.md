@@ -1,6 +1,7 @@
 ---
 title: Divider
 desc: Divider is the dividing line.
+demo: /presentation/divider
 ---
 
 ## Code demo

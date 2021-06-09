@@ -1,6 +1,7 @@
 ---
 title: Swipeout 侧滑
 desc: Swipeout 是一个仿 IOS 样式的侧滑操作组件。
+demo: /feedback/swipeout
 ---
 
 ## 代码演示

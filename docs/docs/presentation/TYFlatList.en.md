@@ -1,6 +1,7 @@
 ---
 title: TYFlatList
 desc: '`TYFlatList` is a simple package based on the **FlatList** component that comes with RN, so this component can reuse all [FlatList attributes](https://facebook.github.io/react-native/docs/flatlist#props).<br/>When you need a list, you only need to pass **data** to customize the corresponding list item, where all the values ​​in data will be passed to the **TYFlatList.Item** component as **props**.<br/>If the list item needs to be customized, just override the **renderItem** for **TYFlatList**. If there are several items in the list item that need to be customized, you can even pass in **renderItem** in the **data** field to customize the list item component.'
+demo: /presentation/tyflat-list
 ---
 
 ## Code demo
