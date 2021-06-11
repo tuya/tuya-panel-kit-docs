@@ -18,4 +18,4 @@ RUN yarn install --network-timeout 600000
 RUN yarn build
 
 # script
-CMD [ "yarn", "start" ]
+CMD [ "yarn", "start:prod" ]
