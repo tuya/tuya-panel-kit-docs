@@ -31,5 +31,8 @@
     "prettier": "^1.19.1",
     "qrcode.react": "^1.0.1",
     "yorkie": "^2.0.0"
+  },
+  "resolutions": {
+    "speech-rule-engine": "3.3.1"
   }
 }
