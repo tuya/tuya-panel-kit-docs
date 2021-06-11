@@ -2,7 +2,7 @@
   "private": true,
   "name": "tuya-panel-kit-docs",
   "scripts": {
-    "start": "serve dist",
+    "start": "serve dist -p 80",
     "dev": "dumi dev",
     "build": "dumi build",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
