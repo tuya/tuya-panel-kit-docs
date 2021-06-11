@@ -14,6 +14,8 @@ WORKDIR /app
 COPY . /app
 
 # npm
+RUN yarn config set registry 'https://registry.npm.taobao.org' -g
+RUN yarn config set sass_binary_site 'https://npm.taobao.org/mirrors/node-sass/' -g
 RUN yarn install --network-timeout 600000
 RUN yarn build
 
