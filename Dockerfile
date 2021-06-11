@@ -14,6 +14,8 @@ WORKDIR /app
 COPY . /app
 
 # npm
+RUN yarn clean cache
+RUN yarn config set registry 'https://registry.npmjs.org/' -g
 RUN yarn install --network-timeout 600000
 RUN yarn build
 
