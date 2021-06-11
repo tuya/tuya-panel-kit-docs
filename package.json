@@ -33,5 +33,8 @@
     "qrcode.react": "^1.0.1",
     "serve": "^12.0.0",
     "yorkie": "^2.0.0"
+  },
+  "resolutions": {
+    "speech-rule-engine": "3.3.1"
   }
 }
