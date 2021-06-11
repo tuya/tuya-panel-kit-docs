@@ -2,7 +2,8 @@
   "private": true,
   "name": "tuya-panel-kit-docs",
   "scripts": {
-    "start": "dumi dev",
+    "start": "serve dist",
+    "dev": "dumi dev",
     "build": "dumi build",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
   },
@@ -30,6 +31,7 @@
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
     "qrcode.react": "^1.0.1",
+    "serve": "^12.0.0",
     "yorkie": "^2.0.0"
   },
   "resolutions": {
