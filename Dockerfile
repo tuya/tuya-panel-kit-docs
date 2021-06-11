@@ -21,3 +21,6 @@ RUN yarn build
 
 # script
 CMD [ "yarn", "start" ]
+
+# port
+EXPOSE 80
