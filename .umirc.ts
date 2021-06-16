@@ -1,6 +1,8 @@
 import { defineConfig, IConfig } from 'dumi';
 
 export default defineConfig({
+  base: '/tuya-panel-kit-docs',
+  publicPath: '/tuya-panel-kit-docs/',
   ssr: {},
   exportStatic: {},
   title: 'Tuya Design',
