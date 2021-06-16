@@ -33,7 +33,7 @@ export default defineConfig({
     demoUrl:
       process.env.NODE_ENV === 'development'
         ? 'http://localhost:8001'
-        : 'https://tuya-panel-kit-example.vercel.app/',
+        : 'https://youngjuning.js.org/tuya-panel-kit-example/',
   },
   navs: {
     zh: [
