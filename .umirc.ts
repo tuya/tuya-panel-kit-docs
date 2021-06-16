@@ -1,8 +1,6 @@
 import { defineConfig, IConfig } from 'dumi';
 
 export default defineConfig({
-  base: '/tuya-panel-kit-docs',
-  publicPath: '/tuya-panel-kit-docs/',
   ssr: {},
   exportStatic: {},
   title: 'Tuya Design',
@@ -50,17 +48,17 @@ export default defineConfig({
         title: 'More',
         path: 'https://developer.tuya.com/cn/docs/iot/preface?id=K9m1fn6ycetd0',
       },
-//       {
-//         title: '版本',
-//         children: [
-//           {
-//             title: 'v1',
-//           },
-//           {
-//             title: 'v2',
-//           },
-//         ],
-//       },
+      //       {
+      //         title: '版本',
+      //         children: [
+      //           {
+      //             title: 'v1',
+      //           },
+      //           {
+      //             title: 'v2',
+      //           },
+      //         ],
+      //       },
     ],
     en: [
       null,
@@ -76,21 +74,25 @@ export default defineConfig({
         title: 'More',
         path: 'https://developer.tuya.com/cn/docs/iot/preface?id=K9m1fn6ycetd0',
       },
-//       {
-//         title: 'Version',
-//         children: [
-//           {
-//             title: 'v1',
-//           },
-//           {
-//             title: 'v2',
-//           },
-//         ],
-//       },
+      //       {
+      //         title: 'Version',
+      //         children: [
+      //           {
+      //             title: 'v1',
+      //           },
+      //           {
+      //             title: 'v2',
+      //           },
+      //         ],
+      //       },
     ],
   },
   resolve: {
     passivePreview: true,
   },
+  publicPath:
+    process.env.NODE_ENV === 'production'
+      ? '//cdn.jsdelivr.net/gh/youngjuning/tuya-panel-kit-docs@gh-pages/'
+      : '/',
   // more config: https://d.umijs.org/config
 } as IConfig);
