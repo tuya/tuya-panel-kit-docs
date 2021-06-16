@@ -27,7 +27,7 @@ demo: /presentation/progress
 ### 间距形式
 
 ```jsx
-<Progress.Space scaleNumber={70} style={{ width: 100, height: 100 }} />
+<Progress.Space strokeWidth={2} scaleNumber={70} style={{ width: 100, height: 100 }} />
 ```
 
 ### 双边拖动形式

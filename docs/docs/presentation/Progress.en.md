@@ -27,7 +27,7 @@ demo: /presentation/progress
 ### Spacing form
 
 ```jsx
-<Progress.Space scaleNumber={70} style={{ width: 100, height: 100 }} />
+<Progress.Space strokeWidth={2} scaleNumber={70} style={{ width: 100, height: 100 }} />
 ```
 
 ### Double drag form
