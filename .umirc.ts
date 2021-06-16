@@ -1,5 +1,7 @@
 import { defineConfig, IConfig } from 'dumi';
 
+const isProd = process.env.NODE_ENV === 'production';
+
 export default defineConfig({
   ssr: {},
   exportStatic: {},
@@ -90,10 +92,10 @@ export default defineConfig({
   resolve: {
     passivePreview: true,
   },
-  base: process.env.NODE_ENV === 'production' ? '/tuya-panel-kit-docs' : '/', // router base
-  publicPath:
-    process.env.NODE_ENV === 'production'
-      ? '//cdn.jsdelivr.net/gh/youngjuning/tuya-panel-kit-docs@gh-pages/'
-      : '/',
+  hash: isProd,
+  base: isProd ? '/tuya-panel-kit-docs' : '/', // router base
+  publicPath: isProd
+    ? '//cdn.jsdelivr.net/gh/youngjuning/tuya-panel-kit-docs@gh-pages/'
+    : '/',
   // more config: https://d.umijs.org/config
 } as IConfig);
