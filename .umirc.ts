@@ -90,6 +90,7 @@ export default defineConfig({
   resolve: {
     passivePreview: true,
   },
+  base: process.env.NODE_ENV === 'production' ? '/tuya-panel-kit-docs' : '/', // router base
   publicPath:
     process.env.NODE_ENV === 'production'
       ? '//cdn.jsdelivr.net/gh/youngjuning/tuya-panel-kit-docs@gh-pages/'
