@@ -32,8 +32,8 @@ export default defineConfig({
     apiData: 'https://cdn.jsdelivr.net/npm/docya-assets-demo/props.json',
     demoUrl:
       process.env.NODE_ENV === 'development'
-        ? 'https://youngjuning.js.org/tuya-panel-kit-example/'
-        : 'https://youngjuning.js.org/tuya-panel-kit-example/',
+        ? 'https://tuyainc.github.io/tuya-panel-kit-example/'
+        : 'https://tuyainc.github.io/tuya-panel-kit-example/',
   },
   navs: {
     zh: [
