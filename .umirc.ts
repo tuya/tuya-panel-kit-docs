@@ -32,7 +32,7 @@ export default defineConfig({
     apiData: 'https://cdn.jsdelivr.net/npm/docya-assets-demo/props.json',
     demoUrl:
       process.env.NODE_ENV === 'development'
-        ? 'https://tuyainc.github.io/tuya-panel-kit-example/'
+        ? 'http://localhost:8001/'
         : 'https://tuyainc.github.io/tuya-panel-kit-example/',
   },
   navs: {
