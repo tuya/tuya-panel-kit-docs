@@ -4,9 +4,7 @@ const isProd = process.env.NODE_ENV === 'production';
 
 export default defineConfig({
   ssr: {},
-  exportStatic: {
-    htmlSuffix: true
-  },
+  exportStatic: {},
   title: 'Tuya Design',
   mode: 'site',
   locales: [
