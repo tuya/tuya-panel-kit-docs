@@ -1,4 +1,6 @@
 .layout404 {
+  position: relative;
+  z-index: 100;
   &-bg {
     position: fixed;
     left: 0;
@@ -7,13 +9,15 @@
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    z-index: 1;
+    z-index: 10;
   }
   &-content {
-    z-index: 2;
+    z-index: 20;
     position: fixed;
     width: 100vw;
     word-break: break-all;
+    position: fixed;
+    left: 20%;
     top: 28%;
     &-title {
       font-size: 48px;
