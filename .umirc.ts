@@ -93,7 +93,7 @@ export default defineConfig({
     passivePreview: true,
   },
   hash: isProd,
-  base: isProd ? '/tuya-panel-kit-docs' : '/', // router base
+  // base: isProd ? '/tuya-panel-kit-docs' : '/', // router base
   publicPath: isProd
     ? '//cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/'
     : '/',
