@@ -1,6 +1,6 @@
 ---
 title: SliderWithLine 滑动选择器
-desc: '`SliderWithLine` 是带刻度的滑动选择器。'
+desc: '`SliderWithLine` 是带刻度的滑动选择器。(^4.6.0)'
 demo: /data-entry/slider-with-line
 ---
 
