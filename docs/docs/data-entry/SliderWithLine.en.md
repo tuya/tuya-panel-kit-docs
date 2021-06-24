@@ -1,6 +1,6 @@
 ---
 title: SliderWithLine
-desc: '`SliderWithLine` is a slider selector with a dividing line.'
+desc: '`SliderWithLine` is a slider selector with a dividing line. (^4.6.0)'
 demo: /data-entry/slider-with-line
 ---
 
