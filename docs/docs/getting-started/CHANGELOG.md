@@ -21,6 +21,77 @@ order: 2
 
 <!-- All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.-->
 
+# [4.6.0](https://github.com/tuya/tuya-panel-kit/compare/v4.5.6...v4.6.0) (2021-06-22)
+
+### Bug Fixes
+
+- **React-Naviagtion:** fix the flicker when the background color is photo, fixes [#79](https://github.com/tuya/tuya-panel-kit/issues/79) ([#81](https://github.com/tuya/tuya-panel-kit/issues/81)) ([0b55365](https://github.com/tuya/tuya-panel-kit/commit/0b553653537db7681943fa3f58517c8791e075ff))
+
+### Features
+
+- **Slider:** add Slider && SliderWithLine ([#80](https://github.com/tuya/tuya-panel-kit/issues/80)) ([16c0ff1](https://github.com/tuya/tuya-panel-kit/commit/16c0ff1118d29df83c4d4a6b43a1803de7a3303e))
+- **SwitchButton:** add new type && more style ([#77](https://github.com/tuya/tuya-panel-kit/issues/77)) ([2efd75f](https://github.com/tuya/tuya-panel-kit/commit/2efd75fca491171e774cbd236d62cc1894924256))
+- **tabbar:** add new type of Tabbar ([#82](https://github.com/tuya/tuya-panel-kit/issues/82)) ([ed24a35](https://github.com/tuya/tuya-panel-kit/commit/ed24a35e3faef6cfee5ec73cc6f0744ee71ea826))
+
+## [4.5.6](https://github.com/tuya/tuya-panel-kit/compare/v4.5.5...v4.5.6) (2021-06-08)
+
+### Features
+
+- **Picker:** add new style of Picker to support dividerColor ([#74](https://github.com/tuya/tuya-panel-kit/issues/74)) ([e1bdc5b](https://github.com/tuya/tuya-panel-kit/commit/e1bdc5bd1c9fa69100431dc79683c147f6c2703f))
+
+## [4.5.5](https://github.com/tuya/tuya-panel-kit/compare/v4.5.4...v4.5.5) (2021-06-03)
+
+### Bug Fixes
+
+- **Popup:** fix the problem of Popup hiding the horizontal line at the bottom of the top bar in dark mode, fixes [#71](https://github.com/tuya/tuya-panel-kit/issues/71) ([#72](https://github.com/tuya/tuya-panel-kit/issues/72)) ([b5f4949](https://github.com/tuya/tuya-panel-kit/commit/b5f4949f1cf861326bdfc4ddceaad8f6c710ea44))
+
+### Features
+
+- **bleOffline:** H5 changeTo subPage ([#67](https://github.com/tuya/tuya-panel-kit/issues/67)) ([181afd5](https://github.com/tuya/tuya-panel-kit/commit/181afd54b5144962f0daf8d1bc5f12dab5c5b706))
+
+## [4.5.4](https://github.com/tuya/tuya-panel-kit/compare/v4.5.3...v4.5.4) (2021-05-18)
+
+### Bug Fixes
+
+- **Notifacation:** fix text and Icon misalignment on Android, fixes [#63](https://github.com/tuya/tuya-panel-kit/issues/63) ([fb4984b](https://github.com/tuya/tuya-panel-kit/commit/fb4984ba094f038ff5e9adfb20fd4be9654cd99d))
+
+### Features
+
+- **react-navigation:** add createModalPresentationIOS && SlideFromRightIOS to fit our template ([#69](https://github.com/tuya/tuya-panel-kit/issues/69)) ([f15d5d1](https://github.com/tuya/tuya-panel-kit/commit/f15d5d155cf5a015b44a44b31fb52737777ba590))
+
+## [4.5.3](https://github.com/tuya/tuya-panel-kit/compare/v4.5.2...v4.5.3) (2021-04-29)
+
+### Bug Fixes
+
+- **Navigation:** fix the flashback problem of transition animation mask ([8f35b4d](https://github.com/tuya/tuya-panel-kit/commit/8f35b4d81700739897ad10dad29de9e2a90f48d8))
+- **Navigation:** fix the flashback problem of transition animation mask ([62fc7cd](https://github.com/tuya/tuya-panel-kit/commit/62fc7cd32fe6015b159a7c7b84b23c4aeffdcc1d))
+- **Offline:** fix Bluetooth offline on Android occasionally can not jump to the matching network also buy it problem ([aaa9025](https://github.com/tuya/tuya-panel-kit/commit/aaa9025a1b164b26b8a36aa2041df1ef94bdb605))
+
+## [4.5.2](https://github.com/tuya/tuya-panel-kit/compare/v4.5.1...v4.5.2) (2021-04-08)
+
+### Bug Fixes
+
+- **Offline:** fixing a successful network allocation but showing device removal ([#59](https://github.com/tuya/tuya-panel-kit/issues/59)) ([c4671c4](https://github.com/tuya/tuya-panel-kit/commit/c4671c44990595d132186cdffab193d0906a62e0))
+
+## [4.5.1](https://github.com/tuya/tuya-panel-kit/compare/v4.5.0...v4.5.1) (2021-03-25)
+
+### Features
+
+- **Stepper:** add opacity in disabale ([#57](https://github.com/tuya/tuya-panel-kit/issues/57)) ([269ab32](https://github.com/tuya/tuya-panel-kit/commit/269ab3290a36e100468e6646435a13f9c711cd00))
+
+# [4.5.0](https://github.com/tuya/tuya-panel-kit/compare/v4.4.1...v4.5.0) (2021-03-18)
+
+### Bug Fixes
+
+- **TransitionPresets:** fix insets to fit App ([903718c](https://github.com/tuya/tuya-panel-kit/commit/903718c56e404563133ef632da890773cd5c5e13))
+
+### Features
+
+- add battery、slider-progress、slider-with-line ([#52](https://github.com/tuya/tuya-panel-kit/issues/52)) ([5915159](https://github.com/tuya/tuya-panel-kit/commit/59151596c772521b50db0d7db73594bfae3aaccf))
+- fit Slider to Studio ([9f2c694](https://github.com/tuya/tuya-panel-kit/commit/9f2c69445a3c53a636cb8d4eaa3e4b5619d6ead6))
+
+## [4.4.1](https://github.com/tuya/tuya-panel-kit/compare/v4.4.0...v4.4.1) (2021-03-04)
+
 ## [4.4.0](https://github.com/tuya/tuya-panel-kit/compare/v4.3.4...v4.4.0) (2021-02-25)
 
 ### Bug Fixes
