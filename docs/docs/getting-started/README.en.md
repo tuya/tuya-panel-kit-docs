@@ -29,7 +29,7 @@ demo: /
 
 ## Feature
 
-- 30+ High-quality components out of the box.
+- 40+ High-quality components out of the box.
 - Complete documentation and examples.
 - Theme customization capabilities that go deep into every detail.
 - Support typeScript，complete type definition file.
