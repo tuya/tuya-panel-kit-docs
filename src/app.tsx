@@ -1,3 +1,5 @@
+import "./app.less"
+
 export function patchRoutes({ routes }) {
   routes[2].routes.push({
     path: '*',
