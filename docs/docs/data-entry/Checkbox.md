@@ -2,7 +2,7 @@
 group:
   title: 数据录入
 title: Checkbox 选择框
-desc: '`Checkbox` 为单选框或多选框。'
+desc: '`Checkbox` 为单选框。'
 demo: /data-entry/checkbox
 ---
 
@@ -14,7 +14,7 @@ demo: /data-entry/checkbox
 const [checked, setChecked] = React.useState(false);
 
 <Checkbox checked={checked} onChange={checked => setChecked(checked)}>
-  复选框
+  单选框
 </Checkbox>;
 ```
 
@@ -23,10 +23,10 @@ const [checked, setChecked] = React.useState(false);
 ```jsx
 <View>
   <Checkbox color="red" checked={false} disabled={true} hideOnUnselect={true}>
-    复选框
+    单选框
   </Checkbox>
   <Checkbox checked={true} disabled={true} style={{ marginLeft: 30 }}>
-    复选框
+    单选框
   </Checkbox>
 </View>
 ```
@@ -42,7 +42,7 @@ const [checked, setChecked] = React.useState(false);
   checked={checked}
   onChange={checked => setChecked(checked)}
 >
-  复选框
+  单选框
 </Checkbox>;
 ```
 
@@ -56,7 +56,7 @@ const [checked, setChecked] = React.useState(false);
   checked={checked}
   onChange={checked => setChecked(checked)}
 >
-  复选框
+  单选框
 </Checkbox>;
 ```
 
