@@ -1,4 +1,5 @@
 ---
+title: Tuya Design
 hero:
   title: Tuya Design
   desc: Efficient, unified and visual
