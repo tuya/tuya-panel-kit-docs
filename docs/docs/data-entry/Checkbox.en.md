@@ -2,7 +2,7 @@
 group:
   title: Data Entry
 title: Checkbox
-desc: '`Checkbox` is a single check box or multiple check box.'
+desc: '`Checkbox` is a single check box.'
 demo: /data-entry/checkbox
 ---
 
