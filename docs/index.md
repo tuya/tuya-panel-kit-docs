@@ -1,4 +1,5 @@
 ---
+title: Tuya Design
 hero:
   title: Tuya Design
   desc: 高效、统一、可视化
