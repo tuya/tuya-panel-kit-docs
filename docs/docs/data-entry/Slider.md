@@ -9,52 +9,130 @@ demo: /data-entry/slider
 ### 水平滑动条 - 基础样式
 
 ```jsx
-const [value, setValue] = React.useState(20);
+const [value, setValue] = React.useState(25);
 
 <Slider.Horizontal
-  style={{ width: 295 }}
+  theme={{
+    width: 318,
+    height: 6,
+    trackRadius: 3,
+    trackHeight: 6,
+    thumbSize: 26,
+    thumbRadius: 26,
+    thumbTintColor: '#FFF',
+    minimumTrackTintColor: '#57BCFB',
+    maximumTrackTintColor: '#E3E9EE',
+  }}
   maximumValue={100}
   minimumValue={0}
+  style={{ marginBottom: 10 }}
   value={value}
-  maximumTrackTintColor="rgba(0, 0, 0, 0.1)"
-  minimumTrackTintColor="#4397D7"
-  onSlidingComplete={v => setValue(Math.round(v))}
-/>;
-```
-
-### 水平滑动条 - 自定义按钮
-
-```jsx
-const [value, setValue] = React.useState(20);
-const sliderView = {
-  width: 28,
-  height: 28,
-  backgroundColor: '#f00',
-  borderRadius: 14,
-  alignItems: 'center',
-  justifyContent: 'center',
-};
-
-<Slider.Horizontal
-  style={{ width: 295 }}
-  maximumValue={100}
-  minimumValue={0}
-  value={value}
-  maximumTrackTintColor="rgba(0, 0, 0, 0.1)"
-  minimumTrackTintColor="#f00"
-  onSlidingComplete={v => setValue(Math.round(v))}
   renderThumb={() => (
     <View style={sliderView}>
       <TYText text={value} color="#fff" />
     </View>
   )}
+  onSlidingComplete={v => setValue(Math.round(v))}
+/>;
+```
+
+### 水平包裹类型滑动条
+
+```jsx
+const [value, setValue] = React.useState(25);
+<Slider.Horizontal
+  theme={{
+    width: 318,
+    height: 36,
+    trackRadius: 18,
+    trackHeight: 36,
+    thumbSize: 20,
+    thumbRadius: 20,
+    thumbTintColor: '#FFF',
+    minimumTrackTintColor: '#E3E9EE',
+    maximumTrackTintColor: '#E3E9EE',
+  }}
+  maximumValue={100}
+  minimumValue={0}
+  thumbTouchSize={{ width: 36, height: 36 }}
+  value={value}
+  style={{ marginBottom: 10 }}
+  type="parcel"
+  renderMinimumTrack={() => (
+    <View
+      style={{
+        height: 30,
+        borderRadius: 15,
+        backgroundColor: '#57BCFB',
+        marginHorizontal: 3,
+      }}
+    />
+  )}
+  onSlidingComplete={v => setValue(Math.round(v))}
+/>;
+```
+
+### 水平包裹自定义滑块滑动条
+
+```jsx
+const [value, setValue] = React.useState(25);
+<Slider.Horizontal
+  theme={{
+    width: 318,
+    height: 46,
+    trackRadius: 16,
+    trackHeight: 46,
+    thumbSize: 20,
+    thumbRadius: 20,
+    thumbTintColor: '#57BCFB',
+    minimumTrackTintColor: '#E3E9EE',
+    maximumTrackTintColor: '#E3E9EE',
+  }}
+  value={value}
+  maximumValue={100}
+  minimumValue={0}
+  style={{ marginBottom: 10 }}
+  thumbTouchSize={{ width: 46, height: 46 }}
+  thumbStyle={{
+    shadowOffset: {
+      width: 0,
+      height: 0,
+    },
+    shadowOpacity: 0,
+    shadowRadius: 0,
+    elevation: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+  }}
+  type="parcel"
+  renderMinimumTrack={() => (
+    <View
+      style={{
+        height: 38,
+        borderRadius: 14,
+        backgroundColor: '#57BCFB',
+        marginHorizontal: 4,
+      }}
+    />
+  )}
+  renderThumb={() => (
+    <View
+      style={{
+        height: 14,
+        borderRadius: 5.5,
+        width: 3,
+        backgroundColor: '#FFF',
+      }}
+    />
+  )}
+  onSlidingComplete={v => setValue(Math.round(v))}
 />;
 ```
 
 ### 竖直滑动条
 
 ```jsx
-const [value, setValue] = React.useState(20);
+const [value, setValue] = React.useState(25);
 const sliderView = {
   width: 28,
   height: 28,
@@ -66,27 +144,155 @@ const sliderView = {
 
 <View>
   <Slider.Vertical
-    style={{ height: 200 }}
-    value={value}
-    minimumValue={0}
+    theme={{
+      thumbSize: 26,
+      thumbRadius: 26,
+      thumbTintColor: '#FFF',
+      minimumTrackTintColor: '#E3E9EE',
+      maximumTrackTintColor: '#57BCFB',
+    }}
     maximumValue={100}
-    minimumTrackTintColor="#4A90E2"
-    onSlidingComplete={v => setValue(Math.round(v))}
-  />
-  <Slider.Vertical
-    style={{ height: 200, marginLeft: 90 }}
-    value={value}
     minimumValue={0}
-    maximumValue={100}
-    maximumTrackTintColor="#f00"
-    minimumTrackTintColor="#dfdfdf"
     reverseValue={true}
-    onSlidingComplete={v => setValue(Math.round(v))}
+    trackStyle={{ width: 6, height: 200, borderRadius: 3 }}
+    value={value}
     renderThumb={() => (
       <View style={sliderView}>
         <TYText text={value} color="#fff" />
       </View>
     )}
+    onSlidingComplete={v => setValue(Math.round(v))}
+  />
+  <Slider.Vertical
+    theme={{
+      thumbSize: 20,
+      thumbRadius: 20,
+      thumbTintColor: '#FFF',
+      maximumTrackTintColor: '#E3E9EE',
+      minimumTrackTintColor: '#E3E9EE',
+    }}
+    type="parcel"
+    maximumValue={100}
+    minimumValue={0}
+    reverseValue={true}
+    trackStyle={{ width: 36, height: 200, borderRadius: 18 }}
+    style={{ marginHorizontal: 15 }}
+    value={value}
+    thumbTouchSize={{ width: 36, height: 36 }}
+    renderMinimumTrack={() => (
+      <View
+        style={{
+          width: 30,
+          borderRadius: 15,
+          backgroundColor: '#57BCFB',
+          marginVertical: 3,
+          flex: 1,
+        }}
+      />
+    )}
+    onSlidingComplete={v => setValue(Math.round(v))}
+  />
+  <Slider.Vertical
+    theme={{
+      maximumTrackTintColor: '#E3E9EE',
+      minimumTrackTintColor: '#E3E9EE',
+    }}
+    type="parcel"
+    trackStyle={{ width: 46, height: 200, borderRadius: 16 }}
+    style={{ marginHorizontal: 15 }}
+    value={value}
+    maximumValue={100}
+    minimumValue={0}
+    reverseValue={true}
+    thumbTouchSize={{ width: 46, height: 46 }}
+    thumbStyle={{
+      width: 14,
+      height: 3,
+      borderRadius: 5.5,
+      shadowOffset: {
+        width: 0,
+        height: 0,
+      },
+      shadowOpacity: 0,
+      shadowRadius: 0,
+      elevation: 0,
+      justifyContent: 'center',
+      alignItems: 'center',
+    }}
+    renderMinimumTrack={() => (
+      <View
+        style={{
+          width: 38,
+          borderRadius: 14,
+          backgroundColor: '#57BCFB',
+          marginVertical: 4,
+          flex: 1,
+        }}
+      />
+    )}
+    renderThumb={() => (
+      <View
+        style={{
+          height: 3,
+          borderRadius: 5.5,
+          width: 14,
+          backgroundColor: '#FFF',
+          flex: 1,
+        }}
+      />
+    )}
+    onSlidingComplete={v => setValue(Math.round(v))}
+  />
+  <Slider.Vertical
+    theme={{
+      thumbSize: 20,
+      thumbRadius: 20,
+      thumbTintColor: '#57BCFB',
+      minimumTrackTintColor: '#57BCFB',
+      maximumTrackTintColor: '#E3E9EE',
+    }}
+    type="parcel"
+    maximumValue={100}
+    minimumValue={0}
+    reverseValue={true}
+    trackStyle={{ width: 46, height: 200, borderRadius: 16 }}
+    thumbTouchSize={{ width: 46, height: 46 }}
+    style={{ marginHorizontal: 15 }}
+    value={value}
+    thumbStyle={{
+      shadowOffset: {
+        width: 0,
+        height: 0,
+      },
+      shadowOpacity: 0,
+      shadowRadius: 0,
+      elevation: 0,
+      justifyContent: 'center',
+      alignItems: 'center',
+    }}
+    useNoun={true}
+    stepValue={25}
+    minNounStyle={{ backgroundColor: '#f0f' }}
+    onSlidingComplete={v => setValue(Math.round(v))}
+  />
+  <Slider.Vertical
+    theme={{
+      thumbSize: 26,
+      thumbRadius: 26,
+      thumbTintColor: '#FFF',
+      minimumTrackTintColor: '#E3E9EE',
+      maximumTrackTintColor: '#57BCFB',
+    }}
+    trackStyle={{ width: 6, height: 200, borderRadius: 3 }}
+    style={{ marginHorizontal: 15 }}
+    value={value}
+    maximumValue={100}
+    minimumValue={0}
+    reverseValue={true}
+    useNoun={true}
+    stepValue={25}
+    minNounStyle={{ backgroundColor: '#f0f' }}
+    onSlidingComplete={v => setValue(Math.round(v))}
   />
 </View>;
 ```

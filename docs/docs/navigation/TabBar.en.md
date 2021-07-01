@@ -50,6 +50,28 @@ const tabRadios = Array.from(Array(3), (v, k) => k + 1).map(v => {
 />;
 ```
 
+### radioCircle type
+
+```jsx
+const [tabRadioCircle, setTabRadioCircle] = React.useState('2');
+const tabRadiosCircle = Array.from(Array(3), (v, k) => k + 1).map(v => {
+  return {
+    key: `${v}`,
+    title: `Tab${v}`,
+    activeTextStyle: { color: '#FFF' },
+  };
+});
+
+<TabBar
+  type="radioCircle"
+  tabs={tabRadiosCircle}
+  activeKey={tabRadioCircle}
+  onChange={value => setTabRadioCircle(value)}
+  activeColor="#57BCFB"
+  style={{ marginTop: 10 }}
+/>;
+```
+
 ## API
 
 <API name="TabBarProps" />
