@@ -129,6 +129,73 @@ const [value, setValue] = React.useState(25);
 />;
 ```
 
+### Horizontal package with graduated slider
+
+```jsx
+const [value, setValue] = React.useState(25);
+<Slider.Horizontal
+  theme={{
+    width: 318,
+    height: 46,
+    trackRadius: 16,
+    trackHeight: 46,
+    thumbSize: 20,
+    thumbRadius: 20,
+    thumbTintColor: '#57BCFB',
+    minimumTrackTintColor: '#57BCFB',
+    maximumTrackTintColor: '#E3E9EE',
+  }}
+  value={value}
+  style={{ marginBottom: 10 }}
+  thumbTouchSize={{ width: 46, height: 46 }}
+  stepValue={25}
+  thumbStyle={{
+    shadowOffset: {
+      width: 0,
+      height: 0,
+    },
+    shadowOpacity: 0,
+    shadowRadius: 0,
+    elevation: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+  }}
+  type="parcel"
+  useNoun={true}
+  maximumValue={100}
+  minimumValue={0}
+  minNounStyle={{ backgroundColor: '#f0f' }}
+  onSlidingComplete={v => setValue(Math.round(v))}
+/>;
+```
+
+### Horizontal parcel custom thumb Slider
+
+```tsx
+const [value, setValue] = React.useState(25);
+
+<Slider.Horizontal
+  theme={{
+    width: 318,
+    height: 6,
+    trackRadius: 3,
+    trackHeight: 6,
+    thumbSize: 26,
+    thumbRadius: 26,
+    thumbTintColor: '#FFF',
+    minimumTrackTintColor: '#57BCFB',
+    maximumTrackTintColor: '#E3E9EE',
+  }}
+  value={value}
+  stepValue={25}
+  useNoun={true}
+  minNounStyle={{ backgroundColor: '#f0f' }}
+  maximumValue={100}
+  minimumValue={0}
+  onValueChange={value => setValue(value)}
+/>;
+```
+
 ### Vertical slider
 
 ```jsx
