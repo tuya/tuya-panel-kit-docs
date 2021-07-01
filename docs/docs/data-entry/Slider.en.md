@@ -169,7 +169,7 @@ const [value, setValue] = React.useState(25);
 />;
 ```
 
-### Horizontal parcel custom thumb Slider
+### Horizontal graduated slider
 
 ```tsx
 const [value, setValue] = React.useState(25);
