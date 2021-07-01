@@ -169,7 +169,7 @@ const [value, setValue] = React.useState(25);
 />;
 ```
 
-### 水平包裹自定义滑块滑动条
+### 水平有刻度滑动条
 
 ```tsx
 const [value, setValue] = React.useState(25);
