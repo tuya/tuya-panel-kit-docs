@@ -45,7 +45,7 @@ demo: /
 使用手机端扫描下载<a href='https://smartapp.tuya.com/typaneldev'> 涂鸦面板-RN App</a>，在该 App 中扫描以下二维码您可以查看到目前涂鸦开放的功能组件，以供开发时使用，加快面板开发进度。
 </p>
 
-<center><p align="center"><img src="https://images.tuyacn.com/rms-static/e34c9790-40e8-11eb-bf7f-5f284009845d-1608265455497.png?tyName=QR.png" width="30%" height="30%" /></p></center>
+<center><p align="center"><img src="https://images.tuyacn.com/rms-static/8755fd40-dafe-11eb-815d-e39234ce96ff-1625207229204.png?tyName=docs-demo-qrcode.png" width="30%" height="30%" /></p></center>
 
 ## 安装
 
