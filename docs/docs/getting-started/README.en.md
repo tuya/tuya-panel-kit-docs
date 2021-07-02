@@ -39,7 +39,7 @@ demo: /
 
 Use the mobile phone to scan and download [Tuya Panel RN App](https://smartapp.tuya.com/typaneldev?lang=en)，Scan the following QR code in **Tuya-RN App**, you can view the currently open functional components of Tuya for use during development and accelerate the progress of panel development.
 
-<center><p align="center"><img src="https://images.tuyacn.com/rms-static/8755fd40-dafe-11eb-815d-e39234ce96ff-1625207229204.png?tyName=docs-demo-qrcode.png" width="30%" height="30%" /></p></center>
+<center><p align="center"><img src="https://images.tuyacn.com/rms-static/e34c9790-40e8-11eb-bf7f-5f284009845d-1608265455497.png?tyName=QR.png" width="30%" height="30%" /></p></center>
 
 ## Installation
 
