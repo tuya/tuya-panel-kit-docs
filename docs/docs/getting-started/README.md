@@ -6,7 +6,7 @@ demo: /
 
 <br/>
 
-<center><p align="center"><img src="https://images.tuyacn.com/rms-static/e34c9790-40e8-11eb-bf7f-5f284009845d-1608265455497.png?tyName=QR.png" width="40%" height="40%" /></p></center>
+<center><p align="center"><img src="https://images.tuyacn.com/rms-static/8755fd40-dafe-11eb-815d-e39234ce96ff-1625207229204.png?tyName=docs-demo-qrcode.png" width="40%" height="40%" /></p></center>
 
 <br/>
 
