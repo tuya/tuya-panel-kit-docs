@@ -11,7 +11,7 @@ jobs:
         id: preview_step
         with:
           surge_token: ${{ secrets.SURGE_TOKEN }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.AUTH_TOKEN }}
           dist: dist
           build: |
             npm install
