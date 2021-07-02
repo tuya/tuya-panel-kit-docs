@@ -27,12 +27,13 @@ jobs:
           workflow: ${{ github.event.workflow_run.workflow_id }}
           workflow_conclusion: success
           name: dist
-
+      - run: |
+          unzip dist.zip
       - name: upload surge service
         id: deploy
         run: |
           export DEPLOY_DOMAIN=https://tuya-panel-kit-docs-preview-pr-${{ steps.pr.outputs.id }}.surge.sh
-          npx surge --project ./ --domain $DEPLOY_DOMAIN --token ${{ secrets.SURGE_TOKEN }}
+          npx surge --project ./dist --domain $DEPLOY_DOMAIN --token ${{ secrets.SURGE_TOKEN }}
       - name: update status comment
         uses: actions-cool/maintain-one-comment@v1.1.0
         with:
@@ -44,7 +45,8 @@ jobs:
             <!-- Sticky Pull Request Comment -->
           body-include: '<!-- Sticky Pull Request Comment -->'
           number: ${{ steps.pr.outputs.id }}
-
+      - run: |
+          rm -rf dist/
       - name: The job failed
         if: ${{ failure() }}
         uses: actions-cool/maintain-one-comment@v1.1.0
