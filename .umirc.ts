@@ -29,10 +29,11 @@ export default defineConfig({
   logo:
     'https://imagesd.tuyaus.com/tyims/rms-static/c118f100-7bd1-11ea-be8a-afe9921c3d8a-1586595140625.ico?tyName=tuya_favicon.ico',
   themeConfig: {
+    qrcode: 'tuyaSmart--addVirtualDev?productId=mvhcrizelobov3dw&token=release_common_component',
     apiData: 'https://cdn.jsdelivr.net/npm/tuya-panel-kit-props-data/props.json',
     demoUrl:
       process.env.NODE_ENV === 'development'
-        // ? 'http://172.16.112.172:8001'
+        // ? 'http://localhost:8001'
         ? 'https://tuyainc.github.io/tuya-panel-kit-example/'
         : 'https://tuyainc.github.io/tuya-panel-kit-example/',
   },
