@@ -2,6 +2,8 @@
 
 Docs site for tuya-panel-kit
 
+<!-- Test CI -->
+
 ## Get Started
 
 ```sh
