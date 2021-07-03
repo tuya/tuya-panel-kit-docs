@@ -8,7 +8,7 @@ demo: /
 
 <center><p align="center"><img src="https://images.tuyacn.com/rms-static/dc225080-25a5-11eb-8913-b53cc9e03c9c-1605267985800.png?tyName=tuya.png" width="40%" height="40%" /></p></center>
 
-<br/>
+<center><p align="center">高效、统一、可视化</p></center>
 
 <center><p align="center">
   <a href="https://www.npmjs.com/package/tuya-panel-kit" target="_blank">
