@@ -1,10 +1,11 @@
 import { defineConfig, IConfig } from 'dumi';
 
-const isProd = process.env.NODE_ENV === 'production';
+const isProd =
+  process.env.NODE_ENV === 'production' && process.env.PREVIEW_PR !== 'true';
 
 export default defineConfig({
-  ssr:  isProd ? {}: false,
-  exportStatic: isProd ? {}: false,
+  ssr: isProd ? {} : false,
+  exportStatic: isProd ? {} : false,
   title: 'Tuya Design',
   mode: 'site',
   locales: [
@@ -29,12 +30,14 @@ export default defineConfig({
   logo:
     'https://imagesd.tuyaus.com/tyims/rms-static/c118f100-7bd1-11ea-be8a-afe9921c3d8a-1586595140625.ico?tyName=tuya_favicon.ico',
   themeConfig: {
-    qrcode: 'tuyaSmart--addVirtualDev?productId=mvhcrizelobov3dw&token=release_common_component',
-    apiData: 'https://cdn.jsdelivr.net/npm/tuya-panel-kit-props-data/props.json',
+    qrcode:
+      'tuyaSmart--addVirtualDev?productId=mvhcrizelobov3dw&token=release_common_component',
+    apiData:
+      'https://cdn.jsdelivr.net/npm/tuya-panel-kit-props-data/props.json',
     demoUrl:
       process.env.NODE_ENV === 'development'
-        // ? 'http://localhost:8001'
-        ? 'https://tuyainc.github.io/tuya-panel-kit-example/'
+        ? // ? 'http://localhost:8001'
+          'https://tuyainc.github.io/tuya-panel-kit-example/'
         : 'https://tuyainc.github.io/tuya-panel-kit-example/',
   },
   navs: {

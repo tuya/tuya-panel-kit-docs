@@ -16,7 +16,7 @@ jobs:
       - name: build
         run: |
           yarn
-          NODE_OPTIONS='--max-old-space-size=4096' yarn build
+          NODE_OPTIONS='--max-old-space-size=4096' PREVIEW_PR=true yarn build
 
       - run: |
           zip -r dist.zip dist
