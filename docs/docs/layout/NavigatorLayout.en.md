@@ -10,6 +10,8 @@ title: NavigatorLayout
 
 Tuya device control panel will hardly consist of a single page, And `NavigatorLayout` is a basic layout that provides navigation routing and can easily handle switching between panel pages. Its internal bottom layer uses [React Native Navigator](https://archive.reactnative.dev/docs/0.43/navigator#docsNav), and integrates the `FullView` component built-in.
 
+<Divider></Divider>
+
 ## Basic Usage
 
 > Can refer to [basic demp `src/main.js` file](https://github.com/tuya/tuya-panel-demo/blob/master/examples/basic/src/main.js)

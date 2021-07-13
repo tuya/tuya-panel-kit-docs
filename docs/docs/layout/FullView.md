@@ -11,6 +11,8 @@ title: FullView 面板布局
 
 `FullView` 封装了设备控制面板页面常用的组件布局，包括头部栏（TopBar）、遮罩层（MaskView）、离线视图（OfflineView）、背景（Background）、告警提醒（Notification） 和 提示（GlobalToast），`FullView` 已内置于 `NavigatorLayout` 组件内，一般不会单独使用。
 
+<Divider></Divider>
+
 ## 头部栏（TopBar）
 
 `TopBar` 支持用户传输的属性有:

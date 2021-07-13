@@ -10,6 +10,8 @@ title: NavigatorLayout 导航布局
 
 涂鸦设备控制面板几乎不会是由单个页面组成，而 `NavigatorLayout` 就是一个提供了导航路由的基础布局，能方便的处理面板页面间的切换的组件，其内部底层使用了 [React Native Navigator](https://archive.reactnative.dev/docs/0.43/navigator#docsNav)，并内置集成了 `FullView` 组件。
 
+<Divider></Divider>
+
 ## 基础使用
 
 > 可参考[基础模板 src/main.js 文件](https://github.com/tuya/tuya-panel-demo/blob/master/examples/basic/src/main.js)

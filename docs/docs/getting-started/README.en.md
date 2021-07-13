@@ -27,6 +27,8 @@ demo: /
 </p>
 </center>
 
+<Divider></Divider>
+
 ## Feature
 
 - 40+ High-quality components out of the box.

@@ -11,6 +11,8 @@ title: FullView
 
 `FullView` encapsulates the common component layout of the device control panel page, including the head bar (TopBar), mask layer (MaskView), offline view (OfflineView), background (Background), alarm reminder (Notification) and prompt (GlobalToast)，`FullView` has been built into `NavigatorLayout` component, generally not used alone。
 
+<Divider></Divider>
+
 ## Header Bar（TopBar）
 
 `TopBar` supports user transmission attributes are:

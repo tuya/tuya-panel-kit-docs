@@ -27,6 +27,8 @@ demo: /
 </p>
 </center>
 
+<Divider></Divider>
+
 ## 特性
 
 - 40+ 开箱即用的高质量组件
