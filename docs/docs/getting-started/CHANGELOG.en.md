@@ -319,7 +319,7 @@ order: 2
 - **Tips:** add Tips. ([7cb16d7](https://github.com/tuya/tuya-panel-kit/commit/7cb16d7b682ec947ca1d1c4cb7ab3227fbccbcb6))
 - **Toast:** Add four types of ToastView. ([a9acffa](https://github.com/tuya/tuya-panel-kit/commit/a9acffa8adc914d3df27ecaf9fc6112fe77372e5))
 
-## 2.0.0-rc.0 (2019-12-03)
+## [2.0.0-rc.0](https://github.com/TuyaInc/tuya-panel-kit/releases/tag/v2.0.0-rc.0) (2019-12-03)
 
 ### Features
 
@@ -340,7 +340,7 @@ order: 2
 
 - **ColorPicker:** remove CircularPicker / ColorPicker / RectColorPicker.
 
-## 1.0.1 (2019-03-13)
+## [1.0.1](#/) (2019-03-13)
 
 ### Bug Fixes
 
