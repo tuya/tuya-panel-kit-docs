@@ -4,7 +4,7 @@ order: 1
 demo: /
 ---
 
-<br/>
+<Desc hidetitle="true">
 
 <center><p align="center"><img src="https://images.tuyacn.com/rms-static/dc225080-25a5-11eb-8913-b53cc9e03c9c-1605267985800.png?tyName=tuya.png" width="36%" height="36%" /></p></center>
 
@@ -27,7 +27,7 @@ demo: /
 </p>
 </center>
 
-<Divider></Divider>
+</Desc>
 
 ## Feature
 

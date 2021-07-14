@@ -6,7 +6,7 @@ title: Changelog
 order: 2
 ---
 
-# Changelog
+<Desc>
 
 <p><font size='2' color='#595959'>All significant changes of the tuya-panel-kit will be recorded in this document, please refer to the &nbsp;<a href="https://github.com/conventional-changelog/standard-version">standard-version</a>&nbsp;guidelines for generating the standard version of changelog.</font></p>
 
@@ -19,7 +19,7 @@ order: 2
 
 <!-- All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.-->
 
-<Divider></Divider>
+</Desc>
 
 <Changelog>
 
