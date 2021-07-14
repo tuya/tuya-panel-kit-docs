@@ -6,13 +6,11 @@ title: 更新日志
 order: 2
 ---
 
-# 更新日志
+<Desc>
 
 <p><font size='2' color='#595959'>tuya-panel-kit 组件库的所有显著变化都将记录在这篇文档中，生成 CHANGELOG 的标准版本请参考&nbsp;<a href="https://github.com/conventional-changelog/standard-version">standard-version</a>&nbsp;准则。</font></p>
 
-<br />
-
-<h><font size='3'>发布周期</font></h>
+### 发布周期
 
 <font size='2' color='#595959'>
 · 修订版本号：&nbsp;&nbsp;每周进行日常 bug 的修复。<br />
@@ -21,7 +19,11 @@ order: 2
 
 <!-- All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.-->
 
-# [4.6.0](https://github.com/tuya/tuya-panel-kit/compare/v4.5.6...v4.6.0) (2021-06-22)
+</Desc>
+
+<Changelog>
+
+## [4.6.0](https://github.com/tuya/tuya-panel-kit/compare/v4.5.6...v4.6.0) (2021-06-22)
 
 ### Bug Fixes
 
@@ -79,7 +81,7 @@ order: 2
 
 - **Stepper:** add opacity in disabale ([#57](https://github.com/tuya/tuya-panel-kit/issues/57)) ([269ab32](https://github.com/tuya/tuya-panel-kit/commit/269ab3290a36e100468e6646435a13f9c711cd00))
 
-# [4.5.0](https://github.com/tuya/tuya-panel-kit/compare/v4.4.1...v4.5.0) (2021-03-18)
+## [4.5.0](https://github.com/tuya/tuya-panel-kit/compare/v4.4.1...v4.5.0) (2021-03-18)
 
 ### Bug Fixes
 
@@ -125,7 +127,7 @@ order: 2
 
 ## [4.3.1-rc.0](https://github.com/tuya/tuya-panel-kit/compare/v4.3.0...v4.3.1-rc.0) (2021-01-26)
 
-# [4.3.0](https://github.com/tuya/tuya-panel-kit/compare/v4.2.1...v4.3.0) (2021-01-26)
+## [4.3.0](https://github.com/tuya/tuya-panel-kit/compare/v4.2.1...v4.3.0) (2021-01-26)
 
 ### Bug Fixes
 
@@ -137,7 +139,7 @@ order: 2
 
 - TransitionPresets export error ([#27](https://github.com/tuya/tuya-panel-kit/issues/27)) ([f24ff58](https://github.com/tuya/tuya-panel-kit/commit/f24ff584fae1bf670ff3500e999d45fcf5500b1e))
 
-# [4.2.0](https://github.com/tuya/tuya-panel-kit/compare/v4.1.0...v4.2.0) (2021-01-07)
+## [4.2.0](https://github.com/tuya/tuya-panel-kit/compare/v4.1.0...v4.2.0) (2021-01-07)
 
 ### Bug Fixes
 
@@ -154,7 +156,7 @@ order: 2
 
 - **Picker:** add type transfer for selectedValue ([f17010e](https://github.com/tuya/tuya-panel-kit/commit/f17010e2161c27d3245353745c7d864ccced0c58)), closes [#17](https://github.com/tuya/tuya-panel-kit/issues/17)
 
-# [4.0.0](https://github.com/tuya/tuya-panel-kit/compare/v4.0.0-rc.1...v4.0.0) (2020-12-25)
+## [4.0.0](https://github.com/tuya/tuya-panel-kit/compare/v4.0.0-rc.1...v4.0.0) (2020-12-25)
 
 ### Bug Fixes
 
@@ -171,7 +173,7 @@ order: 2
 
 - **Dialog:** Dialog 交互视图向 App 靠齐。（[62ff90e](https://github.com/tuya/tuya-panel-kit/commit/62ff90e80963739c29a6ccecfb739999ca2b8988)）
 
-# [4.0.0-rc.1](https://github.com/tuya/tuya-panel-kit/compare/v4.0.0-rc.0...v4.0.0-rc.1) (2020-12-11)
+## [4.0.0-rc.1](https://github.com/tuya/tuya-panel-kit/compare/v4.0.0-rc.0...v4.0.0-rc.1) (2020-12-11)
 
 ### Bug Fixes
 
@@ -317,7 +319,7 @@ order: 2
 - **Tips:** add Tips 气泡类型 ([7cb16d7](https://github.com/tuya/tuya-panel-kit/commit/7cb16d7b682ec947ca1d1c4cb7ab3227fbccbcb6))
 - **Toast:** add 四种类型 ([a9acffa](https://github.com/tuya/tuya-panel-kit/commit/a9acffa8adc914d3df27ecaf9fc6112fe77372e5))
 
-## 2.0.0-rc.0 (2019-12-03)
+## [2.0.0-rc.0](https://github.com/TuyaInc/tuya-panel-kit/releases/tag/v2.0.0-rc.0) (2019-12-03)
 
 ### Features
 
@@ -338,9 +340,11 @@ order: 2
 
 - **ColorPicker:** 移除 CircularPicker / ColorPicker / RectColorPicker
 
-## 1.0.1 (2019-03-13)
+## [1.0.1](#/) (2019-03-13)
 
 ### Bug Fixes
 
 - **OfflineView:** fix Android OfflineView height ([4980a25f](https://github.com/tuya/tuya-panel-kit/commit/4980a25f3648b46140f99ff3fefd72081c1f0c12))
 - **TopBar**: Iphone XsMax 兼容 ([baf1276d](https://github.com/tuya/tuya-panel-kit/commit/baf1276d32c450ecb7f56fb0a20ccc493154d7a5))
+
+</Changelog>
