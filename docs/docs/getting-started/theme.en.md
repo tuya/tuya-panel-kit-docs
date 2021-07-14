@@ -3,9 +3,11 @@ title: Theme
 order: 3
 ---
 
-# Theme
+<Desc>
 
 tuya-panel-kit designed normatively and support flexible style customization, meet the diverse visual needs of the business and brand. Including but not limited to global style (main color, rounded corners, border) and visual customization of specified components.
+
+</Desc>
 
 ## Feature
 
