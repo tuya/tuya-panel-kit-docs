@@ -102,5 +102,9 @@ export default defineConfig({
   publicPath: isProd
     ? '//cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/'
     : '/',
+  headScripts: [{
+    async: true,
+    src: '//static1.tuyacn.com/static/ty-lib/tpm3/tpm-3.3.11.min.js?appId=panel-docs'
+  }],
   // more config: https://d.umijs.org/config
 } as IConfig);
