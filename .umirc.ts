@@ -30,6 +30,11 @@ export default defineConfig({
   logo:
     'https://imagesd.tuyaus.com/tyims/rms-static/c118f100-7bd1-11ea-be8a-afe9921c3d8a-1586595140625.ico?tyName=tuya_favicon.ico',
   themeConfig: {
+    repository: {
+      url: 'https://github.com/TuyaInc/tuya-panel-kit-docs',
+      branch: 'main',
+      platform: 'github'
+    },
     qrcode:
       'tuyaSmart--addVirtualDev?productId=mvhcrizelobov3dw&token=release_common_component',
     apiData:
