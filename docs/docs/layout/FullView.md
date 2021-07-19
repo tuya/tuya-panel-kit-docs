@@ -29,7 +29,7 @@ title: FullView 面板布局
 <center>
   <p align="center">
     <img
-      src="https://images.tuyacn.com/rms-static/07ffc130-40fc-11eb-b187-dbc1e538b9b9-1608273677507.png?tyName=Wifi_zh.png"
+      src="https://images.tuyacn.com/rms-static/bdaeec40-2d60-11eb-b21a-654422c1b54b-1606117908740.png?tyName=mqtt.png"
       width="50%"
       height="50%"
     />
@@ -73,7 +73,7 @@ location: '设备Wi-Fi信号弱，请更换设备位置',
 
 #### 新版离线
 
-![OfflineWifi](https://images.tuyacn.com/rms-static/35925800-40df-11eb-b278-e1deccfbbdd6-1608261298560.png?tyName=Offline_zh.png)
+![OfflineWifi](https://images.tuyacn.com/rms-static/7bdbb5b0-b7a7-11eb-a0b0-5d7afcd23a65-1621321553035.png?tyName=Offline_wifi_zh.png)
 
 ###### 说明
 
@@ -123,7 +123,7 @@ appoffline: '当前网络不可用\n请检查手机网络';
 
 <h3 id="h3Title">二、蓝牙离线</h3>
 
-![BleOfflineWifi](https://images.tuyacn.com/rms-static/aff96f50-40ff-11eb-bf7f-5f284009845d-1608275247813.png?tyName=Ble_zh.png)
+![BleOfflineWifi](https://images.tuyacn.com/rms-static/397ee5b0-d954-11eb-bb1c-dd1a7461f245-1625024133004.png?tyName=Ble_zh_update.png)
 
 ###### 多语言字段
 
