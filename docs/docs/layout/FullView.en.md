@@ -44,11 +44,12 @@ The pop-up details page contains an entry to re-check the network signal,If the 
 #### i18n strings
 
 ```jsx
-wifiBadTitle: 'Device Wi-Fi signal is weak',
-detectPlease: 'Please check:',
-internetAccess: '1. Whether the router connected to the device works normally and the network is smooth.',
-obstructions: '2. Is the device too far away from the router, partition wall or other obstructions?',
-location: 'The device Wi-Fi signal is weak, please change the device location.',
+wifiBadTitle: 'Weak Wi-Fi Signal',
+detectPlease: 'Check the following items:',
+internetAccess: '1. Whether the router that is connected to the device is working as expected in excellent network conditions.',
+obstructions: '2. Whether your device is too far away from the router, or the signal is obstructed by walls or other barriers.',
+location: 'The Wi-Fi signal of the device is weak. Change the device position.',
+retest: 'Retest Network'
 ```
 
 ## GlobalToast
@@ -75,7 +76,7 @@ The attributes that support user transmission are `background`:
 
 #### New version offline
 
-![OfflineWifi](<https://images.tuyacn.com/rms-static/3a778c50-40df-11eb-b278-e1deccfbbdd6-1608261306773.png?tyName=Offline_en(1).png>)
+![OfflineWifi](https://images.tuyacn.com/rms-static/3629ae30-d8ba-11eb-815d-e39234ce96ff-1624957984915.png?tyName=wifi_update_en.png)
 
 ###### Explanation
 
@@ -88,13 +89,13 @@ The attributes that support user transmission are `background`:
 ###### i18n strings
 
 ```javascript
-offline_title: 'Device offline, Please check in turn:',
-offline_alreadyOffline: 'Device offline';
-offline_pleaseCheck: 'Please check in turn:'';
-offline_textLinkBefore: '1. Please check whether your device has power or not.\n2. Whether the router connected to your device works normally.';
-offline_linkFront: "3. Check whether the router's name or password has been changed, you can try ";
-offline_link: 'reconnection.';
-offline_textLinkAfter: '4. Is your device too far away from the router, poor signal or blocked.';
+offline_title: 'The device gets offline. Check the following items:',
+offline_alreadyOffline: 'Offline Device';
+offline_pleaseCheck: 'Check the following items:';
+offline_textLinkBefore: '1. Whether your device is powered on.\n2. Whether the router that is connected to your device is working as expected.';
+offline_linkFront: "3. Whether the name or password of the router is modified. You can try to ";
+offline_link: 'reconnect the router.';
+offline_textLinkAfter: '4. Whether your device is too far away from the router, whether the signal is weak, or whether the data transmission is obstructed.';
 offline_moreHelp: 'More Help';
 offline_textLinkMore: '';
 help: 'help';
@@ -125,23 +126,23 @@ appoffline: 'Network error, please check ';
 
 <h3 id="h3Title">二、Bluetooth offline</h3>
 
-![BleOfflineWifi](https://images.tuyacn.com/rms-static/b0004d20-40ff-11eb-bf7f-5f284009845d-1608275247858.png?tyName=Ble_en.png)
+![BleOfflineWifi](https://images.tuyacn.com/rms-static/398a0940-d954-11eb-815d-e39234ce96ff-1625024133076.png?tyName=Ble_en_update.png)
 
 ###### i18n strings
 
 ```javascript
 offline: 'Device Offline',
 appoffline: 'Network error, please check ',
-bluetoothOfflineTip: 'Please turn on "Bluetooth"',
-alreadyKnow: 'Already Know',
-checkHelp: 'Check Help',
-deviceOffline: 'Unable to Connect',
-backToHome: 'Back Home',
-openBle: 'Open Bluetooth',
-openBleShare: 'Open Bluetooth Sharing';
-openBleShareStep: 'Setting > TuyaSmart > Open Bluetooth Sharing',
+bluetoothOfflineTip: 'Enable Bluetooth on your mobile phone.',
+alreadyKnow: 'Got It',
+checkHelp: 'View Help',
+deviceOffline: 'Device Connection Failure',
+backToHome: 'Homepage',
+openBle: 'Enable System Bluetooth',
+openBleShare: 'Enable Bluetooth Sharing';
+openBleShareStep: 'Settings > Find Your App > Enable Bluetooth Sharing',
 bluetoothShare: 'Bluetooth Sharing',
-deviceOfflineHelp: '① Make sure that the equipment is powered on normally (or the battery is sufficient).\n② Keep the cell phone as close as possible to the device.\n③ If the device has been connected by other mobile phones, please disconnect the connection first.';
+deviceOfflineHelp: '① Make sure that the device is powered on or that the battery capacity is sufficient.\n② Place the mobile phone as close as possible to the device.\n③ If the device has been connected to another mobile phone, close the connection and try to ';
 deviceOfflineHelpNew: '① Make sure that the equipment is powered on normally (or the battery is sufficient).\n② Keep the cell phone as close as possible to the device.\n③ If the device has been connected by other mobile phones, please disconnect the connection first, go on ';
-offline_link: 'reconnection.';
+offline_link: 'reconnect the router.';
 ```
