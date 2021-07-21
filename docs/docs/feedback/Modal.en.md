@@ -24,7 +24,7 @@ const textStyle = {
   onMaskPress={() => setState({ basicVisible: false })}
 >
   <TYText style={textStyle} text="I am Modal" />
-</Modal>;
+</Modal>
 ```
 
 ### Countdown popup layer
@@ -49,7 +49,7 @@ const handleCountDownConfirm = ({ hour, minute }) =>
   confirmText="Confirm"
   hourText="hour"
   minuteText="minute"
-/>;
+/>
 ```
 
 ### Date selection popup
@@ -77,7 +77,7 @@ const handleDatePickerConfirm = date =>
   mode="datetime"
   minDate={new Date(1918, 0, 1, 0, 0, 0)}
   maxDate={new Date(2018, 11, 31, 23, 59, 59)}
-/>;
+/>
 ```
 
 ### List selection pop-up layer (single selection)
@@ -99,7 +99,7 @@ const closeListOneModal = () => setState({ listOneVisible: false });
   onMaskPress={closeListOneModal}
   onCancel={closeListOneModal}
   onConfirm={handleListOneConfirm}
-/>;
+/>
 ```
 
 ### List selection pop-up layer (multiple selection)
@@ -121,7 +121,7 @@ const closeListMoreModal = () => setState({ listMoreVisible: false });
   onMaskPress={closeListMoreModal}
   onCancel={closeListMoreModal}
   onConfirm={handleListMoreConfirm}
-/>;
+/>
 ```
 
 ### Picker select pop-up layer
@@ -153,7 +153,7 @@ const closePickerOneModal = () => setState({ pickerOneVisible: false });
   onCancel={closePickerOneModal}
   onConfirm={handlePickerOneConfirm}
   onValueChange={value => console.log('onValueChange', value)}
-/>;
+/>
 ```
 
 ## API

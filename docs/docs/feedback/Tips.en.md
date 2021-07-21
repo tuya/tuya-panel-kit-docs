@@ -28,7 +28,7 @@ const bigTips = {
   contentStyle={bigTips}
   bgColor="#00f"
   cornerPosition="topLeft"
-/>;
+/>
 ```
 
 ### Bubble - top center
@@ -48,7 +48,7 @@ const bigTips = {
   contentStyle={bigTips}
   bgColor="#00f"
   cornerPosition="topCenter"
-/>;
+/>
 ```
 
 ### Bubble - top right
@@ -68,7 +68,7 @@ const bigTips = {
   contentStyle={bigTips}
   bgColor="#00f"
   cornerPosition="topRight"
-/>;
+/>
 ```
 
 ### Bubble -bottom left
@@ -88,7 +88,7 @@ const bigTips = {
   contentStyle={bigTips}
   bgColor="#00f"
   cornerPosition="bottomLeft"
-/>;
+/>
 ```
 
 ### Bubble -bottom center
@@ -108,7 +108,7 @@ const bigTips = {
   contentStyle={bigTips}
   bgColor="#00f"
   cornerPosition="bottomCenter"
-/>;
+/>
 ```
 
 ### Bubble -bottom right
@@ -128,7 +128,7 @@ const bigTips = {
   contentStyle={bigTips}
   bgColor="#00f"
   cornerPosition="bottomRight"
-/>;
+/>
 ```
 
 ## API

@@ -90,7 +90,7 @@ const data = [
     borderRadius: 8,
   }}
   data={data}
-/>;
+/>
 ```
 
 ## API

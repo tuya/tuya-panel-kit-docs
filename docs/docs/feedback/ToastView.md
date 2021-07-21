@@ -15,7 +15,7 @@ const [successShow, setSuccessShow] = React.useState(false);
   show={successShow}
   text="成功文案"
   onFinish={() => setSuccessShow(false)}
-/>;
+/>
 ```
 
 ### 警示提示
@@ -27,7 +27,7 @@ const [warningShow, setWarningShow] = React.useState(false);
   show={warningShow}
   text="警示文案"
   onFinish={() => setWarningShow(false)}
-/>;
+/>
 ```
 
 ### 错误提示
@@ -39,7 +39,7 @@ const [errorShow, setErrorShow] = React.useState(false);
   show={errorShow}
   text="错误文案"
   onFinish={() => setErrorShow(false)}
-/>;
+/>
 ```
 
 ### 加载提示
@@ -47,7 +47,7 @@ const [errorShow, setErrorShow] = React.useState(false);
 ```jsx
 const [loadingShow, setLoadingShow] = React.useState(false);
 
-<Toast.Loading show={loadingShow} onFinish={() => setLoadingShow(false)} />;
+<Toast.Loading show={loadingShow} onFinish={() => setLoadingShow(false)} />
 ```
 
 ### 轻提示
@@ -55,7 +55,7 @@ const [loadingShow, setLoadingShow] = React.useState(false);
 ```jsx
 const [show, setShow] = React.useState(false);
 
-<Toast show={show} text="I'm toastView!!!" onFinish={() => setShow(false)} />;
+<Toast show={show} text="I'm toastView!!!" onFinish={() => setShow(false)} />
 ```
 
 ## API

@@ -62,12 +62,12 @@ class MainLayout extends NavigatorLayout {
   }
 
   renderScene(route, navigator) {
-    let Scene = <Home navigator={navigator} />;
+    let Scene = <Home navigator={navigator} />
 
     const router = routers.find(r => r.id === route.id);
     if (router && router.Scene) {
       const Component = router.Scene;
-      Scene = <Component navigator={navigator} {...route} />;
+      Scene = <Component navigator={navigator} {...route} />
     }
 
     return Scene;
@@ -265,15 +265,15 @@ interface NavigationOptions {
   /**
    * @desc 自定义头部栏样式
    */
-  topbarStyle?: StyleProp<ViewStyle>;
+  topbarStyle?: StyleProp<ViewStyle>
   /**
    * @desc 自定义头部栏文字样式
    */
-  topbarTextStyle?: StyleProp<TextStyle>;
+  topbarTextStyle?: StyleProp<TextStyle>
   /**
    * @desc 自定义面板背景样式
    */
-  backgroundStyle?: StyleProp<ViewStyle>;
+  backgroundStyle?: StyleProp<ViewStyle>
   /**
    * @desc 自定义头部栏标题
    */

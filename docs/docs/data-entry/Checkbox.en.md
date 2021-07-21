@@ -13,7 +13,7 @@ const [checked, setChecked] = React.useState(false);
 
 <Checkbox checked={checked} onChange={checked => setChecked(checked)}>
   Checkbox
-</Checkbox>;
+</Checkbox>
 ```
 
 ### disable status
@@ -41,7 +41,7 @@ const [checked, setChecked] = React.useState(false);
   onChange={checked => setChecked(checked)}
 >
   Checkbox
-</Checkbox>;
+</Checkbox>
 ```
 
 ### Flip icon and child element position
@@ -55,7 +55,7 @@ const [checked, setChecked] = React.useState(false);
   onChange={checked => setChecked(checked)}
 >
   Checkbox
-</Checkbox>;
+</Checkbox>
 ```
 
 ## API

@@ -151,7 +151,7 @@ const { withTheme } = Utils.ThemeUtils;
 
 const ThemedView = props => {
   const { theme } = props;
-  return <View style={{ backgroundColor: theme.global.brand }} />;
+  return <View style={{ backgroundColor: theme.global.brand }} />
 };
 
 ThemedView.propTypes = {

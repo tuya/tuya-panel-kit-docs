@@ -107,7 +107,7 @@ const sections = [
   style={{ alignSelf: 'stretch' }}
   sections={sections}
   renderItem={({ item }) => <TYSectionList.CheckboxItem {...item} />}
-/>;
+/>
 ```
 
 ## API

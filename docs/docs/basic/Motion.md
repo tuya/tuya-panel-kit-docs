@@ -46,7 +46,7 @@ const contentStyles = {
   onHide={() => setScaleFadeInShow(false)}
 >
   <View style={contentStyles} />
-</Motion.ScaleFadeIn>;
+</Motion.ScaleFadeIn>
 ```
 
 ### 放大淡入/下滑淡出
@@ -64,7 +64,7 @@ const contentStyles = {
   onHide={() => setScalePullDownShow(false)}
 >
   <View style={contentStyles} />
-</Motion.ScalePullDown>;
+</Motion.ScalePullDown>
 ```
 
 ### 下拉上推
@@ -84,7 +84,7 @@ const contentStyles = {
   dropHeight={100}
 >
   <View style={contentStyles} />
-</Motion.PushDown>;
+</Motion.PushDown>
 ```
 
 ### 无操作放大淡入/缩小淡出
@@ -103,7 +103,7 @@ const contentStyles = {
   onHide={() => setToastShow(false)}
 >
   <View style={contentStyles} />
-</Motion.Toast>;
+</Motion.Toast>
 ```
 
 ## API
