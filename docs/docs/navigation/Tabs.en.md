@@ -25,7 +25,7 @@ const [state, setState] = React.useState({
   activeKey={state.activeKey1}
   dataSource={state.d1}
   onChange={tab => setState({ ...state, activeKey1: tab.value })}
-/>;
+/>
 ```
 
 ### Multi-screen Tabs
@@ -49,7 +49,7 @@ const [state, setState] = React.useState({
   activeKey={state.activeKey2}
   dataSource={state.d2}
   onChange={tab => setState({ ...state, activeKey2: tab.value })}
-/>;
+/>
 ```
 
 ### Basic Tabs（Stateless component）
@@ -94,7 +94,7 @@ const handleRelease = (gestureState, index) =>
   {state.d1.map((data, idx) => (
     <Panel key={idx} title={`The ${idx} Page`} />
   ))}
-</Tabs.TabContent>;
+</Tabs.TabContent>
 ```
 
 ### Tabs with TabContent
@@ -136,7 +136,7 @@ const [state, setState] = React.useState({
       <TYListItem key={n} title={`Stencil_${n}`} />
     ))}
   </Tabs.TabPanel>
-</Tabs>;
+</Tabs>
 ```
 
 ### Tabs with content on multiple screens
@@ -177,7 +177,7 @@ const Panel = ({ title, largeData, ...rest }) => {
   {state.d2.map((data, idx) => (
     <Panel key={idx} title={data.label} />
   ))}
-</Tabs>;
+</Tabs>
 ```
 
 ### Nested Tabs
@@ -222,7 +222,7 @@ const [state, setState] = React.useState({
   <Tabs.TabPanel background="#fff">
     <TYListItem title="Limited detector" />
   </Tabs.TabPanel>
-</Tabs>;
+</Tabs>
 ```
 
 ## API

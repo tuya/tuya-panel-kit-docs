@@ -24,7 +24,7 @@ const textStyle = {
   onMaskPress={() => setState({ basicVisible: false })}
 >
   <TYText style={textStyle} text="我是遮罩" />
-</Modal>;
+</Modal>
 ```
 
 ### 倒计时弹出层
@@ -49,7 +49,7 @@ const handleCountDownConfirm = ({ hour, minute }) =>
   confirmText="确认"
   hourText="小时"
   minuteText="分钟"
-/>;
+/>
 ```
 
 ### 日期选择弹出层
@@ -77,7 +77,7 @@ const handleDatePickerConfirm = date =>
   mode="datetime"
   minDate={new Date(1918, 0, 1, 0, 0, 0)}
   maxDate={new Date(2018, 11, 31, 23, 59, 59)}
-/>;
+/>
 ```
 
 ### 列表选择弹出层（单选）
@@ -99,7 +99,7 @@ const closeListOneModal = () => setState({ listOneVisible: false });
   onMaskPress={closeListOneModal}
   onCancel={closeListOneModal}
   onConfirm={handleListOneConfirm}
-/>;
+/>
 ```
 
 ### 列表选择弹出层（多选）
@@ -121,7 +121,7 @@ const closeListMoreModal = () => setState({ listMoreVisible: false });
   onMaskPress={closeListMoreModal}
   onCancel={closeListMoreModal}
   onConfirm={handleListMoreConfirm}
-/>;
+/>
 ```
 
 ### Picker 选择弹出层
@@ -153,7 +153,7 @@ const closePickerOneModal = () => setState({ pickerOneVisible: false });
   onCancel={closePickerOneModal}
   onConfirm={handlePickerOneConfirm}
   onValueChange={value => console.log('onValueChange', value)}
-/>;
+/>
 ```
 
 ## API

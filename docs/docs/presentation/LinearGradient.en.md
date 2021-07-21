@@ -75,7 +75,7 @@ class MainLayout extends NavigatorLayout {
   }
 
   renderScene(route, navigator) {
-    let Scene = <View />;
+    let Scene = <View />
     let schema = {};
     let uiConfig = {};
     const { dispatch, devInfo, dpState } = this.props;

@@ -19,7 +19,7 @@ const tabs = Array.from(Array(10), (v, k) => k + 1).map(v => {
   activeKey={tab}
   onChange={value => setTab(value)}
   underlineStyle={{ width: 20 }}
-/>;
+/>
 ```
 
 ### radio 类型
@@ -47,7 +47,7 @@ const tabRadios = Array.from(Array(3), (v, k) => k + 1).map(v => {
     borderRadius: 27,
     marginTop: 10,
   }}
-/>;
+/>
 ```
 
 ### radioCircle 类型
@@ -69,7 +69,7 @@ const tabRadiosCircle = Array.from(Array(3), (v, k) => k + 1).map(v => {
   onChange={value => setTabRadioCircle(value)}
   activeColor="#57BCFB"
   style={{ marginTop: 10 }}
-/>;
+/>
 ```
 
 ## API

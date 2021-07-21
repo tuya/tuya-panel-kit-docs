@@ -19,7 +19,7 @@ const [selectDate, setDate] = React.useState(new Date());
   style={{ marginTop: 30 }}
   date={selectDate}
   onDateChange={selectDate => setDate(selectDate)}
-/>;
+/>
 ```
 
 ### Uncontrolled date picker

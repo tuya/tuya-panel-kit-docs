@@ -33,7 +33,7 @@ const [value, setValue] = React.useState(25);
     </View>
   )}
   onSlidingComplete={v => setValue(Math.round(v))}
-/>;
+/>
 ```
 
 ### Horizontal parcel type slider
@@ -69,7 +69,7 @@ const [value, setValue] = React.useState(25);
     />
   )}
   onSlidingComplete={v => setValue(Math.round(v))}
-/>;
+/>
 ```
 
 ### Horizontal parcel custom thumb Slider
@@ -126,7 +126,7 @@ const [value, setValue] = React.useState(25);
     />
   )}
   onSlidingComplete={v => setValue(Math.round(v))}
-/>;
+/>
 ```
 
 ### Horizontal package with graduated slider
@@ -166,7 +166,7 @@ const [value, setValue] = React.useState(25);
   minimumValue={0}
   minNounStyle={{ backgroundColor: '#f0f' }}
   onSlidingComplete={v => setValue(Math.round(v))}
-/>;
+/>
 ```
 
 ### Horizontal graduated slider
@@ -193,7 +193,7 @@ const [value, setValue] = React.useState(25);
   maximumValue={100}
   minimumValue={0}
   onValueChange={value => setValue(value)}
-/>;
+/>
 ```
 
 ### Vertical slider
@@ -361,7 +361,7 @@ const sliderView = {
     minNounStyle={{ backgroundColor: '#f0f' }}
     onSlidingComplete={v => setValue(Math.round(v))}
   />
-</View>;
+</View>
 ```
 
 ## API
