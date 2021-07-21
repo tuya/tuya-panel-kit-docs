@@ -60,7 +60,7 @@ const radialBackground = {
   background={radialBackground}
   title="Title"
   onBack={TYSdk.Navigator.pop}
-/>;
+/>
 ```
 
 ### Linear gradient - split version
@@ -76,7 +76,7 @@ const linearBackground = {
 <TopBar.Container background={linearBackground}>
   <TopBar.Action name="backIos" onPress={TYSdk.Navigator.pop} />
   <TopBar.Content title="Title" />
-</TopBar.Container>;
+</TopBar.Container>
 ```
 
 ### Multi toolbar - split version

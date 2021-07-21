@@ -33,7 +33,7 @@ const [value, setValue] = React.useState(25);
     </View>
   )}
   onSlidingComplete={v => setValue(Math.round(v))}
-/>;
+/>
 ```
 
 ### 水平包裹类型滑动条
@@ -69,7 +69,7 @@ const [value, setValue] = React.useState(25);
     />
   )}
   onSlidingComplete={v => setValue(Math.round(v))}
-/>;
+/>
 ```
 
 ### 水平包裹自定义滑块滑动条
@@ -126,7 +126,7 @@ const [value, setValue] = React.useState(25);
     />
   )}
   onSlidingComplete={v => setValue(Math.round(v))}
-/>;
+/>
 ```
 
 ### 水平包裹带有刻度滑块
@@ -166,7 +166,7 @@ const [value, setValue] = React.useState(25);
   minimumValue={0}
   minNounStyle={{ backgroundColor: '#f0f' }}
   onSlidingComplete={v => setValue(Math.round(v))}
-/>;
+/>
 ```
 
 ### 水平有刻度滑动条
@@ -193,7 +193,7 @@ const [value, setValue] = React.useState(25);
   maximumValue={100}
   minimumValue={0}
   onValueChange={value => setValue(value)}
-/>;
+/>
 ```
 
 ### 竖直滑动条
@@ -361,7 +361,7 @@ const sliderView = {
     minNounStyle={{ backgroundColor: '#f0f' }}
     onSlidingComplete={v => setValue(Math.round(v))}
   />
-</View>;
+</View>
 ```
 
 ## API

@@ -51,7 +51,7 @@ const [collapsed, setCollapsed] = React.useState(false);
       text="以不变应万变，无招胜有招。"
     />
   </View>
-</Collapsible>;
+</Collapsible>
 ```
 
 ## API

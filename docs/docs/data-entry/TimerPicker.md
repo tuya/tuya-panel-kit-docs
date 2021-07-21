@@ -16,7 +16,7 @@ const [time, setTime] = React.useState({ startTime: 0, endTime: 0 });
   startTime={time.startTime}
   endTime={time.endTime}
   onTimerChange={(startTime, endTime) => setTime({ startTime, endTime })}
-/>;
+/>
 ```
 
 ### 时间段选择器配合前缀位置
@@ -30,7 +30,7 @@ const [time, setTime] = React.useState({ startTime: 0, endTime: 0 });
   endTime={time.endTime}
   prefixPosition="left"
   onTimerChange={(startTime, endTime) => setTime({ startTime, endTime })}
-/>;
+/>
 ```
 
 ## API

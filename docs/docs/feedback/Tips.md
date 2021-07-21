@@ -23,7 +23,7 @@ const bigTips = {
   contentStyle={bigTips}
   bgColor="#00f"
   cornerPosition="topLeft"
-/>;
+/>
 ```
 
 ### 气泡 - 上中
@@ -43,7 +43,7 @@ const bigTips = {
   contentStyle={bigTips}
   bgColor="#00f"
   cornerPosition="topCenter"
-/>;
+/>
 ```
 
 ### 气泡 - 上右
@@ -63,7 +63,7 @@ const bigTips = {
   contentStyle={bigTips}
   bgColor="#00f"
   cornerPosition="topRight"
-/>;
+/>
 ```
 
 ### 气泡 - 下左
@@ -83,7 +83,7 @@ const bigTips = {
   contentStyle={bigTips}
   bgColor="#00f"
   cornerPosition="bottomLeft"
-/>;
+/>
 ```
 
 ### 气泡 - 下中
@@ -103,7 +103,7 @@ const bigTips = {
   contentStyle={bigTips}
   bgColor="#00f"
   cornerPosition="bottomCenter"
-/>;
+/>
 ```
 
 ### 气泡 - 下右
@@ -123,7 +123,7 @@ const bigTips = {
   contentStyle={bigTips}
   bgColor="#00f"
   cornerPosition="bottomRight"
-/>;
+/>
 ```
 
 ## API

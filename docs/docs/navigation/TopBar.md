@@ -60,7 +60,7 @@ const radialBackground = {
   background={radialBackground}
   title="Title"
   onBack={TYSdk.Navigator.pop}
-/>;
+/>
 ```
 
 ### 线性渐变 - 拆分版
@@ -76,7 +76,7 @@ const linearBackground = {
 <TopBar.Container background={linearBackground}>
   <TopBar.Action name="backIos" onPress={TYSdk.Navigator.pop} />
   <TopBar.Content title="Title" />
-</TopBar.Container>;
+</TopBar.Container>
 ```
 
 ### 多工具栏 - 拆分版

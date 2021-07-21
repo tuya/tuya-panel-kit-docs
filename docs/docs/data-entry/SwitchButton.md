@@ -19,7 +19,7 @@ const [value2, setValue2] = React.useState(false);
     style={{ marginRight: 14 }}
   />
   <SwitchButton value={value2} onValueChange={v => setValue2(v)} />
-</View>;
+</View>
 ```
 
 ### 基础样式二
@@ -42,7 +42,7 @@ const [value2, setValue2] = React.useState(false);
     theme={{ margin: 0 }}
     onValueChange={v => setValue2(v)}
   />
-</View>;
+</View>
 ```
 
 ### 基础文本样式
@@ -83,7 +83,7 @@ const [value2, setValue2] = React.useState(false);
     offText="OFF"
     onValueChange={v => setValue2(v)}
   />
-</View>;
+</View>
 ```
 
 ### icon 样式
@@ -140,7 +140,7 @@ const [value2, setValue2] = React.useState(false);
     offTextStyle={{ right: 15 }}
     onValueChange={v => setValue2(v)}
   />
-</View>;
+</View>
 ```
 
 ### 滑块动画样式
@@ -179,7 +179,7 @@ const [value2, setValue2] = React.useState(false);
     switchType="thumbMore"
     onValueChange={v => setValue2(v)}
   />
-</View>;
+</View>
 ```
 
 ### 渐变样式
@@ -212,7 +212,7 @@ const [value2, setValue2] = React.useState(false);
     }}
     onValueChange={v => setValue2(v)}
   />
-</View>;
+</View>
 ```
 
 ### 渐变文本样式
@@ -241,7 +241,7 @@ const [value2, setValue2] = React.useState(false);
       '100%': '#FEDD44',
     }}
   />
-</View>;
+</View>
 ```
 
 ### 非受控开关

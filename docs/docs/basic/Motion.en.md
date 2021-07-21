@@ -46,7 +46,7 @@ const contentStyles = {
   onHide={() => setScaleFadeInShow(false)}
 >
   <View style={contentStyles} />
-</Motion.ScaleFadeIn>;
+</Motion.ScaleFadeIn>
 ```
 
 ### Zoom in and fade in/down to fade out
@@ -64,7 +64,7 @@ const contentStyles = {
   onHide={() => setScalePullDownShow(false)}
 >
   <View style={contentStyles} />
-</Motion.ScalePullDown>;
+</Motion.ScalePullDown>
 ```
 
 ### Pull-down push
@@ -84,7 +84,7 @@ const contentStyles = {
   dropHeight={100}
 >
   <View style={contentStyles} />
-</Motion.PushDown>;
+</Motion.PushDown>
 ```
 
 ### No operation zoom in/out
@@ -103,7 +103,7 @@ const contentStyles = {
   onHide={() => setToastShow(false)}
 >
   <View style={contentStyles} />
-</Motion.Toast>;
+</Motion.Toast>
 ```
 
 ## API
