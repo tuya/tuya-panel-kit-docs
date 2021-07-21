@@ -15,7 +15,7 @@ const [successShow, setSuccessShow] = React.useState(false);
   show={successShow}
   text="Successful Text"
   onFinish={() => setSuccessShow(false)}
-/>;
+/>
 ```
 
 ### Warning tips
@@ -27,7 +27,7 @@ const [warningShow, setWarningShow] = React.useState(false);
   show={warningShow}
   text="Warning Text"
   onFinish={() => setWarningShow(false)}
-/>;
+/>
 ```
 
 ### Error tips
@@ -39,7 +39,7 @@ const [errorShow, setErrorShow] = React.useState(false);
   show={errorShow}
   text="Error Text"
   onFinish={() => setErrorShow(false)}
-/>;
+/>
 ```
 
 ### Loading tips
@@ -47,7 +47,7 @@ const [errorShow, setErrorShow] = React.useState(false);
 ```jsx
 const [loadingShow, setLoadingShow] = React.useState(false);
 
-<Toast.Loading show={loadingShow} onFinish={() => setLoadingShow(false)} />;
+<Toast.Loading show={loadingShow} onFinish={() => setLoadingShow(false)} />
 ```
 
 ### Light prompt
@@ -55,7 +55,7 @@ const [loadingShow, setLoadingShow] = React.useState(false);
 ```jsx
 const [show, setShow] = React.useState(false);
 
-<Toast show={show} text="I'm toastView!!!" onFinish={() => setShow(false)} />;
+<Toast show={show} text="I'm toastView!!!" onFinish={() => setShow(false)} />
 ```
 
 ## API

@@ -25,7 +25,7 @@ const [value, setValue] = React.useState('宁波');
   {languages.map(value => (
     <Picker.Item key={value} value={value} label={value} />
   ))}
-</Picker>;
+</Picker>
 ```
 
 ### 多列选择器
@@ -73,7 +73,7 @@ const [day, setDay] = React.useState(['3', '1']);
       ))}
     </Picker>
   ))}
-</View>;
+</View>
 ```
 
 ## API

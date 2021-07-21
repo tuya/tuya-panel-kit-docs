@@ -15,7 +15,7 @@ const [checked, setChecked] = React.useState(false);
 
 <Checkbox checked={checked} onChange={checked => setChecked(checked)}>
   单选框
-</Checkbox>;
+</Checkbox>
 ```
 
 ### 禁用状态
@@ -43,7 +43,7 @@ const [checked, setChecked] = React.useState(false);
   onChange={checked => setChecked(checked)}
 >
   单选框
-</Checkbox>;
+</Checkbox>
 ```
 
 ### 翻转图标和子元素位置
@@ -57,7 +57,7 @@ const [checked, setChecked] = React.useState(false);
   onChange={checked => setChecked(checked)}
 >
   单选框
-</Checkbox>;
+</Checkbox>
 ```
 
 ## API

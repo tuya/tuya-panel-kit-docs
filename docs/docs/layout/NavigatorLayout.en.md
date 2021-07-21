@@ -62,12 +62,12 @@ class MainLayout extends NavigatorLayout {
   }
 
   renderScene(route, navigator) {
-    let Scene = <Home navigator={navigator} />;
+    let Scene = <Home navigator={navigator} />
 
     const router = routers.find(r => r.id === route.id);
     if (router && router.Scene) {
       const Component = router.Scene;
-      Scene = <Component navigator={navigator} {...route} />;
+      Scene = <Component navigator={navigator} {...route} />
     }
 
     return Scene;
@@ -267,15 +267,15 @@ interface NavigationOptions {
   /**
    * @desc Custom header bar style
    */
-  topbarStyle?: StyleProp<ViewStyle>;
+  topbarStyle?: StyleProp<ViewStyle>
   /**
    * @desc Custom header text style
    */
-  topbarTextStyle?: StyleProp<TextStyle>;
+  topbarTextStyle?: StyleProp<TextStyle>
   /**
    * @desc Custom panel background style
    */
-  backgroundStyle?: StyleProp<ViewStyle>;
+  backgroundStyle?: StyleProp<ViewStyle>
   /**
    * @desc Custom header bar title
    */

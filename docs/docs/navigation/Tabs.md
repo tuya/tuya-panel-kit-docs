@@ -25,7 +25,7 @@ const [state, setState] = React.useState({
   activeKey={state.activeKey1}
   dataSource={state.d1}
   onChange={tab => setState({ ...state, activeKey1: tab.value })}
-/>;
+/>
 ```
 
 ### 多屏 Tabs
@@ -49,7 +49,7 @@ const [state, setState] = React.useState({
   activeKey={state.activeKey2}
   dataSource={state.d2}
   onChange={tab => setState({ ...state, activeKey2: tab.value })}
-/>;
+/>
 ```
 
 ### 基础 Tabs（无状态组件）
@@ -94,7 +94,7 @@ const handleRelease = (gestureState, index) =>
   {state.d1.map((data, idx) => (
     <Panel key={idx} title={`第 ${idx} 页`} />
   ))}
-</Tabs.TabContent>;
+</Tabs.TabContent>
 ```
 
 ### 标签页配合 TabContent
@@ -136,7 +136,7 @@ const [state, setState] = React.useState({
       <TYListItem key={n} title={`模版_${n}`} />
     ))}
   </Tabs.TabPanel>
-</Tabs>;
+</Tabs>
 ```
 
 ### 多屏存在内容的 Tabs
@@ -177,7 +177,7 @@ const Panel = ({ title, largeData, ...rest }) => {
   {state.d2.map((data, idx) => (
     <Panel key={idx} title={data.label} />
   ))}
-</Tabs>;
+</Tabs>
 ```
 
 ### 嵌套的 Tabs
@@ -222,7 +222,7 @@ const [state, setState] = React.useState({
   <Tabs.TabPanel background="#fff">
     <TYListItem title="有限探测器" />
   </Tabs.TabPanel>
-</Tabs>;
+</Tabs>
 ```
 
 ## API

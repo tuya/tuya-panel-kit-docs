@@ -51,7 +51,7 @@ const [collapsed, setCollapsed] = React.useState(false);
       text="Respond to ever-changing things with no change, no tricks."
     />
   </View>
-</Collapsible>;
+</Collapsible>
 ```
 
 ## API
