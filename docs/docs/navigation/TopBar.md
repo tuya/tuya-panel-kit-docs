@@ -9,6 +9,8 @@ demo: /navigation/top-bar
 ### 基础使用 - 拆分版
 
 ```jsx
+import { TopBar } from 'tuya-panel-kit'
+
 <TopBar.Container background="#000">
   <TopBar.Action name="backIos" color="red" onPress={TYSdk.Navigator.pop} />
   <TopBar.Content title="Title" />
@@ -23,6 +25,8 @@ demo: /navigation/top-bar
 ### 基础使用 - 封装版
 
 ```jsx
+import { TopBar } from 'tuya-panel-kit'
+
 <TopBar
   background="#000"
   title="Title"
@@ -41,6 +45,8 @@ demo: /navigation/top-bar
 ### 径向渐变 - 封装版
 
 ```jsx
+import { TopBar } from 'tuya-panel-kit'
+
 const radialBackground = {
   stops: [
     {
@@ -66,6 +72,8 @@ const radialBackground = {
 ### 线性渐变 - 拆分版
 
 ```jsx
+import { TopBar } from 'tuya-panel-kit'
+
 const linearBackground = {
   stops: {
     '0%': 'red',
@@ -82,6 +90,8 @@ const linearBackground = {
 ### 多工具栏 - 拆分版
 
 ```jsx
+import { TopBar } from 'tuya-panel-kit'
+
 <TopBar.Container background="blue">
   <TopBar.Action name="backIos" onPress={TYSdk.Navigator.pop} />
   <TopBar.Action
@@ -113,6 +123,8 @@ const linearBackground = {
 ### 多工具栏变 - 封装版
 
 ```jsx
+import { TopBar } from 'tuya-panel-kit'
+
 <TopBar
   style={{ marginTop: 24 }}
   background="blue"

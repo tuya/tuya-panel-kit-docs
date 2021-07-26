@@ -9,6 +9,8 @@ demo: /basic/icon-font
 ### Basic Usage
 
 ```jsx
+import { IconFont } from 'tuya-panel-kit'
+
 <View>
   <IconFont name="0" style={{ marginRight: 25 }} />
   <IconFont d={TuyaRNSvgs.plus} />
@@ -18,6 +20,8 @@ demo: /basic/icon-font
 ### Icon Color
 
 ```jsx
+import { IconFont } from 'tuya-panel-kit'
+
 <View>
   <IconFont name="error" style={{ marginRight: 25 }} />
   <IconFont d={TuyaRNSvgs.error} color="red" />
@@ -27,6 +31,8 @@ demo: /basic/icon-font
 ### Icon Size
 
 ```jsx
+import { IconFont } from 'tuya-panel-kit'
+
 <View>
   <IconFont name="power" style={{ marginRight: 25 }} />
   <IconFont d={TuyaRNSvgs.power} size={50 * 0.72} />

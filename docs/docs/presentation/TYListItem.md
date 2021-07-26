@@ -9,6 +9,8 @@ demo: /presentation/tylist-item
 ### 基础列表
 
 ```jsx
+import { TYListItem } from 'tuya-panel-kit'
+
 <TYListItem
   theme={{
     fontColor: '#fff',
@@ -26,6 +28,8 @@ demo: /presentation/tylist-item
 ### 文案过长适配
 
 ```jsx
+import { TYListItem } from 'tuya-panel-kit'
+
 <TYListItem
   theme={{
     fontColor: '#fff',
@@ -45,6 +49,8 @@ demo: /presentation/tylist-item
 ### 适配 Icon
 
 ```jsx
+import { TYListItem } from 'tuya-panel-kit'
+
 <TYListItem
   theme={{
     fontColor: '#346734',

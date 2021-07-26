@@ -9,6 +9,8 @@ demo: /presentation/tylist-item
 ### Basic list
 
 ```jsx
+import { TYListItem } from 'tuya-panel-kit'
+
 <TYListItem
   theme={{
     fontColor: '#fff',
@@ -26,6 +28,8 @@ demo: /presentation/tylist-item
 ### Long copy adaptation
 
 ```jsx
+import { TYListItem } from 'tuya-panel-kit'
+
 <TYListItem
   theme={{
     fontColor: '#fff',
@@ -45,6 +49,8 @@ demo: /presentation/tylist-item
 ### Adapt Icon
 
 ```jsx
+import { TYListItem } from 'tuya-panel-kit'
+
 <TYListItem
   theme={{
     fontColor: '#346734',

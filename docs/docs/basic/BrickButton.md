@@ -13,12 +13,16 @@ demo: /basic/brick-button
 ### 文字块状按钮
 
 ```jsx
+import { BrickButton } from 'tuya-panel-kit'
+
 <BrickButton text="loading" loading={true} />
 ```
 
 ### 渐变背景按钮
 
 ```jsx
+import { BrickButton } from 'tuya-panel-kit'
+
 <BrickButton
   loading={true}
   loadingSize="large"

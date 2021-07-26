@@ -9,6 +9,8 @@ demo: /data-entry/switch-button
 ### 基础样式一
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 const [value1, setValue1] = React.useState(true);
 const [value2, setValue2] = React.useState(false);
 
@@ -25,6 +27,8 @@ const [value2, setValue2] = React.useState(false);
 ### 基础样式二
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 const [value1, setValue1] = React.useState(true);
 const [value2, setValue2] = React.useState(false);
 
@@ -48,6 +52,8 @@ const [value2, setValue2] = React.useState(false);
 ### 基础文本样式
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 const [value1, setValue1] = React.useState(true);
 const [value2, setValue2] = React.useState(false);
 
@@ -89,6 +95,8 @@ const [value2, setValue2] = React.useState(false);
 ### icon 样式
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 const [value1, setValue1] = React.useState(true);
 const [value2, setValue2] = React.useState(false);
 
@@ -146,6 +154,8 @@ const [value2, setValue2] = React.useState(false);
 ### 滑块动画样式
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 const [value1, setValue1] = React.useState(true);
 const [value2, setValue2] = React.useState(false);
 
@@ -185,6 +195,8 @@ const [value2, setValue2] = React.useState(false);
 ### 渐变样式
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 const [value1, setValue1] = React.useState(true);
 const [value2, setValue2] = React.useState(false);
 
@@ -218,6 +230,8 @@ const [value2, setValue2] = React.useState(false);
 ### 渐变文本样式
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 const [value1, setValue1] = React.useState(true);
 const [value2, setValue2] = React.useState(false);
 
@@ -247,6 +261,8 @@ const [value2, setValue2] = React.useState(false);
 ### 非受控开关
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 <View>
   <SwitchButton
     defaultValue={true}

@@ -9,6 +9,8 @@ demo: /data-entry/slider
 ### 水平滑动条 - 基础样式
 
 ```jsx
+import { Slider } from 'tuya-panel-kit'
+
 const [value, setValue] = React.useState(25);
 
 <Slider.Horizontal
@@ -39,6 +41,8 @@ const [value, setValue] = React.useState(25);
 ### 水平包裹类型滑动条
 
 ```jsx
+import { Slider } from 'tuya-panel-kit'
+
 const [value, setValue] = React.useState(25);
 <Slider.Horizontal
   theme={{
@@ -75,6 +79,8 @@ const [value, setValue] = React.useState(25);
 ### 水平包裹自定义滑块滑动条
 
 ```jsx
+import { Slider } from 'tuya-panel-kit'
+
 const [value, setValue] = React.useState(25);
 <Slider.Horizontal
   theme={{
@@ -132,6 +138,8 @@ const [value, setValue] = React.useState(25);
 ### 水平包裹带有刻度滑块
 
 ```jsx
+import { Slider } from 'tuya-panel-kit'
+
 const [value, setValue] = React.useState(25);
 <Slider.Horizontal
   theme={{
@@ -172,6 +180,8 @@ const [value, setValue] = React.useState(25);
 ### 水平有刻度滑动条
 
 ```tsx
+import { Slider } from 'tuya-panel-kit'
+
 const [value, setValue] = React.useState(25);
 
 <Slider.Horizontal
@@ -199,6 +209,8 @@ const [value, setValue] = React.useState(25);
 ### 竖直滑动条
 
 ```jsx
+import { Slider } from 'tuya-panel-kit'
+
 const [value, setValue] = React.useState(25);
 const sliderView = {
   width: 28,

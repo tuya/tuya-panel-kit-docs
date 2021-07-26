@@ -11,6 +11,8 @@ demo: /data-entry/picker-view
 ### 基础选择器
 
 ```jsx
+import { Picker } from 'tuya-panel-kit'
+
 const languages = ['杭州', '温州', '宁波', '绍兴', '嵊州', '金华'];
 const [value, setValue] = React.useState('宁波');
 
@@ -31,6 +33,8 @@ const [value, setValue] = React.useState('宁波');
 ### 多列选择器
 
 ```jsx
+import { Picker } from 'tuya-panel-kit'
+
 const weeks = [
   {
     key: 'week',

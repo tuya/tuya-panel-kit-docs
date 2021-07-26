@@ -9,6 +9,8 @@ demo: /basic/unit-text
 ### Basic style
 
 ```jsx
+import { UnitText } from 'tuya-panel-kit'
+
 <View>
   <UnitText unit="%" unitColor="green" />
   <UnitText unit={TuyaRNSvgs.celsius} unitColor="#9A3253" />
@@ -18,6 +20,8 @@ demo: /basic/unit-text
 ### Custom size
 
 ```jsx
+import { UnitText } from 'tuya-panel-kit'
+
 <View>
   <UnitText size={88} unit="%" unitColor="green" />
   <UnitText
@@ -33,6 +37,8 @@ demo: /basic/unit-text
 ### Customize the color of each value of UnitText
 
 ```jsx
+import { UnitText } from 'tuya-panel-kit'
+
 <View>
   <UnitText
     value="032"

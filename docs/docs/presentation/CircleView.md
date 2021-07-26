@@ -9,18 +9,24 @@ demo: /presentation/circle-view
 ### 基础展示
 
 ```jsx
+import { CircleView } from 'tuya-panel-kit'
+
 <CircleView radius={30} color="red" />
 ```
 
 ### 带边框的圆形视图
 
 ```jsx
+import { CircleView } from 'tuya-panel-kit'
+
 <CircleView radius={30} color="#ff0" borderWidth={4} borderColor="#00f" />
 ```
 
 ### 内嵌自定义内容的圆形视图
 
 ```jsx
+import { CircleView } from 'tuya-panel-kit'
+
 <CircleView
   radius={50}
   color="#0f0"

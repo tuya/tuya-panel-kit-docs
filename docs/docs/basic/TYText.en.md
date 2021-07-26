@@ -9,12 +9,16 @@ demo: /basic/tytext
 ### Basic style
 
 ```jsx
+import { TYText } from 'tuya-panel-kit'
+
 <TYText color="red" text="I am Tuya'er" weight="bold" size={24} />
 ```
 
 ### Use with size and type
 
 ```jsx
+import { TYText } from 'tuya-panel-kit'
+
 <View>
   <TYText size="small" type="paragraph" text="Tuya" />
   <TYText
@@ -28,6 +32,8 @@ demo: /basic/tytext
 ```
 
 ```jsx
+import { TYText } from 'tuya-panel-kit'
+
 <View>
   <TYText size="normal" type="paragraph" text="Tuya" />
   <TYText
@@ -41,6 +47,8 @@ demo: /basic/tytext
 ```
 
 ```jsx
+import { TYText } from 'tuya-panel-kit'
+
 <View>
   <TYText size="large" type="paragraph" text="Tuya" />
   <TYText

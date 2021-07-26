@@ -9,6 +9,8 @@ demo: /navigation/top-bar
 ### Basic usage - split version
 
 ```jsx
+import { TopBar } from 'tuya-panel-kit'
+
 <TopBar.Container background="#000">
   <TopBar.Action name="backIos" color="red" onPress={TYSdk.Navigator.pop} />
   <TopBar.Content title="Title" />
@@ -23,6 +25,8 @@ demo: /navigation/top-bar
 ### Basic use - package version
 
 ```jsx
+import { TopBar } from 'tuya-panel-kit'
+
 <TopBar
   background="#000"
   title="Title"
@@ -41,6 +45,8 @@ demo: /navigation/top-bar
 ### Radial Gradient - package version
 
 ```jsx
+import { TopBar } from 'tuya-panel-kit'
+
 const radialBackground = {
   stops: [
     {
@@ -66,6 +72,8 @@ const radialBackground = {
 ### Linear gradient - split version
 
 ```jsx
+import { TopBar } from 'tuya-panel-kit'
+
 const linearBackground = {
   stops: {
     '0%': 'red',
@@ -82,6 +90,8 @@ const linearBackground = {
 ### Multi toolbar - split version
 
 ```jsx
+import { TopBar } from 'tuya-panel-kit'
+
 <TopBar.Container background="blue">
   <TopBar.Action name="backIos" onPress={TYSdk.Navigator.pop} />
   <TopBar.Action
@@ -113,6 +123,8 @@ const linearBackground = {
 ### Multi toolbar change - package version
 
 ```jsx
+import { TopBar } from 'tuya-panel-kit'
+
 <TopBar
   style={{ marginTop: 24 }}
   background="blue"

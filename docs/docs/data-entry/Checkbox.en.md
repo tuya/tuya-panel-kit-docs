@@ -9,6 +9,8 @@ demo: /data-entry/checkbox
 ### Basic Usage
 
 ```jsx
+import { Checkbox } from 'tuya-panel-kit'
+
 const [checked, setChecked] = React.useState(false);
 
 <Checkbox checked={checked} onChange={checked => setChecked(checked)}>
@@ -19,6 +21,8 @@ const [checked, setChecked] = React.useState(false);
 ### disable status
 
 ```jsx
+import { Checkbox } from 'tuya-panel-kit'
+
 <View>
   <Checkbox color="red" checked={false} disabled={true} hideOnUnselect={true}>
     Checkbox
@@ -32,6 +36,8 @@ const [checked, setChecked] = React.useState(false);
 ### Custom color and size
 
 ```jsx
+import { Checkbox } from 'tuya-panel-kit'
+
 const [checked, setChecked] = React.useState(false);
 
 <Checkbox
@@ -47,6 +53,8 @@ const [checked, setChecked] = React.useState(false);
 ### Flip icon and child element position
 
 ```jsx
+import { Checkbox } from 'tuya-panel-kit'
+
 const [checked, setChecked] = React.useState(false);
 
 <Checkbox

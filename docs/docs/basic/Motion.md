@@ -9,7 +9,9 @@ demo: /basic/motion
 ### 淡入淡出
 
 ```jsx
-  const [fadeShow, setFadeShow] = React.useState(false);
+import { Motion } from 'tuya-panel-kit'
+
+const [fadeShow, setFadeShow] = React.useState(false);
 
 <Motion.Fade
   style={{ position: 'absolute', bottom: 50 }}
@@ -21,7 +23,9 @@ demo: /basic/motion
 ### 上拉下滑
 
 ```jsx
-  const [pullUpShow, setPullUpShow] = React.useState(false);
+import { Motion } from 'tuya-panel-kit'
+
+const [pullUpShow, setPullUpShow] = React.useState(false);
 
 <Motion.PullUp
   style={{ position: 'absolute', bottom: 50 }}
@@ -33,6 +37,8 @@ demo: /basic/motion
 ### 放大淡入/缩小淡出
 
 ```jsx
+import { Motion } from 'tuya-panel-kit'
+
 const [scaleFadeInShow, setScaleFadeInShow] = React.useState(false);
 const contentStyles = {
   width: 375,
@@ -52,6 +58,8 @@ const contentStyles = {
 ### 放大淡入/下滑淡出
 
 ```jsx
+import { Motion } from 'tuya-panel-kit'
+
 const [scalePullDownShow, setScalePullDownShow] = React.useState(false);
 const contentStyles = {
   width: 375,
@@ -70,6 +78,8 @@ const contentStyles = {
 ### 下拉上推
 
 ```jsx
+import { Motion } from 'tuya-panel-kit'
+
 const [pushDownShow, setPushDownShow] = React.useState(false);
 const contentStyles = {
   width: 375,
@@ -90,6 +100,8 @@ const contentStyles = {
 ### 无操作放大淡入/缩小淡出
 
 ```jsx
+import { Motion } from 'tuya-panel-kit'
+
 const [toastShow, setToastShow] = React.useState(false);
 const contentStyles = {
   width: 375,

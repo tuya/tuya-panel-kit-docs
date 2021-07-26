@@ -9,6 +9,8 @@ demo: /navigation/tab-bar
 ### 基础类型
 
 ```jsx
+import { TabBar } from 'tuya-panel-kit'
+
 const [tab, setTab] = React.useState('2');
 const tabs = Array.from(Array(10), (v, k) => k + 1).map(v => {
   return { key: `${v}`, title: `Tab${v}` };
@@ -25,6 +27,8 @@ const tabs = Array.from(Array(10), (v, k) => k + 1).map(v => {
 ### radio 类型
 
 ```jsx
+import { TabBar } from 'tuya-panel-kit'
+
 const [tabRadio, setTabRadio] = React.useState('2');
 const tabRadios = Array.from(Array(3), (v, k) => k + 1).map(v => {
   return {
@@ -53,6 +57,8 @@ const tabRadios = Array.from(Array(3), (v, k) => k + 1).map(v => {
 ### radioCircle 类型
 
 ```jsx
+import { TabBar } from 'tuya-panel-kit'
+
 const [tabRadioCircle, setTabRadioCircle] = React.useState('2');
 const tabRadiosCircle = Array.from(Array(3), (v, k) => k + 1).map(v => {
   return {

@@ -9,6 +9,8 @@ demo: /feedback/popup
 ### 倒计时弹出层
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   countdown: 0,
 });
@@ -31,6 +33,8 @@ Popup.countdown({
 ### 日期选择弹出层
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   date: new Date(),
 });
@@ -56,6 +60,8 @@ Popup.datePicker({
 ### 时间段选择弹出层
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   timerPickerValue: [0, 0],
 });
@@ -78,6 +84,8 @@ Popup.timerPicker({
 ### 数值选择弹出层
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   numberValue: 0,
 });
@@ -100,6 +108,8 @@ Popup.numberSelector({
 ### 列表选择弹出层（单选）
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   listValue: '1',
 });
@@ -145,6 +155,8 @@ Popup.list({
 ### 列表选择弹出层（多选）
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   listValues: ['1'],
 });
@@ -179,6 +191,8 @@ Popup.list({
 ### Picker 选择弹出层（单选）
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   pickerValue: '1',
 });
@@ -210,6 +224,8 @@ Popup.picker({
 ### Picker 选择弹出层（多选）
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   pickerValues: ['b', '2', 'm'],
 });
@@ -264,18 +280,13 @@ Popup.picker({
   cancelText: '取消',
   confirmText: '确认',
   value: state.pickerValues,
-  label: ['$', '%'],
-  onMaskPress: ({ close }) => close(),
-  onConfirm: (value, idx, { close }) => {
-    setState({ pickerValues: value });
-    close();
-  },
-});
-```
+  label: ['
 
 ### 自定义弹出层
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 Popup.custom({
   content: (
     <View
@@ -302,10 +313,64 @@ Popup.custom({
 ### Toast 弹出层
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 Popup.toast({
   message: 'I am Toast',
 });
 ```
+
+## API
+
+### Popup 通用
+
+继承自 <HLink to="Modal#api">ModalProps</HLink>
+
+<API name="PopupProps"></API>
+
+### Popup.countdown
+
+<API name="PopUpCountdownProps" ></API>
+
+### Popup.datePicker
+
+<API name="PopupDatePickerProps" ></API>
+
+### Popup.list
+
+<API name="PopUpListProps" ></API>
+
+### Popup.numberSelector
+
+<API name="PopupNumberSelectorProps" ></API>
+
+### Popup.picker
+
+<API name="PopupPickerProps" ></API>
+
+### Popup.timerPicker
+
+<API name="PopupTimerPickerProps" ></API>
+
+### Popup.custom
+
+<API name="PopupCustomProps" ></API>
+, '%'],
+  onMaskPress: ({ close }) => close(),
+  onConfirm: (value, idx, { close }) => {
+    setState({ pickerValues: value });
+    close();
+  },
+});
+```
+
+### 自定义弹出层
+
+__$$8_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+### Toast 弹出层
+
+__$$9________________________________________________
 
 ## API
 

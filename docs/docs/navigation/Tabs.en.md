@@ -11,6 +11,8 @@ demo: /navigation/tabs
 > One screen displays four Tab labels by default. You can customize the number of tabs displayed on one screen through **maxItem**; <br />If the dataSource length exceeds **maxItem**, it will automatically become multi-screen;
 
 ```jsx
+import { Tabs } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   activeKey1: '1',
   d1: [
@@ -31,6 +33,8 @@ const [state, setState] = React.useState({
 ### Multi-screen Tabs
 
 ```jsx
+import { Tabs } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   activeKey2: '3',
   d2: [
@@ -55,6 +59,8 @@ const [state, setState] = React.useState({
 ### Basic Tabs（Stateless component）
 
 ```jsx
+import { Tabs } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   d2: [
     { value: '1', label: 'Name' },
@@ -74,6 +80,8 @@ const [state, setState] = React.useState({
 ### Use TabContent alone-swipe left and right
 
 ```jsx
+import { Tabs } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   activeIndex: 0,
   d1: [
@@ -100,6 +108,8 @@ const handleRelease = (gestureState, index) =>
 ### Tabs with TabContent
 
 ```jsx
+import { Tabs } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   activeKey1: '1',
   d1: [
@@ -142,6 +152,8 @@ const [state, setState] = React.useState({
 ### Tabs with content on multiple screens
 
 ```jsx
+import { Tabs } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   activeKey2: '3',
   d2: [
@@ -183,6 +195,8 @@ const Panel = ({ title, largeData, ...rest }) => {
 ### Nested Tabs
 
 ```jsx
+import { Tabs } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   activeKey1: '1',
   activeKey2: '3',
