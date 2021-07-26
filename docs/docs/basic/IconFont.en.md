@@ -10,6 +10,7 @@ demo: /basic/icon-font
 
 ```jsx
 import { IconFont } from 'tuya-panel-kit'
+import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 
 <View>
   <IconFont name="0" style={{ marginRight: 25 }} />
@@ -21,6 +22,7 @@ import { IconFont } from 'tuya-panel-kit'
 
 ```jsx
 import { IconFont } from 'tuya-panel-kit'
+import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 
 <View>
   <IconFont name="error" style={{ marginRight: 25 }} />
@@ -32,6 +34,7 @@ import { IconFont } from 'tuya-panel-kit'
 
 ```jsx
 import { IconFont } from 'tuya-panel-kit'
+import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 
 <View>
   <IconFont name="power" style={{ marginRight: 25 }} />
