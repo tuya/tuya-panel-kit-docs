@@ -9,24 +9,32 @@ demo: /basic/button
 ### 纯文本按钮
 
 ```jsx
+import { Button } from 'tuya-panel-kit'
+
 <Button text="点我一下" />
 ```
 
 ### 纯 Icon 按钮
 
 ```jsx
+import { Button } from 'tuya-panel-kit'
+
 <Button icon="power" />
 ```
 
 ### 带 Icon 文字的按钮
 
 ```jsx
+import { Button } from 'tuya-panel-kit'
+
 <Button icon="selected" iconSize={24} text="文字" />
 ```
 
 ### 图标按钮（带背景渐变）
 
 ```jsx
+import { Button } from 'tuya-panel-kit'
+
 <Button
   textDirection="right"
   size={40}

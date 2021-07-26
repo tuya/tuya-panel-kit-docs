@@ -11,6 +11,8 @@ demo: /presentation/carousel
 ### 基础使用
 
 ```jsx
+import { Carousel } from 'tuya-panel-kit'
+
 <Carousel
   style={{ height: 200 }}
   selectedIndex={0}

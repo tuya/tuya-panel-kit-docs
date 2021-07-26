@@ -9,6 +9,8 @@ demo: /basic/unit-text
 ### 基本样式
 
 ```jsx
+import { UnitText } from 'tuya-panel-kit'
+
 <View>
   <UnitText unit="%" unitColor="green" />
   <UnitText unit={TuyaRNSvgs.celsius} unitColor="#9A3253" />
@@ -18,6 +20,8 @@ demo: /basic/unit-text
 ### 自定义大小
 
 ```jsx
+import { UnitText } from 'tuya-panel-kit'
+
 <View>
   <UnitText size={88} unit="%" unitColor="green" />
   <UnitText
@@ -33,6 +37,8 @@ demo: /basic/unit-text
 ### 自定义 UnitText 每个值的颜色
 
 ```jsx
+import { UnitText } from 'tuya-panel-kit'
+
 <View>
   <UnitText
     value="032"

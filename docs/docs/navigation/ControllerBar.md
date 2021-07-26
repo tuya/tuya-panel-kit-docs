@@ -11,6 +11,8 @@ demo: /navigation/controller-bar
 ### 基础底部栏
 
 ```jsx
+import { ControllerBar } from 'tuya-panel-kit'
+
 <ControllerBar
   size={44}
   button={[
@@ -23,6 +25,8 @@ demo: /navigation/controller-bar
 ### ControllerBar.Group base 版
 
 ```jsx
+import { ControllerBar } from 'tuya-panel-kit'
+
 <ControllerBar.Group style={{ marginTop: 20 }}>
   <ControllerBar
     size={44}
@@ -44,6 +48,8 @@ demo: /navigation/controller-bar
 ### ControllerBar.Group Swiper 版
 
 ```jsx
+import { ControllerBar } from 'tuya-panel-kit'
+
 <ControllerBar.Group
   type="swiper"
   style={{ marginTop: 20 }}
@@ -74,6 +80,8 @@ demo: /navigation/controller-bar
 ### ControllerBar divide 版
 
 ```jsx
+import { ControllerBar } from 'tuya-panel-kit'
+
 <ControllerBar.Group type="divide" style={{ marginTop: 20 }}>
   <ControllerBar
     size={44}

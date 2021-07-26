@@ -9,6 +9,8 @@ demo: /presentation/radial-gradient
 ### Radial gradient from yellow to blue outwards
 
 ```jsx
+import { RadialGradient } from 'tuya-panel-kit'
+
 <RadialGradient
   gradientId="Gradient1"
   style={{ width: 300, height: 200, marginLeft: 10 }}
@@ -36,6 +38,8 @@ demo: /presentation/radial-gradient
 ### Radial gradient from red-yellow-pink outward
 
 ```jsx
+import { RadialGradient } from 'tuya-panel-kit'
+
 <RadialGradient
   gradientId="Gradient2"
   style={{ width: 300, height: 200, marginLeft: 10 }}
@@ -68,6 +72,8 @@ demo: /presentation/radial-gradient
 ### Add a radial gradient effect to the panel background in the business
 
 ```jsx
+import { RadialGradient } from 'tuya-panel-kit'
+
 import _ from 'lodash';
 import React from 'react';
 import { View } from 'react-native';
@@ -75,7 +81,9 @@ import { NavigatorLayout } from 'tuya-panel-kit';
 import composeLayout from './composeLayout';
 import configureStore from './redux/configureStore';
 import { routers } from './config';
+
 export const store = configureStore();
+
 class MainLayout extends NavigatorLayout {
   hookRoute(route) {
     return {

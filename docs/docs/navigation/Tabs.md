@@ -11,6 +11,8 @@ demo: /navigation/tabs
 > 一屏默认显示四个 Tab 标签，可通过 **maxItem** 自定义控制一屏显示数量；<br />如果 dataSource 长度超过 **maxItem** 则会自动成为多屏；
 
 ```jsx
+import { Tabs } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   activeKey1: '1',
   d1: [
@@ -31,6 +33,8 @@ const [state, setState] = React.useState({
 ### 多屏 Tabs
 
 ```jsx
+import { Tabs } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   activeKey2: '3',
   d2: [
@@ -55,6 +59,8 @@ const [state, setState] = React.useState({
 ### 基础 Tabs（无状态组件）
 
 ```jsx
+import { Tabs } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   d2: [
     { value: '1', label: '姓名' },
@@ -74,6 +80,8 @@ const [state, setState] = React.useState({
 ### 单独使用 TabContent - 左右滑动
 
 ```jsx
+import { Tabs } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   activeIndex: 0,
   d1: [
@@ -100,6 +108,8 @@ const handleRelease = (gestureState, index) =>
 ### 标签页配合 TabContent
 
 ```jsx
+import { Tabs } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   activeKey1: '1',
   d1: [
@@ -142,6 +152,8 @@ const [state, setState] = React.useState({
 ### 多屏存在内容的 Tabs
 
 ```jsx
+import { Tabs } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   activeKey2: '3',
   d2: [
@@ -183,6 +195,8 @@ const Panel = ({ title, largeData, ...rest }) => {
 ### 嵌套的 Tabs
 
 ```jsx
+import { Tabs } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   activeKey1: '1',
   activeKey2: '3',

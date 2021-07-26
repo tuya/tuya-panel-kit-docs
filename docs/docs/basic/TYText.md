@@ -9,12 +9,16 @@ demo: /basic/tytext
 ### 基本样式
 
 ```jsx
+import { TYText } from 'tuya-panel-kit'
+
 <TYText color="red" text="我是涂鸦er" weight="bold" size={24} />
 ```
 
 ### 搭配 size 和 type 使用
 
 ```jsx
+import { TYText } from 'tuya-panel-kit'
+
 <View>
   <TYText size="small" type="paragraph" text="涂小鸭" />
   <TYText
@@ -28,6 +32,8 @@ demo: /basic/tytext
 ```
 
 ```jsx
+import { TYText } from 'tuya-panel-kit'
+
 <View>
   <TYText size="normal" type="paragraph" text="涂小鸭" />
   <TYText
@@ -41,6 +47,8 @@ demo: /basic/tytext
 ```
 
 ```jsx
+import { TYText } from 'tuya-panel-kit'
+
 <View>
   <TYText size="large" type="paragraph" text="涂小鸭" />
   <TYText

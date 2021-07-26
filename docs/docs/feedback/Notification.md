@@ -9,6 +9,8 @@ demo: /feedback/notification
 ### 警告通知
 
 ```jsx
+import { Notification } from 'tuya-panel-kit'
+
 Notification.show({
   message: '警告提示框',
   onClose: () => {

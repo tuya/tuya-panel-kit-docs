@@ -9,6 +9,8 @@ demo: /feedback/global-toast
 ### 基础使用
 
 ```jsx
+import { GlobalToast } from 'tuya-panel-kit'
+
 GlobalToast.show({
   text: '提示性文案建议最多展示十六个字符',
   showIcon: false,
@@ -23,6 +25,8 @@ GlobalToast.show({
 ### 加载使用
 
 ```jsx
+import { GlobalToast } from 'tuya-panel-kit'
+
 GlobalToast.show({
   text: '设置成功',
   onFinish: () => {

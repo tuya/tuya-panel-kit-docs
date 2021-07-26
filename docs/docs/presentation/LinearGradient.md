@@ -9,6 +9,8 @@ demo: /presentation/linear-gradient
 ### 垂直两段渐变
 
 ```jsx
+import { LinearGradient } from 'tuya-panel-kit'
+
 <LinearGradient
   gradientId="Gradient1"
   style={{
@@ -33,6 +35,8 @@ demo: /presentation/linear-gradient
 ### 斜向三段渐变
 
 ```jsx
+import { LinearGradient } from 'tuya-panel-kit'
+
 <LinearGradient
   gradientId="Gradient2"
   style={{ width: 300, height: 200, marginLeft: 20, marginVertical: 20 }}
@@ -53,6 +57,8 @@ demo: /presentation/linear-gradient
 ### 面板背景渐变
 
 ```jsx
+import { LinearGradient } from 'tuya-panel-kit'
+
 import _ from 'lodash';
 import React from 'react';
 import { View } from 'react-native';

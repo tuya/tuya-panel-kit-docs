@@ -9,6 +9,8 @@ demo: /presentation/collapsible
 ### 基础使用
 
 ```jsx
+import { Collapsible } from 'tuya-panel-kit'
+
 const [collapsed, setCollapsed] = React.useState(false);
 
 <Collapsible

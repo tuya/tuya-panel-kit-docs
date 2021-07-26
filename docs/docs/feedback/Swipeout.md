@@ -9,6 +9,8 @@ demo: /feedback/swipeout
 ### 左侧滑
 
 ```jsx
+import { Swipeout } from 'tuya-panel-kit'
+
 <Swipeout
   autoClose={true}
   left={[
@@ -36,6 +38,8 @@ demo: /feedback/swipeout
 ### 右侧滑
 
 ```jsx
+import { Swipeout } from 'tuya-panel-kit'
+
 <Swipeout
   autoClose={true}
   right={[
@@ -63,6 +67,8 @@ demo: /feedback/swipeout
 ### 禁用侧滑
 
 ```jsx
+import { Swipeout } from 'tuya-panel-kit'
+
 <Swipeout
   autoClose={true}
   disabled={true}
