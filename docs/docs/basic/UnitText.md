@@ -10,6 +10,7 @@ demo: /basic/unit-text
 
 ```jsx
 import { UnitText } from 'tuya-panel-kit'
+import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 
 <View>
   <UnitText unit="%" unitColor="green" />
@@ -21,6 +22,7 @@ import { UnitText } from 'tuya-panel-kit'
 
 ```jsx
 import { UnitText } from 'tuya-panel-kit'
+import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 
 <View>
   <UnitText size={88} unit="%" unitColor="green" />
@@ -38,6 +40,7 @@ import { UnitText } from 'tuya-panel-kit'
 
 ```jsx
 import { UnitText } from 'tuya-panel-kit'
+import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 
 <View>
   <UnitText
