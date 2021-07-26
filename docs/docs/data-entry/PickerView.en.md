@@ -11,7 +11,7 @@ demo: /data-entry/picker-view
 ### Basice Usage
 
 ```jsx
-import { PickerView } from 'tuya-panel-kit'
+import { Picker } from 'tuya-panel-kit'
 
 const languages = ['杭州', '温州', '宁波', '绍兴', '嵊州', '金华'];
 const [value, setValue] = React.useState('宁波');
@@ -33,7 +33,7 @@ const [value, setValue] = React.useState('宁波');
 ### Multiple column selector
 
 ```jsx
-import { PickerView } from 'tuya-panel-kit'
+import { Picker } from 'tuya-panel-kit'
 
 const weeks = [
   {

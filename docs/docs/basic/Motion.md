@@ -11,7 +11,7 @@ demo: /basic/motion
 ```jsx
 import { Motion } from 'tuya-panel-kit'
 
-  const [fadeShow, setFadeShow] = React.useState(false);
+const [fadeShow, setFadeShow] = React.useState(false);
 
 <Motion.Fade
   style={{ position: 'absolute', bottom: 50 }}
@@ -25,7 +25,7 @@ import { Motion } from 'tuya-panel-kit'
 ```jsx
 import { Motion } from 'tuya-panel-kit'
 
-  const [pullUpShow, setPullUpShow] = React.useState(false);
+const [pullUpShow, setPullUpShow] = React.useState(false);
 
 <Motion.PullUp
   style={{ position: 'absolute', bottom: 50 }}

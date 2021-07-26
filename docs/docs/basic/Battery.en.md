@@ -36,7 +36,7 @@ const calcColor = (top, highColor, middleColor, lowColor) => {
   }
   return lowColor;
 };
-...
+
 <Battery value={60} size={30} onCalcColor={calcColor} middleColor="#999" />
 ```
 
