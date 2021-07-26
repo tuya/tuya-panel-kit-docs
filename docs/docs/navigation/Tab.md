@@ -9,6 +9,8 @@ demo: /navigation/tab
 ### 基础展示
 
 ```jsx
+import { Tab } from 'tuya-panel-kit'
+
 const [state, set] = React.useState({ tab: 'Tab 1' })
 const setState = value => set({ ...state, ...value })
 const tabPaneArr = ['Tab 1', 'Tab 2', 'Tab 3', 'Tab 4']

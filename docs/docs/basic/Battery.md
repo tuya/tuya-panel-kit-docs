@@ -9,18 +9,24 @@ demo: /basic/battery
 ### 基础使用
 
 ```jsx
+import { Battery } from 'tuya-panel-kit'
+
 <Battery value={60} />
 ```
 
 ### 本地主题
 
 ```jsx
+import { Battery } from 'tuya-panel-kit'
+
 <Battery value={40} size={30} theme={{ batteryColor: 'rgba(167,98,43,.5)' }} />
 ```
 
 ### 修改电量颜色分配规则
 
 ```jsx
+import { Battery } from 'tuya-panel-kit'
+
 const calcColor = (top, highColor, middleColor, lowColor) => {
   // 0-10%: 红色   10%-60%: 黑色    60%-100%: 绿色
   if (top <= 8.4 && top >= 3) {
@@ -30,7 +36,7 @@ const calcColor = (top, highColor, middleColor, lowColor) => {
   }
   return lowColor;
 };
-...
+
 <Battery value={60} size={30} onCalcColor={calcColor} middleColor="#999" />
 ```
 

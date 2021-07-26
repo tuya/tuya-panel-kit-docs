@@ -13,12 +13,16 @@ demo: /basic/brick-button
 ### Text BrickButton
 
 ```jsx
+import { BrickButton } from 'tuya-panel-kit'
+
 <BrickButton text="loading" loading={true} />
 ```
 
 ### Gradient background button
 
 ```jsx
+import { BrickButton } from 'tuya-panel-kit'
+
 <BrickButton
   loading={true}
   loadingSize="large"

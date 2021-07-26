@@ -9,6 +9,8 @@ demo: /feedback/notification-legacy
 ### Warning
 
 ```jsx
+import { NotificationLegacy } from 'tuya-panel-kit'
+
 <NotificationLegacy message="I am Notification" />
 ```
 

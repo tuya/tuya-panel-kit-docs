@@ -9,12 +9,16 @@ demo: /presentation/divider
 ### Basic form
 
 ```jsx
+import { Divider } from 'tuya-panel-kit'
+
 <Divider color="red" width={300} style={{ marginLeft: 30 }} />
 ```
 
 ### Block form display
 
 ```jsx
+import { Divider } from 'tuya-panel-kit'
+
 <Divider
   color="#333"
   width={300}

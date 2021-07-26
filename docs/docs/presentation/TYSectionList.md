@@ -9,6 +9,8 @@ demo: /presentation/tysection-list
 ### 基础列表
 
 ```jsx
+import { TYSectionList } from 'tuya-panel-kit'
+
 const [state, set] = React.useState({
   value: -1,
   sliderValue: 50,

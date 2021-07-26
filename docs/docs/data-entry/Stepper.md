@@ -9,6 +9,8 @@ demo: /data-entry/stepper
 ### 风格一
 
 ```jsx
+import { Stepper } from 'tuya-panel-kit'
+
 <Stepper value={0} editable={false} />
 <Stepper value={21} disabled={true} />'
 <Stepper value={93.5} stepValue={0.5} inputStyle={{ width: 40 }} editable={false} />
@@ -18,6 +20,8 @@ demo: /data-entry/stepper
 ### 风格二
 
 ```jsx
+import { Stepper } from 'tuya-panel-kit'
+
 <Stepper buttonType="triangle" value={0} editable={false} />
 <Stepper value={24} buttonType="triangle" disabled={true} />
 <Stepper

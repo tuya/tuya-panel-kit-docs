@@ -11,6 +11,8 @@ demo: /feedback/dialog
 ### Alert Dialog
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 Dialog.alert({
   title: 'Title',
   subTitle: 'Sub Title',
@@ -24,6 +26,8 @@ Dialog.alert({
 ### Confirm Dialog
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 Dialog.confirm({
   title: 'Title',
   subTitle: 'Sub Title',
@@ -38,6 +42,8 @@ Dialog.confirm({
 ### Prompt Dialog（UnControlled）
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   promptUnControlled: '',
 });
@@ -59,6 +65,8 @@ Dialog.prompt({
 ### Prompt Dialog（Controlled）
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   promptControlled: '',
 });
@@ -88,6 +96,8 @@ Dialog.prompt({
 ### Single Selection Checkbox Dialog
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   checkValueRadio: 'code1',
 });
@@ -126,6 +136,8 @@ Dialog.checkbox({
 ### Multi Selection Checkbox Dialog
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   checkValueSwitch: ['code1'],
 });
@@ -177,6 +189,8 @@ Dialog.checkbox({
 ### List Dialog
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 Dialog.list({
   title: 'Ttile',
   subTitle: 'Content',
@@ -198,6 +212,8 @@ Dialog.list({
 ### Custom Diglog
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 Dialog.custom({
   title: 'Custom',
   cancelText: 'Cancel',

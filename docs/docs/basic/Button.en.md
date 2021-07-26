@@ -9,24 +9,32 @@ demo: /basic/button
 ### Plain text button
 
 ```jsx
+import { Button } from 'tuya-panel-kit'
+
 <Button text="Click me" />
 ```
 
 ### Pure icon button
 
 ```jsx
+import { Button } from 'tuya-panel-kit'
+
 <Button icon="power" />
 ```
 
 ### Button with Icon text
 
 ```jsx
+import { Button } from 'tuya-panel-kit'
+
 <Button icon="selected" iconSize={24} text="Text" />
 ```
 
 ### Icon button (with background gradient)
 
 ```jsx
+import { Button } from 'tuya-panel-kit'
+
 <Button
   textDirection="right"
   size={40}

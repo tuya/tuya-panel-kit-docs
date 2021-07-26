@@ -9,6 +9,8 @@ demo: /data-entry/timer-picker
 ### Basic use of time period selector
 
 ```jsx
+import { TimerPicker } from 'tuya-panel-kit'
+
 const [time, setTime] = React.useState({ startTime: 0, endTime: 0 });
 
 <TimerPicker
@@ -22,6 +24,8 @@ const [time, setTime] = React.useState({ startTime: 0, endTime: 0 });
 ### Time period selector with prefix position
 
 ```jsx
+import { TimerPicker } from 'tuya-panel-kit'
+
 const [time, setTime] = React.useState({ startTime: 0, endTime: 0 });
 
 <TimerPicker

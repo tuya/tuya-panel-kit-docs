@@ -9,6 +9,8 @@ demo: /data-entry/slider
 ### Horizontal slider - basic style
 
 ```jsx
+import { Slider } from 'tuya-panel-kit'
+
 const [value, setValue] = React.useState(25);
 
 <Slider.Horizontal
@@ -39,6 +41,8 @@ const [value, setValue] = React.useState(25);
 ### Horizontal parcel type slider
 
 ```jsx
+import { Slider } from 'tuya-panel-kit'
+
 const [value, setValue] = React.useState(25);
 <Slider.Horizontal
   theme={{
@@ -75,6 +79,8 @@ const [value, setValue] = React.useState(25);
 ### Horizontal parcel custom thumb Slider
 
 ```jsx
+import { Slider } from 'tuya-panel-kit'
+
 const [value, setValue] = React.useState(25);
 <Slider.Horizontal
   theme={{
@@ -132,6 +138,8 @@ const [value, setValue] = React.useState(25);
 ### Horizontal package with graduated slider
 
 ```jsx
+import { Slider } from 'tuya-panel-kit'
+
 const [value, setValue] = React.useState(25);
 <Slider.Horizontal
   theme={{
@@ -172,6 +180,8 @@ const [value, setValue] = React.useState(25);
 ### Horizontal graduated slider
 
 ```tsx
+import { Slider } from 'tuya-panel-kit'
+
 const [value, setValue] = React.useState(25);
 
 <Slider.Horizontal
@@ -199,6 +209,8 @@ const [value, setValue] = React.useState(25);
 ### Vertical slider
 
 ```jsx
+import { Slider } from 'tuya-panel-kit'
+
 const [value, setValue] = React.useState(25);
 const sliderView = {
   width: 28,

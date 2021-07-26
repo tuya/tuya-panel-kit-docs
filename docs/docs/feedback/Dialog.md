@@ -11,6 +11,8 @@ demo: /feedback/dialog
 ### 警告框
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 Dialog.alert({
   title: '标题',
   subTitle: '副标题',
@@ -24,6 +26,8 @@ Dialog.alert({
 ### 提示框
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 Dialog.confirm({
   title: '标题',
   subTitle: '副标题',
@@ -38,6 +42,8 @@ Dialog.confirm({
 ### 输入对话框（非受控）
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   promptUnControlled: '',
 });
@@ -59,6 +65,8 @@ Dialog.prompt({
 ### 输入对话框（受控）
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   promptControlled: '',
 });
@@ -88,6 +96,8 @@ Dialog.prompt({
 ### 单选对话框
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   checkValueRadio: 'code1',
 });
@@ -126,6 +136,8 @@ Dialog.checkbox({
 ### 多选对话框
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   checkValueSwitch: ['code1'],
 });
@@ -177,6 +189,8 @@ Dialog.checkbox({
 ### 列表对话框
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 Dialog.list({
   title: '这是标题',
   subTitle: '这是内容',
@@ -198,6 +212,8 @@ Dialog.list({
 ### 自定义对话框
 
 ```jsx
+import { Dialog } from 'tuya-panel-kit'
+
 Dialog.custom({
   title: 'Custom',
   cancelText: '取消',

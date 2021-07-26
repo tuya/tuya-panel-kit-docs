@@ -9,6 +9,8 @@ demo: /presentation/progress
 ### Basic usage
 
 ```jsx
+import { Progress } from 'tuya-panel-kit'
+
 <Progress
   foreColor={{
     '0%': '#1381FB',
@@ -27,12 +29,16 @@ demo: /presentation/progress
 ### Spacing form
 
 ```jsx
+import { Progress } from 'tuya-panel-kit'
+
 <Progress.Space strokeWidth={2} scaleNumber={70} style={{ width: 100, height: 100 }} />
 ```
 
 ### Double drag form
 
 ```jsx
+import { Progress } from 'tuya-panel-kit'
+
 <Progress.Double
   foreColor={{
     '0%': '#1381FB',
@@ -46,6 +52,8 @@ demo: /presentation/progress
 ### Combination form
 
 ```jsx
+import { Progress } from 'tuya-panel-kit'
+
 <Progress.Compose style={{ width: 100, height: 100 }} />
 ```
 

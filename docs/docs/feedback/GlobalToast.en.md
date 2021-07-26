@@ -9,6 +9,8 @@ demo: /feedback/global-toast
 ### Basic Usage
 
 ```jsx
+import { GlobalToast } from 'tuya-panel-kit'
+
 GlobalToast.show({
   text: 'Suggestions for suggestive copywriting display up to 16 characters',
   showIcon: false,
@@ -23,6 +25,8 @@ GlobalToast.show({
 ### 加载使用
 
 ```jsx
+import { GlobalToast } from 'tuya-panel-kit'
+
 GlobalToast.show({
   text: 'Set successfully',
   onFinish: () => {

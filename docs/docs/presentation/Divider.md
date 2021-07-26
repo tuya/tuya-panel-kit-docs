@@ -9,12 +9,16 @@ demo: /presentation/divider
 ### 基础形式
 
 ```jsx
+import { Divider } from 'tuya-panel-kit'
+
 <Divider color="red" width={300} style={{ marginLeft: 30 }} />
 ```
 
 ### 块状形式展示
 
 ```jsx
+import { Divider } from 'tuya-panel-kit'
+
 <Divider
   color="#333"
   width={300}

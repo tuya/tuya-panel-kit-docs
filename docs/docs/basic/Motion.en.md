@@ -9,6 +9,8 @@ demo: /basic/motion
 ### fade in and fade out
 
 ```jsx
+import { Motion } from 'tuya-panel-kit'
+
 const [fadeShow, setFadeShow] = React.useState(false);
 
 <Motion.Fade
@@ -21,6 +23,8 @@ const [fadeShow, setFadeShow] = React.useState(false);
 ### Pull up and down
 
 ```jsx
+import { Motion } from 'tuya-panel-kit'
+
 const [pullUpShow, setPullUpShow] = React.useState(false);
 
 <Motion.PullUp
@@ -33,6 +37,8 @@ const [pullUpShow, setPullUpShow] = React.useState(false);
 ### Zoom in and fade in/out
 
 ```jsx
+import { Motion } from 'tuya-panel-kit'
+
 const [scaleFadeInShow, setScaleFadeInShow] = React.useState(false);
 const contentStyles = {
   width: 375,
@@ -52,6 +58,8 @@ const contentStyles = {
 ### Zoom in and fade in/down to fade out
 
 ```jsx
+import { Motion } from 'tuya-panel-kit'
+
 const [scalePullDownShow, setScalePullDownShow] = React.useState(false);
 const contentStyles = {
   width: 375,
@@ -70,6 +78,8 @@ const contentStyles = {
 ### Pull-down push
 
 ```jsx
+import { Motion } from 'tuya-panel-kit'
+
 const [pushDownShow, setPushDownShow] = React.useState(false);
 const contentStyles = {
   width: 375,
@@ -90,6 +100,8 @@ const contentStyles = {
 ### No operation zoom in/out
 
 ```jsx
+import { Motion } from 'tuya-panel-kit'
+
 const [toastShow, setToastShow] = React.useState(false);
 const contentStyles = {
   width: 375,

@@ -9,18 +9,24 @@ demo: /presentation/circle-view
 ### Basic Usage
 
 ```jsx
+import { CircleView } from 'tuya-panel-kit'
+
 <CircleView radius={30} color="red" />
 ```
 
 ### CircleView with border
 
 ```jsx
+import { CircleView } from 'tuya-panel-kit'
+
 <CircleView radius={30} color="#ff0" borderWidth={4} borderColor="#00f" />
 ```
 
 ### CircleView with embedded custom content
 
 ```jsx
+import { CircleView } from 'tuya-panel-kit'
+
 <CircleView
   radius={50}
   color="#0f0"

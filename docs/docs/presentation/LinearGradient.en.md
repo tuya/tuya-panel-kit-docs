@@ -9,6 +9,8 @@ demo: /presentation/linear-gradient
 ### Two vertical gradients
 
 ```jsx
+import { LinearGradient } from 'tuya-panel-kit'
+
 <LinearGradient
   gradientId="Gradient1"
   style={{
@@ -33,6 +35,8 @@ demo: /presentation/linear-gradient
 ### Oblique three-stage gradient
 
 ```jsx
+import { LinearGradient } from 'tuya-panel-kit'
+
 <LinearGradient
   gradientId="Gradient2"
   style={{ width: 300, height: 200, marginLeft: 20, marginVertical: 20 }}
@@ -53,6 +57,8 @@ demo: /presentation/linear-gradient
 ### Panel background gradient
 
 ```jsx
+import { LinearGradient } from 'tuya-panel-kit'
+
 import _ from 'lodash';
 import React from 'react';
 import { View } from 'react-native';

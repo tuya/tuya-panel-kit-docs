@@ -9,6 +9,8 @@ demo: /feedback/popup
 ### Countdown popup layer
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   countdown: 0,
 });
@@ -31,6 +33,8 @@ Popup.countdown({
 ### Date selection popup
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   date: new Date(),
 });
@@ -56,6 +60,8 @@ Popup.datePicker({
 ### Time period selection pop-up layer
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   timerPickerValue: [0, 0],
 });
@@ -78,6 +84,8 @@ Popup.timerPicker({
 ### Number selection pop-up layer
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   numberValue: 0,
 });
@@ -100,6 +108,8 @@ Popup.numberSelector({
 ### List selection pop-up layer (single selection)
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   listValue: '1',
 });
@@ -145,6 +155,8 @@ Popup.list({
 ### List selection pop-up layer (multiple selection)
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   listValues: ['1'],
 });
@@ -179,6 +191,8 @@ Popup.list({
 ### Picker select pop-up layer (single choice)
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   pickerValue: '1',
 });
@@ -210,6 +224,8 @@ Popup.picker({
 ### Picker select pop-up layer (multiple choice)
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   pickerValues: ['b', '2', 'm'],
 });
@@ -264,18 +280,13 @@ Popup.picker({
   cancelText: 'Cancel',
   confirmText: 'Confirm',
   value: state.pickerValues,
-  label: ['$', '%'],
-  onMaskPress: ({ close }) => close(),
-  onConfirm: (value, idx, { close }) => {
-    setState({ pickerValues: value });
-    close();
-  },
-});
-```
+  label: ['
 
 ### Costom Popup
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 Popup.custom({
   content: (
     <View
@@ -302,10 +313,66 @@ Popup.custom({
 ### Toast Popup
 
 ```jsx
+import { Popup } from 'tuya-panel-kit'
+
 Popup.toast({
   message: 'I am Toast',
 });
 ```
+
+## API
+
+### Popup Common
+
+extends <HLink to="Modal#api">ModalProps</HLink>
+
+<API name="PopupProps" ></API>
+
+### Popup.countdown
+
+<API name="PopUpCountdownProps" ></API>
+
+### Popup.datePicker
+
+<API name="PopupDatePickerProps" ></API>
+
+### Popup.list
+
+extends [TYFlatListProps]()
+
+<API name="PopUpListProps" ></API>
+
+### Popup.numberSelector
+
+<API name="PopupNumberSelectorProps" ></API>
+
+### Popup.picker
+
+<API name="PopupPickerProps" ></API>
+
+### Popup.timerPicker
+
+<API name="PopupTimerPickerProps" ></API>
+
+### Popup.custom
+
+<API name="PopupCustomProps" ></API>
+, '%'],
+  onMaskPress: ({ close }) => close(),
+  onConfirm: (value, idx, { close }) => {
+    setState({ pickerValues: value });
+    close();
+  },
+});
+```
+
+### Costom Popup
+
+__$$8________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+### Toast Popup
+
+__$$9________________________________________________
 
 ## API
 

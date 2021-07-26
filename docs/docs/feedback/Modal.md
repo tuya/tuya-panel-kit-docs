@@ -9,6 +9,8 @@ demo: /feedback/modal
 ### 基本用法
 
 ```jsx
+import { Modal } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({ basicVisible: false });
 const textStyle = {
   height: 64,
@@ -30,6 +32,8 @@ const textStyle = {
 ### 倒计时弹出层
 
 ```jsx
+import { Modal } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   countDownVisible: false,
   countdown: 0,
@@ -55,6 +59,8 @@ const handleCountDownConfirm = ({ hour, minute }) =>
 ### 日期选择弹出层
 
 ```jsx
+import { Modal } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   datePickerVisible: false,
   date: new Date(),
@@ -83,6 +89,8 @@ const handleDatePickerConfirm = date =>
 ### 列表选择弹出层（单选）
 
 ```jsx
+import { Modal } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   listOneVisible: false,
   listValue: '1',
@@ -105,6 +113,8 @@ const closeListOneModal = () => setState({ listOneVisible: false });
 ### 列表选择弹出层（多选）
 
 ```jsx
+import { Modal } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   listMoreVisible: false,
   listValues: ['1'],
@@ -127,6 +137,8 @@ const closeListMoreModal = () => setState({ listMoreVisible: false });
 ### Picker 选择弹出层
 
 ```jsx
+import { Modal } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   pickerOneVisible: false,
   pickerValue: '1',
