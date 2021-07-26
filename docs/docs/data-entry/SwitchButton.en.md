@@ -9,6 +9,8 @@ demo: /data-entry/switch-button
 ### Basic style 1
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 const [value1, setValue1] = React.useState(true);
 const [value2, setValue2] = React.useState(false);
 
@@ -25,6 +27,8 @@ const [value2, setValue2] = React.useState(false);
 ### Basic style 2
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 const [value1, setValue1] = React.useState(true);
 const [value2, setValue2] = React.useState(false);
 
@@ -48,6 +52,8 @@ const [value2, setValue2] = React.useState(false);
 ### Basic text style
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 const [value1, setValue1] = React.useState(true);
 const [value2, setValue2] = React.useState(false);
 
@@ -89,6 +95,8 @@ const [value2, setValue2] = React.useState(false);
 ### Icon style
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 const [value1, setValue1] = React.useState(true);
 const [value2, setValue2] = React.useState(false);
 
@@ -146,6 +154,8 @@ const [value2, setValue2] = React.useState(false);
 ### Slider animation style
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 const [value1, setValue1] = React.useState(true);
 const [value2, setValue2] = React.useState(false);
 
@@ -185,6 +195,8 @@ const [value2, setValue2] = React.useState(false);
 ### Gradient style
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 const [value1, setValue1] = React.useState(true);
 const [value2, setValue2] = React.useState(false);
 
@@ -218,6 +230,8 @@ const [value2, setValue2] = React.useState(false);
 ### Gradient text style
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 const [value1, setValue1] = React.useState(true);
 const [value2, setValue2] = React.useState(false);
 
@@ -247,6 +261,8 @@ const [value2, setValue2] = React.useState(false);
 ### Uncontrolled switch
 
 ```jsx
+import { SwitchButton } from 'tuya-panel-kit'
+
 <View>
   <SwitchButton
     defaultValue={true}

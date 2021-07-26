@@ -9,6 +9,8 @@ demo: /data-entry/timer-picker
 ### 时间段选择器基础使用
 
 ```jsx
+import { TimerPicker } from 'tuya-panel-kit'
+
 const [time, setTime] = React.useState({ startTime: 0, endTime: 0 });
 
 <TimerPicker
@@ -22,6 +24,8 @@ const [time, setTime] = React.useState({ startTime: 0, endTime: 0 });
 ### 时间段选择器配合前缀位置
 
 ```jsx
+import { TimerPicker } from 'tuya-panel-kit'
+
 const [time, setTime] = React.useState({ startTime: 0, endTime: 0 });
 
 <TimerPicker

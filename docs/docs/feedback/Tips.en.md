@@ -9,6 +9,8 @@ demo: /feedback/tips
 ### Bubble - top left
 
 ```jsx
+import { Tips } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   topLeft: false,
   topCenter: false,
@@ -34,6 +36,8 @@ const bigTips = {
 ### Bubble - top center
 
 ```jsx
+import { Tips } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   topCenter: false,
 });
@@ -54,6 +58,8 @@ const bigTips = {
 ### Bubble - top right
 
 ```jsx
+import { Tips } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   topRight: false,
 });
@@ -74,6 +80,8 @@ const bigTips = {
 ### Bubble -bottom left
 
 ```jsx
+import { Tips } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   bottomLeft: false,
 });
@@ -94,6 +102,8 @@ const bigTips = {
 ### Bubble -bottom center
 
 ```jsx
+import { Tips } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   bottomCenter: false,
 });
@@ -114,6 +124,8 @@ const bigTips = {
 ### Bubble -bottom right
 
 ```jsx
+import { Tips } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   bottomRight: false,
 });

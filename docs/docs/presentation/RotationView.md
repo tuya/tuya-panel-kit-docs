@@ -9,6 +9,8 @@ demo: /presentation/rotation-view
 ### 绕边缘转圈形式
 
 ```jsx
+import { RotationView } from 'tuya-panel-kit'
+
 <RotationView
   style={{ width: 160, height: 160, marginLeft: 80, marginTop: 20 }}
   active={true}
@@ -30,6 +32,8 @@ demo: /presentation/rotation-view
 ### 绕中心转圈
 
 ```jsx
+import { RotationView } from 'tuya-panel-kit'
+
 <RotationView
   style={{ width: 160, height: 160, marginLeft: 100, marginTop: 40 }}
   active={true}

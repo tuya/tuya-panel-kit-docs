@@ -9,6 +9,8 @@ demo: /feedback/tips
 ### 气泡 - 上左
 
 ```jsx
+import { Tips } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   topLeft: false,
 });
@@ -29,6 +31,8 @@ const bigTips = {
 ### 气泡 - 上中
 
 ```jsx
+import { Tips } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   topCenter: false,
 });
@@ -49,6 +53,8 @@ const bigTips = {
 ### 气泡 - 上右
 
 ```jsx
+import { Tips } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   topRight: false,
 });
@@ -69,6 +75,8 @@ const bigTips = {
 ### 气泡 - 下左
 
 ```jsx
+import { Tips } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   bottomLeft: false,
 });
@@ -89,6 +97,8 @@ const bigTips = {
 ### 气泡 - 下中
 
 ```jsx
+import { Tips } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   bottomCenter: false,
 });
@@ -109,6 +119,8 @@ const bigTips = {
 ### 气泡 - 下右
 
 ```jsx
+import { Tips } from 'tuya-panel-kit'
+
 const [state, setState] = React.useState({
   bottomRight: false,
 });

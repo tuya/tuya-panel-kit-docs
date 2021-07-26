@@ -9,6 +9,8 @@ demo: /presentation/progress
 ### 基础形式
 
 ```jsx
+import { Progress } from 'tuya-panel-kit'
+
 <Progress
   foreColor={{
     '0%': '#1381FB',
@@ -27,12 +29,16 @@ demo: /presentation/progress
 ### 间距形式
 
 ```jsx
+import { Progress } from 'tuya-panel-kit'
+
 <Progress.Space strokeWidth={2} scaleNumber={70} style={{ width: 100, height: 100 }} />
 ```
 
 ### 双边拖动形式
 
 ```jsx
+import { Progress } from 'tuya-panel-kit'
+
 <Progress.Double
   foreColor={{
     '0%': '#1381FB',
@@ -46,6 +52,8 @@ demo: /presentation/progress
 ### 组合形式
 
 ```jsx
+import { Progress } from 'tuya-panel-kit'
+
 <Progress.Compose style={{ width: 100, height: 100 }} />
 ```
 

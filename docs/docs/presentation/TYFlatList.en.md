@@ -9,6 +9,8 @@ demo: /presentation/tyflat-list
 ### Basic list
 
 ```jsx
+import { TYFlatList } from 'tuya-panel-kit'
+
 const data = [
   {
     key: 0,

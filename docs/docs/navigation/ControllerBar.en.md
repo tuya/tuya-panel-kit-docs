@@ -11,6 +11,8 @@ demo: /navigation/controller-bar
 ### Basic Bottom Bar
 
 ```jsx
+import { ControllerBar } from 'tuya-panel-kit'
+
 <ControllerBar
   size={44}
   button={[
@@ -23,6 +25,8 @@ demo: /navigation/controller-bar
 ### ControllerBar.Group base version
 
 ```jsx
+import { ControllerBar } from 'tuya-panel-kit'
+
 <ControllerBar.Group style={{ marginTop: 20 }}>
   <ControllerBar
     size={44}
@@ -44,6 +48,8 @@ demo: /navigation/controller-bar
 ### ControllerBar.Group Swiper version
 
 ```jsx
+import { ControllerBar } from 'tuya-panel-kit'
+
 <ControllerBar.Group
   type="swiper"
   style={{ marginTop: 20 }}
@@ -74,6 +80,8 @@ demo: /navigation/controller-bar
 ### ControllerBar divide version
 
 ```jsx
+import { ControllerBar } from 'tuya-panel-kit'
+
 <ControllerBar.Group type="divide" style={{ marginTop: 20 }}>
   <ControllerBar
     size={44}

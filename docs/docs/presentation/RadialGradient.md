@@ -9,6 +9,8 @@ demo: /presentation/radial-gradient
 ### 向外进行由黄色-蓝色的径向渐变
 
 ```jsx
+import { RadialGradient } from 'tuya-panel-kit'
+
 <RadialGradient
   gradientId="Gradient1"
   style={{ width: 300, height: 200, marginLeft: 10 }}
@@ -36,6 +38,8 @@ demo: /presentation/radial-gradient
 ### 向外进行由红色-黄色-粉色的径向渐变
 
 ```jsx
+import { RadialGradient } from 'tuya-panel-kit'
+
 <RadialGradient
   gradientId="Gradient2"
   style={{ width: 300, height: 200, marginLeft: 10 }}
@@ -68,6 +72,8 @@ demo: /presentation/radial-gradient
 ### 业务中给面板背景添加径向渐变效果
 
 ```jsx
+import { RadialGradient } from 'tuya-panel-kit'
+
 import _ from 'lodash';
 import React from 'react';
 import { View } from 'react-native';
@@ -75,7 +81,9 @@ import { NavigatorLayout } from 'tuya-panel-kit';
 import composeLayout from './composeLayout';
 import configureStore from './redux/configureStore';
 import { routers } from './config';
+
 export const store = configureStore();
+
 class MainLayout extends NavigatorLayout {
   hookRoute(route) {
     return {

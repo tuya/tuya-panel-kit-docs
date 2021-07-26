@@ -9,18 +9,24 @@ demo: /basic/battery
 ### Base usage
 
 ```jsx
+import { Battery } from 'tuya-panel-kit'
+
 <Battery value={60} />
 ```
 
 ### Custom theme
 
 ```jsx
+import { Battery } from 'tuya-panel-kit'
+
 <Battery value={40} size={30} theme={{ batteryColor: 'rgba(167,98,43,.5)' }} />
 ```
 
 ### Modify the battery color allocation rules
 
 ```jsx
+import { Battery } from 'tuya-panel-kit'
+
 const calcColor = (top, highColor, middleColor, lowColor) => {
   // 0-10%: red  10%-60%: black   60%-100%: green
   if (top <= 8.4 && top >= 3) {

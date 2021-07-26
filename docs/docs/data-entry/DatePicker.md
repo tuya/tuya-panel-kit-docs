@@ -13,6 +13,8 @@ demo: /data-entry/date-picker
 ### 受控日期选择器
 
 ```jsx
+import { DatePicker } from 'tuya-panel-kit'
+
 const [selectDate, setDate] = React.useState(new Date());
 
 <DatePicker
@@ -25,6 +27,8 @@ const [selectDate, setDate] = React.useState(new Date());
 ### 非受控日期选择器
 
 ```jsx
+import { DatePicker } from 'tuya-panel-kit'
+
 <DatePicker
   style={{ marginTop: 50 }}
   defaultDate={new Date()}

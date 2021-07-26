@@ -9,6 +9,8 @@ demo: /data-entry/slider-with-line
 ### 水平滑动选择器
 
 ```jsx
+import { SliderWithLine } from 'tuya-panel-kit'
+
  <SliderWithLine
   stepValue={1}
   onSlidingComplete={value => console.log(value, 'res')}
@@ -27,6 +29,10 @@ demo: /data-entry/slider-with-line
 ### 竖直滑动选择器
 
 ```jsx
+import { SliderWithLine, Utils } from 'tuya-panel-kit'
+
+const { convertX: cx } = Utils.RatioUtils;
+
 <SliderWithLine
   horizontal={false}
   // onSlidingStart={value => console.log(value, 'res')}

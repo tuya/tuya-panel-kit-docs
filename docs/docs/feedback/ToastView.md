@@ -9,6 +9,8 @@ demo: /feedback/toast-view
 ### 成功提示
 
 ```jsx
+import { ToastView } from 'tuya-panel-kit'
+
 const [successShow, setSuccessShow] = React.useState(false);
 
 <Toast.Success
@@ -21,6 +23,8 @@ const [successShow, setSuccessShow] = React.useState(false);
 ### 警示提示
 
 ```jsx
+import { ToastView } from 'tuya-panel-kit'
+
 const [warningShow, setWarningShow] = React.useState(false);
 
 <Toast.Warning
@@ -33,6 +37,8 @@ const [warningShow, setWarningShow] = React.useState(false);
 ### 错误提示
 
 ```jsx
+import { ToastView } from 'tuya-panel-kit'
+
 const [errorShow, setErrorShow] = React.useState(false);
 
 <Toast.Error
@@ -45,6 +51,8 @@ const [errorShow, setErrorShow] = React.useState(false);
 ### 加载提示
 
 ```jsx
+import { ToastView } from 'tuya-panel-kit'
+
 const [loadingShow, setLoadingShow] = React.useState(false);
 
 <Toast.Loading show={loadingShow} onFinish={() => setLoadingShow(false)} />
@@ -53,6 +61,8 @@ const [loadingShow, setLoadingShow] = React.useState(false);
 ### 轻提示
 
 ```jsx
+import { ToastView } from 'tuya-panel-kit'
+
 const [show, setShow] = React.useState(false);
 
 <Toast show={show} text="I'm toastView!!!" onFinish={() => setShow(false)} />

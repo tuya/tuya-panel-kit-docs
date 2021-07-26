@@ -9,6 +9,8 @@ demo: /basic/slider-progress
 ### 单边进度条
 
 ```jsx
+import { SliderProgress } from 'tuya-panel-kit'
+
 const [state, set] = React.useState({ value: 6 });
 const setState = value => set({ ...state, ...value });
 ...
@@ -18,6 +20,8 @@ const setState = value => set({ ...state, ...value });
 ### 双边进度条
 
 ```jsx
+import { SliderProgress } from 'tuya-panel-kit'
+
 const [state, set] = React.useState({ values: [20, 90] });
 const setState = value => set({ ...state, ...value });
 ...
