@@ -9,7 +9,7 @@ demo: /feedback/toast-view
 ### Success tips
 
 ```jsx
-import { ToastView } from 'tuya-panel-kit'
+import { Toast } from 'tuya-panel-kit'
 
 const [successShow, setSuccessShow] = React.useState(false);
 
@@ -23,7 +23,7 @@ const [successShow, setSuccessShow] = React.useState(false);
 ### Warning tips
 
 ```jsx
-import { ToastView } from 'tuya-panel-kit'
+import { Toast } from 'tuya-panel-kit'
 
 const [warningShow, setWarningShow] = React.useState(false);
 
@@ -37,7 +37,7 @@ const [warningShow, setWarningShow] = React.useState(false);
 ### Error tips
 
 ```jsx
-import { ToastView } from 'tuya-panel-kit'
+import { Toast } from 'tuya-panel-kit'
 
 const [errorShow, setErrorShow] = React.useState(false);
 
@@ -51,7 +51,7 @@ const [errorShow, setErrorShow] = React.useState(false);
 ### Loading tips
 
 ```jsx
-import { ToastView } from 'tuya-panel-kit'
+import { Toast } from 'tuya-panel-kit'
 
 const [loadingShow, setLoadingShow] = React.useState(false);
 
@@ -61,7 +61,7 @@ const [loadingShow, setLoadingShow] = React.useState(false);
 ### Light prompt
 
 ```jsx
-import { ToastView } from 'tuya-panel-kit'
+import { Toast } from 'tuya-panel-kit'
 
 const [show, setShow] = React.useState(false);
 
