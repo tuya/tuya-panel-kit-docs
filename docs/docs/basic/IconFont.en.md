@@ -1,8 +1,13 @@
 ---
 title: IconFont
-desc: '`IconFont` is a semantic vector icon。The built-in icon TuyaRNSvgs comes from `tuya-panel-kit/src/components/iconfont/svg/defaultSvg`。'
 demo: /basic/icon-font
 ---
+
+<Desc>
+
+`IconFont` is a semantic vector icon。The built-in icon TuyaRNSvgs comes from [tuya-panel-kit/src/components/iconfont/svg/defaultSvg](https://github.com/tuya/tuya-panel-kit/blob/master/packages/tuya-panel-kit/src/components/iconfont/svg/defaultSvg.js)。
+
+</Desc>
 
 ## Code demo
 

@@ -1,8 +1,13 @@
 ---
 title: IconFont 图标
-desc: '`IconFont` 是语义化的矢量图标。内置图标 TuyaRNSvgs 来自于 `tuya-panel-kit/src/components/iconfont/svg/defaultSvg`。'
 demo: /basic/icon-font
 ---
+
+<Desc>
+
+`IconFont` 是语义化的矢量图标。内置图标 TuyaRNSvgs 来自于 [tuya-panel-kit/src/components/iconfont/svg/defaultSvg](https://github.com/tuya/tuya-panel-kit/blob/master/packages/tuya-panel-kit/src/components/iconfont/svg/defaultSvg.js)。
+
+</Desc>
 
 ## 代码演示
 
