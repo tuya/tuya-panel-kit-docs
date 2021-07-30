@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@nodelib/fs.walk": "^1.2.8",
-    "@tuya/dumi-theme-tuya": "^2.1.1",
+    "@tuya/dumi-theme-tuya": "^2.1.2",
     "babel-plugin-import": "^1.13.3",
     "cheerio": "^1.0.0-rc.10",
     "dumi": "^1.1.16",
