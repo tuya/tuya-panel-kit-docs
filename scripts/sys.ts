@@ -7,6 +7,8 @@ export namespace sys {
   export const readFile = promisify(fs.readFile)
   const mkdir = promisify(fs.mkdir)
 
+  export const log = console.log
+
   export const mkDirPath = async (path: string): Promise<void> => {
     if (fs.existsSync(path)) {
       return
