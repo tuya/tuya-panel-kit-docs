@@ -29,8 +29,11 @@ const list = [
 
 const dest = resolve(__dirname, '../../public/shields.json');
 
+const purgeCdn = () => sys.get('https://purge.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/shields.json')
+
 export const renderShields = async () => {
   const result = await Promise.all(list.map(parseSvg));
+  sys.log(await purgeCdn())
   await sys.writeFile(
     dest,
     JSON.stringify(
