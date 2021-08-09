@@ -9,51 +9,35 @@ demo: /presentation/collapsible
 ### Basic Usage
 
 ```jsx
-import { Collapsible } from 'tuya-panel-kit'
+import { Button, Collapsible, Utils } from 'tuya-panel-kit';
+
+const { convertX: cx } = Utils.RatioUtils;
 
 const [collapsed, setCollapsed] = React.useState(false);
 
+<Button
+  stretch={true}
+  onPress={() => setCollapsed(!collapsed)}
+  text="Click expand"
+  textStyle={{
+    fontSize: cx(14),
+  }}
+  style={{
+    height: 40,
+    backgroundColor: '#fff',
+    width: '100%',
+    borderColor: '#F5F5F6',
+    borderTopWidth: 1,
+  }}
+/>
 <Collapsible
   collapsed={collapsed}
-  onChange={() => {}}
   align="top"
   style={{
-    width: 375,
     height: 260,
-    backgroundColor: '#ff0',
-    justifyContent: 'center',
-    alignItems: 'center',
+    backgroundColor: '#fff',
   }}
->
-  <View
-    style={{
-      width: 308,
-      height: 185,
-      borderRadius: 28,
-      backgroundColor: '#ddd',
-      justifyContent: 'center',
-      alignItems: 'center',
-    }}
-  >
-    <TYText
-      style={{
-        textAlign: 'center',
-        color: '#666',
-        fontSize: 20,
-      }}
-      text="Talk is cheap, show me the code."
-    />
-    <TYText
-      style={{
-        marginTop: 30,
-        textAlign: 'center',
-        color: '#666',
-        fontSize: 16,
-      }}
-      text="Respond to ever-changing things with no change, no tricks."
-    />
-  </View>
-</Collapsible>
+/>
 ```
 
 ## API
