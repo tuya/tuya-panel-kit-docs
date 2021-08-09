@@ -9,7 +9,9 @@ demo: /feedback/swipeout
 ### 左侧滑
 
 ```jsx
-import { Swipeout } from 'tuya-panel-kit'
+import { Swipeout, IconFont, Utils } from 'tuya-panel-kit'
+
+const { convertX: cx } = Utils.RatioUtils;
 
 export const Icons = {
   Heart: (
@@ -59,7 +61,9 @@ export const Icons = {
 ### 右侧滑
 
 ```jsx
-import { Swipeout } from 'tuya-panel-kit'
+import { Swipeout, IconFont, Utils } from 'tuya-panel-kit'
+
+const { convertX: cx } = Utils.RatioUtils;
 
 export const Icons = {
   DeleteIcon: (
