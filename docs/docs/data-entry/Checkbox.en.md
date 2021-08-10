@@ -9,60 +9,69 @@ demo: /data-entry/checkbox
 ### Basic Usage
 
 ```jsx
-import { Checkbox } from 'tuya-panel-kit'
+import { Checkbox, Utils } from 'tuya-panel-kit'
+
+const { convertX: cx } = Utils.RatioUtils;
 
 const [checked, setChecked] = React.useState(false);
 
-<Checkbox checked={checked} onChange={checked => setChecked(checked)}>
-  Checkbox
+<Checkbox
+  color="#F84803"
+  checked={checked.checked1}
+  onChange={value => setChecked({ checked1: value })}
+>
+  Checkbox1
+</Checkbox>
+<Checkbox
+  color="#F84803"
+  checked={checked.checked2}
+  style={{ marginTop: cx(8) }}
+  onChange={value => setChecked({ checked2: value })}
+>
+  Checkbox2
 </Checkbox>
 ```
 
 ### disable status
 
 ```jsx
-import { Checkbox } from 'tuya-panel-kit'
+import { Checkbox, Utils } from 'tuya-panel-kit'
 
-<View>
-  <Checkbox color="red" checked={false} disabled={true} hideOnUnselect={true}>
-    Checkbox
-  </Checkbox>
-  <Checkbox checked={true} disabled={true} style={{ marginLeft: 30 }}>
-    Checkbox
-  </Checkbox>
-</View>
+const { convertX: cx } = Utils.RatioUtils;
+
+<Checkbox color="red" checked={true} disabled={true}>
+  Checkbox
+</Checkbox>
+<Checkbox checked={false} disabled={true} style={{ marginTop: cx(8) }}>
+  Checkbox
+</Checkbox>
 ```
 
 ### Custom color and size
 
 ```jsx
-import { Checkbox } from 'tuya-panel-kit'
+import { Checkbox, Utils } from 'tuya-panel-kit'
+
+const { convertX: cx } = Utils.RatioUtils;
 
 const [checked, setChecked] = React.useState(false);
 
 <Checkbox
-  size={30}
-  color="red"
-  checked={checked}
-  onChange={checked => setChecked(checked)}
+  size={cx(22)}
+  color="#3BEB56"
+  checked={checked.checked1}
+  onChange={value => setChecked({ checked1: value })}
 >
-  Checkbox
+  Checkbox1
 </Checkbox>
-```
-
-### Flip icon and child element position
-
-```jsx
-import { Checkbox } from 'tuya-panel-kit'
-
-const [checked, setChecked] = React.useState(false);
-
 <Checkbox
-  reverse={true}
-  checked={checked}
-  onChange={checked => setChecked(checked)}
+  size={cx(22)}
+  color="#3BEB56"
+  checked={checked.checked2}
+  style={{ marginTop: cx(8) }}
+  onChange={value => setChecked({ checked2: value })}
 >
-  Checkbox
+    Checkbox2
 </Checkbox>
 ```
 
