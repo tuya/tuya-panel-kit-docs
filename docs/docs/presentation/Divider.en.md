@@ -25,6 +25,19 @@ const { convertX: cx } = Utils.RatioUtils;
 </View>
 ```
 
+### Block form display
+
+```jsx
+import { Divider } from 'tuya-panel-kit'
+
+<Divider
+  color="#333"
+  width={300}
+  height={30}
+  style={{ marginLeft: 30, marginTop: 10 }}
+/>
+```
+
 ## API
 
 <API name="DividerProps" />
