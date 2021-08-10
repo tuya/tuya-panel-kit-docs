@@ -39,6 +39,7 @@ const [value, setValue] = React.useState(25);
 import { Slider } from 'tuya-panel-kit'
 
 const [value, setValue] = React.useState(25);
+
 <Slider.Horizontal
   theme={{
     width: 318,
@@ -86,7 +87,7 @@ const [value, setValue] = React.useState(25);
     trackHeight: 46,
     thumbSize: 20,
     thumbRadius: 20,
-    thumbTintColor: '#57BCFB',
+    thumbTintColor: '#F84803',
     minimumTrackTintColor: '#E3E9EE',
     maximumTrackTintColor: '#E3E9EE',
   }}
@@ -147,66 +148,6 @@ const [value, setValue] = React.useState(25);
     thumbSize: 20,
     thumbRadius: 20,
     thumbTintColor: '#F84803',
-    minimumTrackTintColor: '#E3E9EE',
-    maximumTrackTintColor: '#E3E9EE',
-  }}
-  value={value}
-  maximumValue={100}
-  minimumValue={0}
-  style={{ marginBottom: 10 }}
-  thumbTouchSize={{ width: 46, height: 46 }}
-  thumbStyle={{
-    shadowOffset: {
-      width: 0,
-      height: 0,
-    },
-    shadowOpacity: 0,
-    shadowRadius: 0,
-    elevation: 0,
-    justifyContent: 'center',
-    alignItems: 'center',
-  }}
-  type="parcel"
-  renderMinimumTrack={() => (
-    <View
-      style={{
-        height: 38,
-        borderRadius: 14,
-        backgroundColor: '#F84803',
-        marginHorizontal: 4,
-      }}
-    />
-  )}
-  renderThumb={() => (
-    <View
-      style={{
-        height: 14,
-        borderRadius: 5.5,
-        width: 3,
-        backgroundColor: '#FFF',
-      }}
-    />
-  )}
-  onSlidingComplete={v => setValue(Math.round(v))}
-/>
-```
-
-### Horizontal graduated slider
-
-```tsx
-import { Slider } from 'tuya-panel-kit'
-
-const [value, setValue] = React.useState(25);
-
-<Slider.Horizontal
-  theme={{
-    width: 318,
-    height: 46,
-    trackRadius: 16,
-    trackHeight: 46,
-    thumbSize: 20,
-    thumbRadius: 20,
-    thumbTintColor: '#F84803',
     minimumTrackTintColor: '#F84803',
     maximumTrackTintColor: '#E3E9EE',
   }}
@@ -235,6 +176,36 @@ const [value, setValue] = React.useState(25);
 />
 ```
 
+### Horizontal graduated slider
+
+```tsx
+import { Slider } from 'tuya-panel-kit'
+
+const [value, setValue] = React.useState(25);
+
+<Slider.Horizontal
+  theme={{
+    width: 318,
+    height: 6,
+    trackRadius: 3,
+    trackHeight: 6,
+    thumbSize: 26,
+    thumbRadius: 26,
+    thumbTintColor: '#FFF',
+    minimumTrackTintColor: '#F84803',
+    maximumTrackTintColor: '#E3E9EE',
+  }}
+  value={value}
+  stepValue={25}
+  useNoun={true}
+  minNounStyle={{ backgroundColor: 'white' }}
+  maxNounStyle={{ backgroundColor: '#F84803' }}
+  maximumValue={100}
+  minimumValue={0}
+  onValueChange={value => setValue(value)}
+/>
+```
+
 ### Vertical slider
 
 ```jsx
@@ -242,6 +213,7 @@ import { Slider } from 'tuya-panel-kit'
 
 const [value, setValue] = React.useState(25);
 
+{/* 1 */}
 <Slider.Vertical
   theme={{
     thumbSize: 26,
@@ -257,6 +229,7 @@ const [value, setValue] = React.useState(25);
   value={value}
   onSlidingComplete={v => setValue(Math.round(v))}
 />
+{/* 2 */}
 <Slider.Vertical
   theme={{
     thumbSize: 20,
@@ -286,6 +259,7 @@ const [value, setValue] = React.useState(25);
   )}
   onSlidingComplete={v => setValue(Math.round(v))}
 />
+{/* 3 */}
 <Slider.Vertical
   theme={{
     maximumTrackTintColor: '#E3E9EE',
@@ -337,6 +311,7 @@ const [value, setValue] = React.useState(25);
   )}
   onSlidingComplete={v => setValue(Math.round(v))}
 />
+{/* 4 */}
 <Slider.Vertical
   theme={{
     thumbSize: 20,
@@ -370,6 +345,7 @@ const [value, setValue] = React.useState(25);
   maxNounStyle={{ backgroundColor: '#F84803' }}
   onSlidingComplete={v => setValue(Math.round(v))}
 />
+{/* 5 */}
 <Slider.Vertical
   theme={{
     thumbSize: 26,
