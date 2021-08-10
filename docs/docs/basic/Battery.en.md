@@ -11,7 +11,10 @@ demo: /basic/battery
 ```jsx
 import { Battery } from 'tuya-panel-kit'
 
-<Battery value={60} />
+<Battery value={100} />
+<Battery value={50} />
+<Battery value={20} />
+<Battery value={10} />
 ```
 
 ### Custom theme
@@ -19,7 +22,7 @@ import { Battery } from 'tuya-panel-kit'
 ```jsx
 import { Battery } from 'tuya-panel-kit'
 
-<Battery value={40} size={30} theme={{ batteryColor: 'rgba(167,98,43,.5)' }} />
+<Battery value={100} theme={{ batteryColor: '#FF4800' }} />
 ```
 
 ### Modify the battery color allocation rules
