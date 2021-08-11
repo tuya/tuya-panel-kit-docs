@@ -11,60 +11,69 @@ demo: /data-entry/checkbox
 ### 基础使用
 
 ```jsx
-import { Checkbox } from 'tuya-panel-kit'
+import { Checkbox, Utils } from 'tuya-panel-kit'
+
+const { convertX: cx } = Utils.RatioUtils;
 
 const [checked, setChecked] = React.useState(false);
 
-<Checkbox checked={checked} onChange={checked => setChecked(checked)}>
-  单选框
+<Checkbox
+  color="#F84803"
+  checked={checked.checked1}
+  onChange={value => setChecked({ checked1: value })}
+>
+  单选框1
+</Checkbox>
+<Checkbox
+  color="#F84803"
+  checked={checked.checked2}
+  style={{ marginTop: cx(8) }}
+  onChange={value => setChecked({ checked2: value })}
+>
+  单选框2
 </Checkbox>
 ```
 
 ### 禁用状态
 
 ```jsx
-import { Checkbox } from 'tuya-panel-kit'
+import { Checkbox, Utils } from 'tuya-panel-kit'
 
-<View>
-  <Checkbox color="red" checked={false} disabled={true} hideOnUnselect={true}>
-    单选框
-  </Checkbox>
-  <Checkbox checked={true} disabled={true} style={{ marginLeft: 30 }}>
-    单选框
-  </Checkbox>
-</View>
+const { convertX: cx } = Utils.RatioUtils;
+
+<Checkbox color="red" checked={true} disabled={true}>
+  单选框
+</Checkbox>
+<Checkbox checked={false} disabled={true} style={{ marginTop: cx(8) }}>
+  单选框
+</Checkbox>
 ```
 
 ### 自定义颜色和大小
 
 ```jsx
-import { Checkbox } from 'tuya-panel-kit'
+import { Checkbox, Utils } from 'tuya-panel-kit'
+
+const { convertX: cx } = Utils.RatioUtils;
 
 const [checked, setChecked] = React.useState(false);
 
 <Checkbox
-  size={30}
-  color="red"
-  checked={checked}
-  onChange={checked => setChecked(checked)}
+  size={cx(22)}
+  color="#3BEB56"
+  checked={checked.checked1}
+  onChange={value => setChecked({ checked1: value })}
 >
-  单选框
+ 单选框1
 </Checkbox>
-```
-
-### 翻转图标和子元素位置
-
-```jsx
-import { Checkbox } from 'tuya-panel-kit'
-
-const [checked, setChecked] = React.useState(false);
-
 <Checkbox
-  reverse={true}
-  checked={checked}
-  onChange={checked => setChecked(checked)}
+  size={cx(22)}
+  color="#3BEB56"
+  checked={checked.checked2}
+  style={{ marginTop: cx(8) }}
+  onChange={value => setChecked({ checked2: value })}
 >
-  单选框
+  单选框2
 </Checkbox>
 ```
 

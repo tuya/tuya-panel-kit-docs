@@ -15,7 +15,10 @@ demo: /basic/brick-button
 ```jsx
 import { BrickButton } from 'tuya-panel-kit'
 
-<BrickButton text="loading" loading={true} />
+<BrickButton
+  text="button"
+  wrapperStyle={{ backgroundColor: '#F84803' }}
+/>
 ```
 
 ### Gradient background button
@@ -24,7 +27,7 @@ import { BrickButton } from 'tuya-panel-kit'
 import { BrickButton } from 'tuya-panel-kit'
 
 <BrickButton
-  loading={true}
+  text="button"
   loadingSize="large"
   type="primaryGradient"
   background={{
@@ -33,9 +36,8 @@ import { BrickButton } from 'tuya-panel-kit'
     x2: '0%',
     y2: '100%',
     stops: {
-      '0%': 'red',
-      '30%': 'blue',
-      '100%': 'yellow',
+      '0%': '#F97E05',
+      '100%': '#F84803',
     },
   }}
 />
