@@ -16,16 +16,15 @@ import { LinearGradient } from 'tuya-panel-kit'
   style={{
     width: 300,
     height: 200,
-    marginLeft: 20,
-    marginVertical: 20,
+    marginLeft: 24,
   }}
   x1="0%"
   y1="0%"
   x2="0%"
   y2="100%"
   stops={{
-    '0%': 'red',
-    '100%': 'yellow',
+    '0%': '#F99833',
+    '100%': '#F84803',
   }}
 >
   <Rect width={300} height={200} />
@@ -39,15 +38,15 @@ import { LinearGradient } from 'tuya-panel-kit'
 
 <LinearGradient
   gradientId="Gradient2"
-  style={{ width: 300, height: 200, marginLeft: 20, marginVertical: 20 }}
+  style={{ width: 300, height: 200, marginLeft: 24 }}
   x1="100%"
   y1="0%"
   x2="0%"
   y2="100%"
   stops={{
-    '0%': 'red',
-    '30%': 'blue',
-    '100%': 'yellow',
+    '0%': '#61FF00',
+    '60%': '#FFC600',
+    '100%': '#FF4800',
   }}
 >
   <Rect width={300} height={200} />

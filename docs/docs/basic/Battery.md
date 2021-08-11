@@ -6,20 +6,23 @@ demo: /basic/battery
 
 ## 代码演示
 
-### 基础使用
+### 基础样式
 
 ```jsx
 import { Battery } from 'tuya-panel-kit'
 
-<Battery value={60} />
+<Battery value={100} />
+<Battery value={50} />
+<Battery value={20} />
+<Battery value={10} />
 ```
 
-### 本地主题
+### 本地主题色
 
 ```jsx
 import { Battery } from 'tuya-panel-kit'
 
-<Battery value={40} size={30} theme={{ batteryColor: 'rgba(167,98,43,.5)' }} />
+<Battery value={100} theme={{ batteryColor: '#FF4800' }} />
 ```
 
 ### 修改电量颜色分配规则
