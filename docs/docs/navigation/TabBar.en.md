@@ -12,6 +12,7 @@ demo: /navigation/tab-bar
 import { TabBar } from 'tuya-panel-kit'
 
 const [tab, setTab] = React.useState('2');
+
 const tabs = Array.from(Array(10), (v, k) => k + 1).map(v => {
   return { key: `${v}`, title: `Tab${v}` };
 });
@@ -20,16 +21,23 @@ const tabs = Array.from(Array(10), (v, k) => k + 1).map(v => {
   tabs={tabs}
   activeKey={tab}
   onChange={value => setTab(value)}
-  underlineStyle={{ width: 20 }}
+  underlineStyle={{ width: 20, backgroundColor: '#F84803' }}
+  tabActiveTextStyle={{
+    color: '#F84803',
+  }}
+  tabTextStyle={{ color: 'rgba(41, 50, 61, 0.4)' }}
 />
 ```
 
 ### radio type
 
 ```jsx
-import { TabBar } from 'tuya-panel-kit'
+import { TabBar, Utils } from 'tuya-panel-kit'
+
+const { convertX: cx } = Utils.RatioUtils;
 
 const [tabRadio, setTabRadio] = React.useState('2');
+
 const tabRadios = Array.from(Array(3), (v, k) => k + 1).map(v => {
   return {
     key: `${v}`,
@@ -45,11 +53,13 @@ const tabRadios = Array.from(Array(3), (v, k) => k + 1).map(v => {
   activeKey={tabRadio}
   onChange={value => setTabRadio(value)}
   style={{
-    borderColor: 'red',
-    backgroundColor: '#000',
-    height: 54,
-    borderRadius: 27,
     marginTop: 10,
+    height: cx(42),
+    borderRadius: cx(21),
+    backgroundColor: '#E5E5E5',
+  }}
+  tabActiveTextStyle={{
+    color: '#F84803',
   }}
 />
 ```

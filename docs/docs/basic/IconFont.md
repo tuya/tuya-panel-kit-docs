@@ -15,36 +15,35 @@ demo: /basic/icon-font
 
 ```jsx
 import { IconFont } from 'tuya-panel-kit'
-import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 
-<View>
-  <IconFont name="0" style={{ marginRight: 25 }} />
-  <IconFont d={TuyaRNSvgs.plus} />
-</View>
+<IconFont name="arrow" />
+<IconFont name="backAndroid" />
+<IconFont name="backIos" />
+<IconFont name="celsius" />
 ```
 
 ### 图标颜色
 
 ```jsx
 import { IconFont } from 'tuya-panel-kit'
-import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 
-<View>
-  <IconFont name="error" style={{ marginRight: 25 }} />
-  <IconFont d={TuyaRNSvgs.error} color="red" />
-</View>
+<IconFont color="#F84803" name="arrow" />
+<IconFont color="#F84803" name="backAndroid" />
+<IconFont color="#F84803" name="backIos" />
+<IconFont color="#F84803" name="celsius" />
 ```
 
 ### 图标大小
 
 ```jsx
-import { IconFont } from 'tuya-panel-kit'
-import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
+import { IconFont, Utils } from 'tuya-panel-kit';
 
-<View>
-  <IconFont name="power" style={{ marginRight: 25 }} />
-  <IconFont d={TuyaRNSvgs.power} size={50 * 0.72} />
-</View>
+const { convertX: cx } = Utils.RatioUtils;
+
+<IconFont color="#F84803" size={cx(14)} name="arrow" />
+<IconFont color="#F84803" size={cx(24)} name="backAndroid" />
+<IconFont color="#F84803" size={cx(34)} name="backIos" />
+<IconFont color="#F84803" size={cx(44)} name="celsius" />
 ```
 
 ## API
