@@ -324,10 +324,10 @@
   resolved "https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.1.tgz#a6ca6a9a0ff366af433f42f5f0e124794ff6b8f1"
   integrity sha512-FTgBI767POY/lKNDNbIzgAX6miIDBs6NTCbdlDb8TrWovHsSvaVIZDlTqym29C6UqhzwcJx4CYr+AlrMywA0cA==
 
-"@tuya/dumi-theme-tuya@^2.1.7":
-  version "2.1.7"
-  resolved "https://registry.npmjs.org/@tuya/dumi-theme-tuya/-/dumi-theme-tuya-2.1.7.tgz#52bef26d05de5334f20cc050de9fa72a3605dc6b"
-  integrity sha512-o8aH3n52WkxGhIaO7ZKVbqKnGod+S84G+hbQ+8A4gSwOQKKecWeV40+8T8RtUU/TQ9OaVD3Cg2LJDQD4u7VQXQ==
+"@tuya/dumi-theme-tuya@^2.1.8":
+  version "2.1.8"
+  resolved "https://registry.npmjs.org/@tuya/dumi-theme-tuya/-/dumi-theme-tuya-2.1.8.tgz#78f45133027d61db98b1cf2026374c631e0bc8f3"
+  integrity sha512-2IOnRjM31KurjmtHT9r1HTeY1kXjTNuaV+E24r4POJO/1pwE7GeAlP1Ki+FUHkSENJtOWSflk8NFQO0UZmqGrw==
   dependencies:
     antd "^4.16.6"
     axios "^0.21.1"
