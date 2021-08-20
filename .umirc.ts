@@ -46,7 +46,8 @@ export default defineConfig({
         : 'https://tuya.github.io/tuya-panel-kit/',
     demoInfoUrl:
       'https://github.com/tuya/tuya-panel-kit/tree/master/example/src/pages{demo}/index.tsx',
-    typeAssetsUrl: 'http://localhost:8000/types-assets.json',
+    typeAssetsUrl:
+      'https://cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/types-assets.json',
   },
   navs: {
     zh: [
