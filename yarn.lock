@@ -448,7 +448,7 @@
   dependencies:
     "@types/react" "^16"
 
-"@types/react-native@*":
+"@types/react-native@*", "@types/react-native@^0.64.13":
   version "0.64.13"
   resolved "https://registry.nlark.com/@types/react-native/download/@types/react-native-0.64.13.tgz#9e57b85631380b75979a09f5a97e1884299e8d5a"
   integrity sha1-nle4VjE4C3WXmgn1qX4YhCmejVo=
