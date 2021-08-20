@@ -55,6 +55,7 @@ export namespace sys {
   export async function pipeline(jobs: { [jobName: string]: Function }) {
     const jobNames = Object.keys(jobs);
     const jobCount = jobNames.length;
+    console.time('job');
     await jobNames.reduce(
       (prev, key, i) =>
         prev.then(() => {
@@ -63,6 +64,7 @@ export namespace sys {
         }),
       Promise.resolve(),
     );
+    console.timeEnd('job');
   }
 
   export const compose = <T>(...fns: Array<(value: T) => T>) =>
