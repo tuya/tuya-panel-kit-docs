@@ -29,6 +29,7 @@ export const twoslasheTypes = async () => {
         /\`\`\`([\s\S]*?)\n([\s\S]*?)\n\`\`\`/g,
         file.content,
       )
+        .filter(item => ['tsx', 'jsx', 'js', 'ts'].includes(item[1].trim()))
         .map(item => item[2])
         .filter(_ => !!_);
       return acc.concat({
