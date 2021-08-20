@@ -33,7 +33,7 @@ export default defineConfig({
     repository: {
       url: 'https://github.com/TuyaInc/tuya-panel-kit-docs',
       branch: 'main',
-      platform: 'github'
+      platform: 'github',
     },
     qrcode:
       'tuyaSmart--addVirtualDev?productId=mvhcrizelobov3dw&token=release_common_component',
@@ -42,9 +42,11 @@ export default defineConfig({
     demoUrl:
       process.env.NODE_ENV === 'development'
         ? // ? 'http://localhost:8001'
-        'https://tuya.github.io/tuya-panel-kit/'
+          'https://tuya.github.io/tuya-panel-kit/'
         : 'https://tuya.github.io/tuya-panel-kit/',
-    demoInfoUrl: 'https://github.com/tuya/tuya-panel-kit/tree/master/example/src/pages{demo}/index.tsx'
+    demoInfoUrl:
+      'https://github.com/tuya/tuya-panel-kit/tree/master/example/src/pages{demo}/index.tsx',
+    typeAssetsUrl: 'http://localhost:8000/types-assets.json',
   },
   navs: {
     zh: [
@@ -108,9 +110,12 @@ export default defineConfig({
   publicPath: isProd
     ? '//cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/'
     : '/',
-  headScripts: [{
-    async: true,
-    src: '//static1.tuyacn.com/static/ty-lib/tpm3/tpm-3.3.11.min.js?appId=panel-docs'
-  }],
+  headScripts: [
+    {
+      async: true,
+      src:
+        '//static1.tuyacn.com/static/ty-lib/tpm3/tpm-3.3.11.min.js?appId=panel-docs',
+    },
+  ],
   // more config: https://d.umijs.org/config
 } as IConfig);
