@@ -13,13 +13,13 @@
     />
     <link
       rel="stylesheet"
-      href="//cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/umi.0627a4dc.css"
+      href="//cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/umi.998f76bd.css"
     />
     <script>
       window.routerBase = "/";
     </script>
     <script>
-      //! umi version: 3.4.25
+      //! umi version: 3.5.17
     </script>
     <script
       async="true"
@@ -32,7 +32,7 @@
           r = ["light", "dark", "auto"];
         document.documentElement.setAttribute(
           "data-prefers-color",
-          e === r[2] ? (t ? r[1] : r[0]) : r.includes(e) ? e : r[0]
+          e === r[2] ? (t ? r[1] : r[0]) : r.indexOf(e) > -1 ? e : r[0]
         );
       })();
     </script>
@@ -45,6 +45,6 @@
   window.g_initialProps = {};
 	</script>
 
-    <script src="//cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/umi.93babdd3.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/umi.208772f7.js"></script>
   </body>
 </html>
