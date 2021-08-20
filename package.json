@@ -24,6 +24,7 @@
   "devDependencies": {
     "@saber2pr/ts-compiler": "^0.1.8",
     "@tuya/dumi-theme-tuya": "^2.1.9",
+    "@types/react-native": "^0.64.13",
     "@types/tuya-panel-kit": "^4.0.8",
     "@typescript/twoslash": "^3.0.0",
     "babel-plugin-import": "^1.13.3",
