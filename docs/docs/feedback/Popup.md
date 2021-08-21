@@ -280,7 +280,15 @@ Popup.picker({
   cancelText: '取消',
   confirmText: '确认',
   value: state.pickerValues,
-  label: ['
+  label: ['$', '%'],
+  onMaskPress: ({ close }) => close(),
+  onConfirm: (value, idx, { close }) => {
+    setState({ pickerValues: value });
+    close();
+  },
+})
+```
+
 
 ### 自定义弹出层
 
