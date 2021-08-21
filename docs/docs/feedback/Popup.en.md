@@ -280,7 +280,14 @@ Popup.picker({
   cancelText: 'Cancel',
   confirmText: 'Confirm',
   value: state.pickerValues,
-  label: ['
+  label: ['$', '%'],
+  onMaskPress: ({ close }) => close(),
+  onConfirm: (value, idx, { close }) => {
+    setState({ pickerValues: value });
+    close();
+  },
+})
+```
 
 ### Costom Popup
 
