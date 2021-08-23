@@ -18,6 +18,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           cname: panel-docs.tuyacn.com
-        
+
       - name: Update CDN
-        run: curl https://purge.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/shields.json
+        run: |
+          curl https://purge.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/shields.json
+          curl https://cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/types-assets.json
