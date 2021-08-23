@@ -28,7 +28,7 @@ const bigTips = {
 <Tips
   show={state.topLeft}
   contentStyle={bigTips}
-  bgColor="#00f"
+  bgColor="#333333"
   cornerPosition="topLeft"
 />
 ```
@@ -50,7 +50,7 @@ const bigTips = {
 <Tips
   show={state.topCenter}
   contentStyle={bigTips}
-  bgColor="#00f"
+  bgColor="#333333"
   cornerPosition="topCenter"
 />
 ```
@@ -72,7 +72,7 @@ const bigTips = {
 <Tips
   show={state.topRight}
   contentStyle={bigTips}
-  bgColor="#00f"
+  bgColor="#333333"
   cornerPosition="topRight"
 />
 ```
@@ -94,7 +94,7 @@ const bigTips = {
 <Tips
   show={state.bottomLeft}
   contentStyle={bigTips}
-  bgColor="#00f"
+  bgColor="#333333"
   cornerPosition="bottomLeft"
 />
 ```
@@ -116,7 +116,7 @@ const bigTips = {
 <Tips
   show={state.bottomCenter}
   contentStyle={bigTips}
-  bgColor="#00f"
+  bgColor="#333333"
   cornerPosition="bottomCenter"
 />
 ```
@@ -138,7 +138,7 @@ const bigTips = {
 <Tips
   show={state.bottomRight}
   contentStyle={bigTips}
-  bgColor="#00f"
+  bgColor="#333333"
   cornerPosition="bottomRight"
 />
 ```

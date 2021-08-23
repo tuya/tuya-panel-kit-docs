@@ -23,7 +23,7 @@ const [value, setValue] = React.useState(25);
     thumbRadius: 26,
     thumbTintColor: '#FFF',
     minimumTrackTintColor: '#F84803',
-    maximumTrackTintColor: '#E3E9EE',
+    maximumTrackTintColor: '#E5E5E5',
   }}
   maximumValue={100}
   minimumValue={0}
@@ -49,8 +49,12 @@ const [value, setValue] = React.useState(25);
     thumbSize: 20,
     thumbRadius: 20,
     thumbTintColor: '#FFF',
-    minimumTrackTintColor: '#E3E9EE',
-    maximumTrackTintColor: '#E3E9EE',
+    minimumTrackTintColor: '#E5E5E5',
+    maximumTrackTintColor: '#E5E5E5',
+  }}
+  trackStyle={{
+    height: 35,
+    borderRadius: 18,
   }}
   maximumValue={100}
   minimumValue={0}
@@ -61,7 +65,7 @@ const [value, setValue] = React.useState(25);
   renderMinimumTrack={() => (
     <View
       style={{
-        height: 30,
+        height: 27,
         borderRadius: 15,
         backgroundColor: '#F84803',
         marginHorizontal: 3,
@@ -88,8 +92,12 @@ const [value, setValue] = React.useState(25);
     thumbSize: 20,
     thumbRadius: 20,
     thumbTintColor: '#F84803',
-    minimumTrackTintColor: '#E3E9EE',
-    maximumTrackTintColor: '#E3E9EE',
+    minimumTrackTintColor: '#E5E5E5',
+    maximumTrackTintColor: '#E5E5E5',
+  }}
+  trackStyle={{
+    height: 35,
+    borderRadius: 8,
   }}
   value={value}
   maximumValue={100}
@@ -105,14 +113,14 @@ const [value, setValue] = React.useState(25);
     shadowRadius: 0,
     elevation: 0,
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'flex-end',
   }}
   type="parcel"
   renderMinimumTrack={() => (
     <View
       style={{
-        height: 38,
-        borderRadius: 14,
+        height: 27,
+        borderRadius: 8,
         backgroundColor: '#F84803',
         marginHorizontal: 4,
       }}
@@ -149,7 +157,11 @@ const [value, setValue] = React.useState(25);
     thumbRadius: 20,
     thumbTintColor: '#F84803',
     minimumTrackTintColor: '#F84803',
-    maximumTrackTintColor: '#E3E9EE',
+    maximumTrackTintColor: '#E5E5E5',
+  }}
+  trackStyle={{
+    height: 35,
+    borderRadius: 8,
   }}
   value={value}
   style={{ marginBottom: 10 }}
@@ -193,13 +205,20 @@ const [value, setValue] = React.useState(25);
     thumbRadius: 26,
     thumbTintColor: '#FFF',
     minimumTrackTintColor: '#F84803',
-    maximumTrackTintColor: '#E3E9EE',
+    maximumTrackTintColor: '#E5E5E5',
   }}
+  trackStyle={{ height: 12, borderRadius: 8 }}
   value={value}
   stepValue={25}
   useNoun={true}
-  minNounStyle={{ backgroundColor: 'white' }}
-  maxNounStyle={{ backgroundColor: '#F84803' }}
+  thumbStyle={{ height: 22, width: 22 }}
+  minNounStyle={{ backgroundColor: 'white', height: 5, width: 5, borderRadius: 2.5 }}
+  maxNounStyle={{
+    backgroundColor: '#F84803',
+    height: 5,
+    width: 5,
+    borderRadius: 2.5,
+  }}
   maximumValue={100}
   minimumValue={0}
   onValueChange={value => setValue(value)}
@@ -219,7 +238,7 @@ const [value, setValue] = React.useState(25);
     thumbSize: 26,
     thumbRadius: 26,
     thumbTintColor: '#FFF',
-    minimumTrackTintColor: '#E3E9EE',
+    minimumTrackTintColor: '#E5E5E5',
     maximumTrackTintColor: '#F84803',
   }}
   maximumValue={100}
@@ -235,21 +254,21 @@ const [value, setValue] = React.useState(25);
     thumbSize: 20,
     thumbRadius: 20,
     thumbTintColor: '#FFF',
-    maximumTrackTintColor: '#E3E9EE',
-    minimumTrackTintColor: '#E3E9EE',
+    maximumTrackTintColor: '#E5E5E5',
+    minimumTrackTintColor: '#E5E5E5',
   }}
   type="parcel"
   maximumValue={100}
   minimumValue={0}
   reverseValue={true}
-  trackStyle={{ width: 36, height: 200, borderRadius: 18 }}
+  trackStyle={{ width: 35, height: 200, borderRadius: 18 }}
   style={{ marginHorizontal: 15 }}
   value={value}
   thumbTouchSize={{ width: 36, height: 36 }}
   renderMinimumTrack={() => (
     <View
       style={{
-        width: 30,
+        width: 27,
         borderRadius: 15,
         backgroundColor: '#F84803',
         marginVertical: 3,
@@ -262,11 +281,11 @@ const [value, setValue] = React.useState(25);
 {/* 3 */}
 <Slider.Vertical
   theme={{
-    maximumTrackTintColor: '#E3E9EE',
-    minimumTrackTintColor: '#E3E9EE',
+    maximumTrackTintColor: '#E5E5E5',
+    minimumTrackTintColor: '#E5E5E5',
   }}
   type="parcel"
-  trackStyle={{ width: 46, height: 200, borderRadius: 16 }}
+  trackStyle={{ width: 35, height: 200, borderRadius: 8 }}
   style={{ marginHorizontal: 15 }}
   value={value}
   maximumValue={100}
@@ -290,8 +309,8 @@ const [value, setValue] = React.useState(25);
   renderMinimumTrack={() => (
     <View
       style={{
-        width: 38,
-        borderRadius: 14,
+        width: 27,
+        borderRadius: 8,
         backgroundColor: '#F84803',
         marginVertical: 4,
         flex: 1,
@@ -318,13 +337,13 @@ const [value, setValue] = React.useState(25);
     thumbRadius: 20,
     thumbTintColor: '#F84803',
     minimumTrackTintColor: '#F84803',
-    maximumTrackTintColor: '#E3E9EE',
+    maximumTrackTintColor: '#E5E5E5',
   }}
   type="parcel"
   maximumValue={100}
   minimumValue={0}
   reverseValue={true}
-  trackStyle={{ width: 46, height: 200, borderRadius: 16 }}
+  trackStyle={{ width: 35, height: 200, borderRadius: 8 }}
   thumbTouchSize={{ width: 46, height: 46 }}
   style={{ marginHorizontal: 15 }}
   value={value}
@@ -351,10 +370,10 @@ const [value, setValue] = React.useState(25);
     thumbSize: 26,
     thumbRadius: 26,
     thumbTintColor: '#FFF',
-    minimumTrackTintColor: '#E3E9EE',
+    minimumTrackTintColor: '#E5E5E5',
     maximumTrackTintColor: '#F84803',
   }}
-  trackStyle={{ width: 6, height: 200, borderRadius: 3 }}
+  trackStyle={{ width: 12, height: 200, borderRadius: 8 }}
   style={{ marginHorizontal: 15 }}
   value={value}
   maximumValue={100}
@@ -362,8 +381,14 @@ const [value, setValue] = React.useState(25);
   reverseValue={true}
   useNoun={true}
   stepValue={25}
-  minNounStyle={{ backgroundColor: 'white' }}
-  maxNounStyle={{ backgroundColor: '#F84803' }}
+  thumbStyle={{ height: 22, width: 22 }}
+  minNounStyle={{ backgroundColor: 'white', height: 5, width: 5, borderRadius: 2.5 }}
+  maxNounStyle={{
+    backgroundColor: '#F84803',
+    height: 5,
+    width: 5,
+    borderRadius: 2.5,
+  }}
   onSlidingComplete={v => setValue(Math.round(v))}
 />
 ```
