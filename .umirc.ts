@@ -42,8 +42,8 @@ export default defineConfig({
     demoUrl:
       process.env.NODE_ENV === 'development'
         ? // ? 'http://localhost:8001'
-          'https://tuya.github.io/tuya-panel-kit/'
-        : 'https://tuya.github.io/tuya-panel-kit/',
+        'https://tuya.github.io/tuya-panel-kit/'
+        : 'https://tuyainc.github.io/tuya-panel-kit-example/',
     demoInfoUrl:
       'https://github.com/tuya/tuya-panel-kit/tree/master/example/src/pages{demo}/index.tsx',
     typeAssetsUrl:
