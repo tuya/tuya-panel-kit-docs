@@ -145,4 +145,9 @@ bluetoothShare: 'Bluetooth Sharing',
 deviceOfflineHelp: '① Make sure that the device is powered on or that the battery capacity is sufficient.\n② Place the mobile phone as close as possible to the device.\n③ If the device has been connected to another mobile phone, close the connection and try to ';
 deviceOfflineHelpNew: '① Make sure that the equipment is powered on normally (or the battery is sufficient).\n② Keep the cell phone as close as possible to the device.\n③ If the device has been connected by other mobile phones, please disconnect the connection first, go on ';
 offline_link: 'reconnect the router.';
+offline_bleHelpTitle: 'View Related Help',
+offline_bleNotConnect: 'Please try the following:',
+offline_bleDetails:
+  '1. Ensure the network and gateway is working.\n\n2. Check your mobile device has Bluetooth turned on, and check your Bluetooth device has power [check for poor power supply, loose connection or a dead battery].\n\n3. Ensure the Bluetooth device is within adequate range (about 10 meters) to your mobile phone or other Bluetooth devices.',
+
 ```
