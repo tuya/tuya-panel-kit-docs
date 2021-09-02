@@ -13,7 +13,7 @@ import { Tab } from 'tuya-panel-kit'
 
 const [state, set] = React.useState({ tab: 'Tab 1' })
 const setState = value => set({ ...state, ...value })
-const tabPaneArr = ['Tab 1', 'Tab 2', 'Tab 3', 'Tab 4']
+const tabPaneArr = ['标签 1', '标签 2', '标签 3', '标签 4']
 const contentStyle = {
   height: 323,
   backgroundColor: '#fff',
@@ -39,7 +39,7 @@ const tabPanes = tabPaneArr.map((item, idx) => (
     backgroundColor: '#fff',
   }}
   tabBarBackgroundColor="#F5F5F6"
-  tabTextStyle={{ fontSize: 16 }}
+  tabTextStyle={{ fontSize: 16, color: '#A8ACB2' }}
   tabStyle={{
     height: 42,
     backgroundColor: '#fff',
@@ -52,6 +52,8 @@ const tabPanes = tabPaneArr.map((item, idx) => (
   tabBarUnderlineStyle={{
     backgroundColor: '#FF4800',
     height: 2,
+    width: 40,
+    marginLeft: 26,
   }}
 >
   {tabPanes}

@@ -39,7 +39,7 @@ const tabPanes = tabPaneArr.map((item, idx) => (
     backgroundColor: '#fff',
   }}
   tabBarBackgroundColor="#F5F5F6"
-  tabTextStyle={{ fontSize: 16 }}
+  tabTextStyle={{ fontSize: 16, color: '#A8ACB2' }}
   tabStyle={{
     height: 42,
     backgroundColor: '#fff',
@@ -52,6 +52,8 @@ const tabPanes = tabPaneArr.map((item, idx) => (
   tabBarUnderlineStyle={{
     backgroundColor: '#FF4800',
     height: 2,
+    width: 40,
+    marginLeft: 26,
   }}
 >
   {tabPanes}
