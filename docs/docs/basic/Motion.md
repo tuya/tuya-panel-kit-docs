@@ -13,11 +13,19 @@ import { Motion } from 'tuya-panel-kit'
 
 const [fadeShow, setFadeShow] = React.useState(false);
 
+const contentStyles = {
+  width: 375,
+  height: 200,
+  backgroundColor: '#fff',
+};
+
 <Motion.Fade
-  style={{ position: 'absolute', bottom: 50 }}
+  style={{ position: 'absolute', bottom: 0 }}
   show={fadeShow}
-  onHide={() => setFadeShow(!fadeShow)}
+  onHide={() => setFadeShow(false)}
 >
+  <View style={contentStyles} />
+</Motion.Fade>
 ```
 
 ### 上拉下滑
@@ -27,11 +35,20 @@ import { Motion } from 'tuya-panel-kit'
 
 const [pullUpShow, setPullUpShow] = React.useState(false);
 
+const contentStyles = {
+  width: 375,
+  height: 200,
+  backgroundColor: '#fff',
+};
+
 <Motion.PullUp
-  style={{ position: 'absolute', bottom: 50 }}
+  style={{ position: 'absolute', bottom: 0 }}
+  dropHeight={200}
   show={pullUpShow}
   onHide={() => setPullUpShow(false)}
 >
+  <View style={[contentStyles, { bottom: 0 }]} />
+</Motion.PullUp>
 ```
 
 ### 放大淡入/缩小淡出
@@ -40,14 +57,15 @@ const [pullUpShow, setPullUpShow] = React.useState(false);
 import { Motion } from 'tuya-panel-kit'
 
 const [scaleFadeInShow, setScaleFadeInShow] = React.useState(false);
+
 const contentStyles = {
   width: 375,
   height: 200,
-  backgroundColor: '#f0f',
+  backgroundColor: '#fff',
 };
 
 <Motion.ScaleFadeIn
-  style={{ position: 'absolute', bottom: 50 }}
+  style={{ position: 'absolute', bottom: 0 }}
   show={scaleFadeInShow}
   onHide={() => setScaleFadeInShow(false)}
 >
@@ -61,10 +79,11 @@ const contentStyles = {
 import { Motion } from 'tuya-panel-kit'
 
 const [scalePullDownShow, setScalePullDownShow] = React.useState(false);
+
 const contentStyles = {
   width: 375,
   height: 200,
-  backgroundColor: '#f0f',
+  backgroundColor: '#fff',
 };
 
 <Motion.ScalePullDown
@@ -84,11 +103,11 @@ const [pushDownShow, setPushDownShow] = React.useState(false);
 const contentStyles = {
   width: 375,
   height: 200,
-  backgroundColor: '#f0f',
+  backgroundColor: '#fff',
 };
 
 <Motion.PushDown
-  style={{ position: 'absolute', bottom: 100 }}
+  style={{ position: 'absolute', bottom: 0 }}
   show={pushDownShow}
   onHide={() => setPushDownShow(false)}
   dropHeight={100}
@@ -106,7 +125,7 @@ const [toastShow, setToastShow] = React.useState(false);
 const contentStyles = {
   width: 375,
   height: 200,
-  backgroundColor: '#f0f',
+  backgroundColor: '#fff',
 };
 
 <Motion.Toast

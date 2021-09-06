@@ -11,18 +11,25 @@ demo: /data-entry/slider-with-line
 ```jsx
 import { SliderWithLine } from 'tuya-panel-kit'
 
- <SliderWithLine
+<SliderWithLine
   stepValue={1}
   onSlidingComplete={value => console.log(value, 'res')}
   style={{ marginBottom: 20 }}
-  nounWidth={4}
+  nounWidth={2}
+  nounColor="#F84803"
+  activeNounColor="#fff"
+  backgroundColor="#E5E5E5"
+  activeBackgroundColor="#F84803"
 />
 <SliderWithLine
   stepValue={10}
   maxValue={80}
   minDisabled={false}
   onSlidingComplete={value => console.log(value, 'res')}
-  activeNounColor="#f00"
+  nounColor="#F84803"
+  activeNounColor="#fff"
+  backgroundColor="#E5E5E5"
+  activeBackgroundColor="#F84803"
 />
 ```
 
@@ -35,9 +42,11 @@ const { convertX: cx } = Utils.RatioUtils;
 
 <SliderWithLine
   horizontal={false}
-  // onSlidingStart={value => console.log(value, 'res')}
   onSlidingComplete={value => console.log(value, 'res')}
-  activeNounColor="#f00"
+  nounColor="#F84803"
+  activeNounColor="#fff"
+  backgroundColor="#E5E5E5"
+  activeBackgroundColor="#F84803"
   nounWidth={cx(14)}
   nounHeight={cx(1)}
   width={cx(60)}
@@ -49,6 +58,10 @@ const { convertX: cx } = Utils.RatioUtils;
   stepValue={10}
   horizontal={false}
   minValue={10}
+  nounColor="#F84803"
+  activeNounColor="#fff"
+  backgroundColor="#E5E5E5"
+  activeBackgroundColor="#F84803"
   maxValue={80}
   onSlidingComplete={value => console.log(value, 'res')}
   nounWidth={cx(14)}

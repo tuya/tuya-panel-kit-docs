@@ -14,7 +14,12 @@ import { SliderProgress } from 'tuya-panel-kit'
 const [state, set] = React.useState({ value: 6 });
 const setState = value => set({ ...state, ...value });
 
-<SliderProgress value={state.value} onValueChange={v => setState({ value: v })} />
+<SliderProgress
+  activeColor="#F82B00"
+  inactiveColor="#D8D8D8"
+  value={state.value}
+  onValueChange={v => setState({ value: v })}
+/>
 ```
 
 ### Bilateral progress bar
@@ -26,6 +31,8 @@ const [state, set] = React.useState({ values: [20, 90] });
 const setState = value => set({ ...state, ...value });
 
 <SliderProgress
+  activeColor="#F82B00"
+  inactiveColor="#D8D8D8"
   value={state.values}
   style={{ width: 300, height: 33 }}
   onValueChange={({ minValue, maxValue }) => {

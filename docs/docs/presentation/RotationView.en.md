@@ -11,21 +11,18 @@ demo: /presentation/rotation-view
 ```jsx
 import { RotationView } from 'tuya-panel-kit'
 
-<RotationView
-  style={{ width: 160, height: 160, marginLeft: 80, marginTop: 20 }}
-  active={true}
->
-  <View
+<RotationView style={{ width: 198, height: 198, marginTop: 20 }} active={true}>
+  <Image
     style={{
-      width: 160,
-      height: 160,
-      borderRadius: 80,
-      backgroundColor: '#0ff',
-      justifyContent: 'center',
+      width: 198,
+      height: 198,
+      resizeMode: 'contain',
     }}
-  >
-    <IconFont name="power" size={48} color="#ff0" />
-  </View>
+    source={{
+      uri:
+        'https://cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/assets/rotate-view-3.png',
+    }}
+  />
 </RotationView>
 ```
 
@@ -34,20 +31,18 @@ import { RotationView } from 'tuya-panel-kit'
 ```jsx
 import { RotationView } from 'tuya-panel-kit'
 
-<RotationView
-  style={{ width: 160, height: 160, marginLeft: 100, marginTop: 40 }}
-  active={true}
->
-  <View
+<RotationView style={{ width: 198, height: 198, marginTop: 20 }} active={true}>
+  <Image
     style={{
-      width: 140,
-      height: 140,
-      backgroundColor: 'red',
-      justifyContent: 'center',
+      width: 198,
+      height: 198,
+      resizeMode: 'contain',
     }}
-  >
-    <TYText style={{ textAlign: 'center' }}>Rotation!!!</TYText>
-  </View>
+    source={{
+      uri:
+        'https://cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/assets/rotate-view-4.png',
+    }}
+  />
 </RotationView>
 ```
 

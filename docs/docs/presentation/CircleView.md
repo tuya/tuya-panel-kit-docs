@@ -11,7 +11,7 @@ demo: /presentation/circle-view
 ```jsx
 import { CircleView } from 'tuya-panel-kit'
 
-<CircleView radius={30} color="red" />
+<CircleView radius={30} color="#F9825C" />
 ```
 
 ### 带边框的圆形视图
@@ -19,7 +19,7 @@ import { CircleView } from 'tuya-panel-kit'
 ```jsx
 import { CircleView } from 'tuya-panel-kit'
 
-<CircleView radius={30} color="#ff0" borderWidth={4} borderColor="#00f" />
+<CircleView radius={30} color="#FCDC9D" borderWidth={2} borderColor="#B8B8B8" />
 ```
 
 ### 内嵌自定义内容的圆形视图
@@ -29,20 +29,10 @@ import { CircleView } from 'tuya-panel-kit'
 
 <CircleView
   radius={50}
-  color="#0f0"
+  color="#F98553"
   style={{ alignItems: 'center', justifyContent: 'center' }}
 >
-  <View
-    style={{
-      backgroundColor: '#0ff',
-      width: 45,
-      height: 45,
-      alignItems: 'center',
-      justifyContent: 'center',
-    }}
-  >
-    <TYText text="Hello, World" style={{ textAlign: 'center' }} />
-  </View>
+  <IconFont name="edit" size={24} />
 </CircleView>
 ```
 
