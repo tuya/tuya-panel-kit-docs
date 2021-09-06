@@ -42,10 +42,10 @@ export default defineConfig({
     demoUrl:
       process.env.NODE_ENV === 'development'
         ? // ? 'http://localhost:8001'
-        'https://tuya.github.io/tuya-panel-kit/'
+        'https://tuya.github.io/tuya-panel-kit/tuya-panel-kit/'
         : 'https://tuyainc.github.io/tuya-panel-kit-example/',
     demoInfoUrl:
-      'https://github.com/tuya/tuya-panel-kit/tree/master/example/src/pages{demo}/index.tsx',
+      'https://github.com/tuya/tuya-panel-kit/blob/master/example/tuya-panel-kit/src/pages{demo}/index.tsx',
     typeAssetsUrl:
       'https://cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/types-assets.json',
   },
