@@ -49,7 +49,7 @@ const [state, setState] = React.useState({
 });
 
 Dialog.prompt({
-  title: 'UnControlled Prompt',
+  title: 'Prompt Dialog (UnControlled)',
   cancelText: 'Cancel',
   confirmText: 'Confirm',
   defaultValue: state.promptUnControlled,
@@ -71,7 +71,7 @@ const [state, setState] = React.useState({
 });
 
 Dialog.prompt({
-  title: 'Controlled Prompt',
+  title: 'Prompt Dialog (Controlled)',
   cancelText: 'Cancel',
   confirmText: 'Confirm',
   value: state.promptControlled,

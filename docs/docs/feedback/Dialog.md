@@ -49,7 +49,7 @@ const [state, setState] = React.useState({
 });
 
 Dialog.prompt({
-  title: '非受控输入框',
+  title: '输入对话框（非受控）',
   cancelText: '取消',
   confirmText: '确认',
   defaultValue: state.promptUnControlled,
@@ -71,7 +71,7 @@ const [state, setState] = React.useState({
 });
 
 Dialog.prompt({
-  title: '受控输入框',
+  title: '输入对话框（受控）',
   cancelText: '取消',
   confirmText: '确认',
   value: state.promptControlled,
