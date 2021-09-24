@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: yarn install
-      # - run: yarn job
+      - run: yarn job
       - run: yarn build
 
       - name: Sub Apps
