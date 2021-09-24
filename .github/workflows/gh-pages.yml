@@ -15,10 +15,7 @@ jobs:
 
       - name: Sub Apps
         run: |
-          cd dist
-          git clone -b gh-pages https://github.com/tuya-umi-docs-team/tuya-components-styled-docs.git
-          cd tuya-components-styled-docs
-          rm -rf .git
+          sh scripts/add-app.sh tuya-umi-docs-team tuya-components-styled-docs
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
