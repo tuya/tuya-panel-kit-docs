@@ -12,6 +12,12 @@ jobs:
       - run: yarn install
       - run: yarn job
       - run: yarn build
+
+      - name: Sub Apps
+        run: |
+          cd dist
+          git clone -b gh-pages https://github.com/tuya-umi-docs-team/tuya-components-styled-docs.git
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
