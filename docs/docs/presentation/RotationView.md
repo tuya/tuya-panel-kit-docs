@@ -20,7 +20,7 @@ import { RotationView } from 'tuya-panel-kit'
     }}
     source={{
       uri:
-        'https://cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/assets/rotate-view-3.png',
+        'https://cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/assets/rotate-view-3.png',
     }}
   />
 </RotationView>
@@ -40,7 +40,7 @@ import { RotationView } from 'tuya-panel-kit'
     }}
     source={{
       uri:
-        'https://cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/assets/rotate-view-4.png',
+        'https://cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/assets/rotate-view-4.png',
     }}
   />
 </RotationView>
