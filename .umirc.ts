@@ -31,7 +31,7 @@ export default defineConfig({
     'https://imagesd.tuyaus.com/tyims/rms-static/c118f100-7bd1-11ea-be8a-afe9921c3d8a-1586595140625.ico?tyName=tuya_favicon.ico',
   themeConfig: {
     repository: {
-      url: 'https://github.com/TuyaInc/tuya-panel-kit-docs',
+      url: 'https://github.com/tuya/tuya-panel-kit-docs',
       branch: 'main',
       platform: 'github',
     },
@@ -47,7 +47,7 @@ export default defineConfig({
     demoInfoUrl:
       'https://github.com/tuya/tuya-panel-kit/blob/master/example/tuya-panel-kit/src/pages{demo}/index.tsx',
     typeAssetsUrl:
-      'https://cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/types-assets.json',
+      'https://cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/types-assets.json',
   },
   navs: {
     zh: [
@@ -109,7 +109,7 @@ export default defineConfig({
   hash: isProd,
   // base: isProd ? '/tuya-panel-kit-docs' : '/', // router base
   publicPath: isProd
-    ? '//cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/'
+    ? '//cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/'
     : '/',
   headScripts: [
     {
