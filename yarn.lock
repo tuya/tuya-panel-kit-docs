@@ -368,10 +368,10 @@
   resolved "https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
 
-"@tuya/dumi-theme-tuya@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.nlark.com/@tuya/dumi-theme-tuya/download/@tuya/dumi-theme-tuya-2.2.2.tgz?cache=0&sync_timestamp=1629685126074&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40tuya%2Fdumi-theme-tuya%2Fdownload%2F%40tuya%2Fdumi-theme-tuya-2.2.2.tgz#70366565ddfe3652713ef773417c75dcf924c44f"
-  integrity sha1-cDZlZd3+NlJxPvdzQXx13PkkxE8=
+"@tuya/dumi-theme-tuya@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.npmjs.org/@tuya/dumi-theme-tuya/-/dumi-theme-tuya-2.4.0.tgz#4bf6574103f01fd480856f99de129470dc63b011"
+  integrity sha512-xZg7+4LlWqeBa3/uxPlV0k+z7MgMcZ6/kJJCJh5UXUC5cw6/ae/LSC61jNi+ZSR85eTNGv5W3XAmF1YfIt9VZg==
   dependencies:
     antd "^4.16.6"
     axios "^0.21.1"
