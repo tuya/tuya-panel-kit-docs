@@ -1,0 +1,12 @@
+name: SubPages-Ci
+
+on:
+  workflow_dispatch:
+
+jobs:
+  tuya-components-styled-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Saber2pr/gh-pages-modules@v0.0.4
+        with:
+          url: https://github.com/tuya/tuya-components-styled-docs.git
