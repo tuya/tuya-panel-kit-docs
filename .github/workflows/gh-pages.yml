@@ -13,10 +13,6 @@ jobs:
       - run: yarn job
       - run: yarn build
 
-      - name: Sub Apps
-        run: |
-          sh scripts/add-app.sh saber2pr-umi tuya-components-styled-docs
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
