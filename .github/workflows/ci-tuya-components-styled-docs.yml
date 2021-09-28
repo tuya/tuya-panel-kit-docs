@@ -1,4 +1,4 @@
-name: SubPages-Ci
+name: ci-tuya-components-styled-docs
 
 on:
   workflow_dispatch:
