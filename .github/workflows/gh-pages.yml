@@ -23,6 +23,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           cname: panel-docs.tuyacn.com
+          keep_files: true
 
       - name: Update CDN
         run: |
