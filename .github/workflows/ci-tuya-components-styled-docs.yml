@@ -7,6 +7,6 @@ jobs:
   Deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: Saber2pr/gh-pages-modules@v0.0.4
+      - uses: Saber2pr/gh-pages-modules@v0.0.6
         with:
           url: https://github.com/saber2pr-umi/tuya-components-styled-docs.git # 待迁移
