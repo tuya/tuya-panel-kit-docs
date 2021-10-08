@@ -1,4 +1,4 @@
 [submodule "tuya-components-styled-docs"]
 	path = tuya-components-styled-docs
-	url = https://github.com/saber2pr-umi/tuya-components-styled-docs.git
+	url = https://github.com/tuya/tuya-components-styled-docs.git
 	branch = gh-pages
