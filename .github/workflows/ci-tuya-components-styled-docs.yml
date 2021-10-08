@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: Saber2pr/gh-pages-modules@v0.0.6
         with:
-          url: https://github.com/saber2pr-umi/tuya-components-styled-docs.git # 待迁移
+          url: https://github.com/tuya/tuya-components-styled-docs.git
