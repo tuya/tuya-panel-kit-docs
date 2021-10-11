@@ -1,9 +1,9 @@
 var HEARTBEAT = {
   ref: 0,
   delta: 500, // 心跳频率
-  connect(iframe, onBeat) {
-    if (iframe && onBeat) {
-      iframe.addEventListener('load', () => {
+  connect(onBeat) {
+    if (onBeat) {
+      window.addEventListener('load', () => {
         // 接收端
         window.addEventListener('message', event => {
           const data = event.data || {};
