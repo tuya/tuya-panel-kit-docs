@@ -1,0 +1,13 @@
+diff --git a/node_modules/@umijs/preset-dumi/lib/transformer/remark/api.js b/node_modules/@umijs/preset-dumi/lib/transformer/remark/api.js
+index c168d85..3dae993 100644
+--- a/node_modules/@umijs/preset-dumi/lib/transformer/remark/api.js
++++ b/node_modules/@umijs/preset-dumi/lib/transformer/remark/api.js
+@@ -155,7 +155,7 @@ function guessComponentName(fileAbsPath) {
+     // button/index.tsx => button
+     // packages/button/src/index.tsx => button
+     // windows: button\\src\\index.tsx
+-    return _path().default.basename(parsed.dir.replace(/\/src$|\\src$/, ''));
++    return _path().default.basename(parsed.dir.replace(/(\/|\\)(src|lib)$/, ''));
+   } // components/button.tsx => button
+ 
+ 
