@@ -1,4 +1,6 @@
 ---
+group:
+  title: 通用
 title: Button 按钮
 desc: '`Button` 是一个最常用的组件，用于一些纯文本、图片、Icon 等需要点击的场合。'
 demo: /basic/button

@@ -1,4 +1,6 @@
 ---
+group:
+  title: Data Entry
 title: SliderWithLine <Badge>4.6.0+</Badge>
 desc: '`SliderWithLine` is a slider selector with a dividing line.'
 demo: /data-entry/slider-with-line

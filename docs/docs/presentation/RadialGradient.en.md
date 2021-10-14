@@ -1,4 +1,6 @@
 ---
+group:
+  title: Presentation
 title: RadialGradient
 desc: RadialGradient is a radial gradient, similar to a linear gradient, except that it diverges and draws a gradient from a point.
 demo: /presentation/radial-gradient

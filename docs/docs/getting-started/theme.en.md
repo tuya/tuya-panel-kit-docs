@@ -1,4 +1,6 @@
 ---
+group:
+  title: Guides
 title: Theme
 order: 3
 ---

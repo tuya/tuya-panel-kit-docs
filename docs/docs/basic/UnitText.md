@@ -1,4 +1,6 @@
 ---
+group:
+  title: 通用
 title: UnitText 字体单位
 desc: '`UnitText` 可用于显示一些加粗的展示型文字类型。'
 demo: /basic/unit-text

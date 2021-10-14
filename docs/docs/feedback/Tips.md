@@ -1,4 +1,6 @@
 ---
+group:
+  title: 反馈
 title: Tips 气泡
 desc: Tips 是一个气泡弹框组件。
 demo: /feedback/tips

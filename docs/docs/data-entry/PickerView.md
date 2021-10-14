@@ -1,4 +1,6 @@
 ---
+group:
+  title: 数据录入
 title: PickerView 选择器
 desc: PickerView 是一个多选一的容器视图，请务必给 PickerView 指定一个宽高，否则无法渲染。
 demo: /data-entry/picker-view

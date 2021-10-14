@@ -1,4 +1,6 @@
 ---
+group:
+  title: 展示
 title: LinearGradient 线性渐变
 desc: LinearGradient 主要是给子节点提供一个线性渐变的效果。
 demo: /presentation/linear-gradient

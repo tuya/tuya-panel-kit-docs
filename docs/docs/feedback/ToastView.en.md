@@ -1,4 +1,6 @@
 ---
+group:
+  title: Feedback
 title: ToastView
 desc: ToastView is toast, used to remind the user without interrupting the operation.
 demo: /feedback/toast-view

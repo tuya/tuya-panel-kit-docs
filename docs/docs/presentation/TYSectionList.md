@@ -1,4 +1,6 @@
 ---
+group:
+  title: 展示
 title: TYSectionList 分组列表
 desc: '`TYSectionList` 是基于 RN 自带的 `SectionList` 组件做了一层简单的封装，因此该组件可以复用所有 [SectionList 的属性](https://facebook.github.io/react-native/docs/sectionlist#props)。<br/>在需要列表的情况下只需要传递 `sections` 即可定制对应列表项，其中如果有 `title` 字段则会有默认的 `SectionHeader` ，另外其中的 `data` 中的所有值将会被作为 `props` 传递给 `TYSectionList.Item` 组件。<br/>如果需要定制列表项，给 `TYSectionList` 覆盖 `renderItem` 即可，如果某一区块的列表项需要定制则可以给 `sections` 中添加 `renderItem` 给该区块定制列表项，如果列表项中只有单独几个项需要定制，那么您甚至可以在 `data` 字段里面传入 `renderItem` 定制该列表项组件。'
 demo: /presentation/tysection-list

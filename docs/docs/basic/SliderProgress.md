@@ -1,4 +1,6 @@
 ---
+group:
+  title: 通用
 title: SliderProgress 滑动进度条
 desc: '`SliderProgress` 是一个滑动进度条组件，支持单边或双边拖动进行设置进度。'
 demo: /basic/slider-progress

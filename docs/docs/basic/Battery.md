@@ -1,4 +1,7 @@
 ---
+group:
+  title: 通用
+  order: 3
 title: Battery 电池
 desc: '`Battery` 是电池组件，一般用于需要展示电池百分比的场景。'
 demo: /basic/battery

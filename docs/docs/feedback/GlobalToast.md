@@ -1,4 +1,6 @@
 ---
+group:
+  title: 反馈
 title: GlobalToast 全局吐司
 desc: '`GlobalToast` 是一个挂载在 FullView 上伴有淡入淡出动画效果的全局提示。'
 demo: /feedback/global-toast

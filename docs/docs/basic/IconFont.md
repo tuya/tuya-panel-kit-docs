@@ -1,4 +1,6 @@
 ---
+group:
+  title: 通用
 title: IconFont 图标
 demo: /basic/icon-font
 ---

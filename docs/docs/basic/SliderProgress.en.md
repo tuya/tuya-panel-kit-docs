@@ -1,4 +1,6 @@
 ---
+group:
+  title: Basic
 title: SliderProgress
 desc: '`SliderProgress` is a sliding progress bar component that supports unilateral or bilateral drag to set the progress.'
 demo: /basic/slider-progress

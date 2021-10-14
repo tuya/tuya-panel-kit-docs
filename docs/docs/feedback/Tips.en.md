@@ -1,4 +1,6 @@
 ---
+group:
+  title: Feedback
 title: Tips
 desc: Tips is a bubble box component.
 demo: /feedback/tips
