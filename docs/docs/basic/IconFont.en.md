@@ -1,4 +1,6 @@
 ---
+group:
+  title: Basic
 title: IconFont
 demo: /basic/icon-font
 ---

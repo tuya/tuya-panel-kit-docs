@@ -1,4 +1,6 @@
 ---
+group:
+  title: 展示
 title: RotationView 旋转视图
 desc: RotationView 封装了需要旋转动画的视图容器。
 demo: /presentation/rotation-view

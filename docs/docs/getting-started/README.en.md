@@ -1,4 +1,6 @@
 ---
+group:
+  title: Guides
 title: Getting Started
 order: 1
 demo: /

@@ -1,4 +1,6 @@
 ---
+group:
+  title: Presentation
 title: TYSectionList
 desc: '`TYSectionList` is a simple encapsulation based on the **SectionList** component that comes with RN, so this component can reuse all [SectionList properties](https://facebook.github.io/react-native/docs/sectionlist#props).<br/>When you need a list, you only need to pass **sections** to customize the corresponding list item. If there is a **title** field, there will be a default **SectionHeader**, and all the values ​​in the **data** will be used as **props** is passed to the **TYSectionList.Item** component.<br/>If you need to customize the list items, you can override **renderItem** for **TYSectionList**. If the list items of a certain section need to be customized, you can add **renderItem** to **sections** to customize the list items for that section. Only a few items need to be customized, so you can even pass in **renderItem** in the **data** field to customize the list item component.'
 demo: /presentation/tysection-list

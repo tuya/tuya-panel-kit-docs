@@ -1,4 +1,6 @@
 ---
+group:
+  title: 导航
 title: Tabs 纯手势标签栏
 desc: Tabs 标签栏通过纯手势编写，解决了之前 ScrollView 实现导致的互相嵌套出现的问题，此外增加了**懒加载**的功能，拆分出了 **TabContent** 组件，可单独使用。
 demo: /navigation/tabs

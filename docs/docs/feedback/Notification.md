@@ -1,4 +1,6 @@
 ---
+group:
+  title: 反馈
 title: Notification 全局通知
 desc: '`Notification` 是通知栏，可以显示成功、警告、错误此类三种信息。'
 demo: /feedback/notification

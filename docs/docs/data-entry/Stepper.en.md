@@ -1,4 +1,6 @@
 ---
+group:
+  title: Data Entry
 title: Stepper
 desc: '`Stepper` is composed of increase button, decrease button and input box, used to input and adjust numbers within a certain range.'
 demo: /data-entry/stepper

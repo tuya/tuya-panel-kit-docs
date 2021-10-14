@@ -1,4 +1,6 @@
 ---
+group:
+  title: Data Entry
 title: DatePicker
 desc: '`DatePicker` is a flexible time and date selection component that supports multiple modes.'
 demo: /data-entry/date-picker

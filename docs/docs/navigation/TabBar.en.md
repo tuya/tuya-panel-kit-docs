@@ -1,4 +1,6 @@
 ---
+group:
+  title: Navigation
 title: TabBar
 desc: '`TabBar` is for splitting tabs for more fine-grained control. There are currently two types, the default is the most basic Tab.'
 demo: /navigation/tab-bar

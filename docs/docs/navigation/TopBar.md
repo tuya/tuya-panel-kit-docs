@@ -1,4 +1,6 @@
 ---
+group:
+  title: 导航
 title: TopBar 头部栏
 desc: '`TopBar` 是默认集成在 `FullView` 中的顶部工具栏，在安卓中也称为 `ActionBar`，IOS 中称为 `UINavigationBar`。<br/>新版的 `TopBar` 统一了 IOS 及安卓两端的写法，且拆分出了 [TopBar.Container](#TopBar.Container) 、[TopBar.Content](#TopBar.Content) 以及 [TopBar.Action](#TopBar.Action) 三个组件，若存在高度定制情况，可使用三大组件进行组合构建。<br/>此外我们还封装了一份常用的 [TopBar](#TopBar) 组件，用于较为基础的 TopBar 定制需求。<br/>另外，`TopBar` 的高度在安卓和 IOS 上分别做了适配，可以通过 `TopBar.height` 获取到 `TopBar` 的高度。如果是 IPhoneX 以上机型，高度是 88, 其余 iOS 机型高度是 64， 安卓的 TopBar 高度是 56。'
 demo: /navigation/top-bar

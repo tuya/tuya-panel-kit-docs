@@ -1,4 +1,7 @@
 ---
+group:
+  title: Basic
+  order: 3
 title: Battery
 desc: '`Battery` is a battery component, which is generally used in scenarios where the battery percentage needs to be displayed.'
 demo: /basic/battery

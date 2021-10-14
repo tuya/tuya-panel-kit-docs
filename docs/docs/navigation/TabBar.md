@@ -1,4 +1,6 @@
 ---
+group:
+  title: 导航
 title: TabBar 标签栏拆分版
 desc: '`TabBar` 为拆分 tab，更细粒度的控制。目前有两种类型，默认是最基础的 Tab。'
 demo: /navigation/tab-bar

@@ -1,4 +1,6 @@
 ---
+group:
+  title: Data Entry
 title: Slider
 desc: '`Slider` is a sliding selector, generally used inside the panel to process numerical dp points that can be reported and issued.'
 demo: /data-entry/slider

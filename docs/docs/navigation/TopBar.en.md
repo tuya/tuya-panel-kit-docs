@@ -1,4 +1,6 @@
 ---
+group:
+  title: Navigation
 title: TopBar
 desc: '`TopBar` is the top toolbar integrated in **FullView** by default. It is also called **ActionBar** in Android and **UINavigationBar** in IOS.<br/>The new version of `TopBar` unifies the writing of both IOS and Android, and splits out [TopBar.Container](#TopBar.Container), [TopBar.Content](#TopBar.Content) and [TopBar.Action](#TopBar.Action) Three components, if there is a high degree of customization, you can use the three components to build a combination.<br/>In addition, we also encapsulated a commonly used [TopBar](#TopBar) component for basic TopBar customization requirements.<br/>In addition, the height of `TopBar` is adapted on Android and IOS respectively, and the height of `TopBar` can be obtained through **TopBar.height**. If the model is IPhoneX or higher, the height is 88, the other iOS models are 64, and the Android TopBar is 56.'
 demo: /navigation/top-bar

@@ -1,4 +1,6 @@
 ---
+group:
+  title: Presentation
 title: LinearGradient
 desc: LinearGradient mainly provides a linear gradient effect to the child nodes.
 demo: /presentation/linear-gradient

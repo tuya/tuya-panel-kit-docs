@@ -1,4 +1,6 @@
 ---
+group:
+  title: 数据录入
 title: SliderWithLine 滑动选择器 <Badge>4.6.0+</Badge>
 desc: '`SliderWithLine` 是带刻度的滑动选择器。'
 demo: /data-entry/slider-with-line

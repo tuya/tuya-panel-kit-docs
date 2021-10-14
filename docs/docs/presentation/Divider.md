@@ -1,4 +1,6 @@
 ---
+group:
+  title: 展示
 title: Divider 分割线
 desc: Divider 为分隔线。
 demo: /presentation/divider

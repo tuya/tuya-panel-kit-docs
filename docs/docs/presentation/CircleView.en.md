@@ -1,4 +1,6 @@
 ---
+group:
+  title: Presentation
 title: CircleView
 desc: CircleView is a circular view.
 demo: /presentation/circle-view

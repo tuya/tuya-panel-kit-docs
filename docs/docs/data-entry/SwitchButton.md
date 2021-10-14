@@ -1,4 +1,6 @@
 ---
+group:
+  title: 数据录入
 title: SwitchButton 开关
 desc: '`SwitchButton` 是一个开关组件。'
 demo: /data-entry/switch-button

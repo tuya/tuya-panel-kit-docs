@@ -1,4 +1,6 @@
 ---
+group:
+  title: 反馈
 title: ToastView 吐司
 desc: ToastView 为吐司，用于提醒用户，不打断操作。
 demo: /feedback/toast-view

@@ -1,4 +1,6 @@
 ---
+group:
+  title: Presentation
 title: Divider
 desc: Divider is the dividing line.
 demo: /presentation/divider

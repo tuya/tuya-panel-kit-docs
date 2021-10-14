@@ -1,4 +1,6 @@
 ---
+group:
+  title: 数据录入
 title: Stepper 步进器
 desc: '`Stepper` 由增加按钮、减少按钮和输入框组成，用于在一定范围内输入、调整数字。'
 demo: /data-entry/stepper

@@ -1,4 +1,6 @@
 ---
+group:
+  title: Data Entry
 title: PickerView
 desc: PickerView is a multiple-choice container view，Be sure to specify a width and height for PickerView, otherwise it will not be rendered。
 demo: /data-entry/picker-view
