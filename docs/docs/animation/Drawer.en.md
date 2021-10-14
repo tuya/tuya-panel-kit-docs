@@ -2,9 +2,14 @@
 group:
   title: Animation
 title: Drawer
-desc: ' 'Drawer' is a drawer component, integrated in tuya-panel-kit@4.7.11 version, and can also be installed separately using tuya-panel-animation-drawer.'
 demo: /animation/drawer
 ---
+
+<Desc>
+
+`Drawer` is a drawer component, integrated in tuya-panel-kit@4.7.11 version, and can also be installed separately using tuya-panel-animation-drawer.
+
+</Desc>
 
 ## Code demo
 

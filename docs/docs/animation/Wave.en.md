@@ -2,9 +2,14 @@
 group:
   title: Animation
 title: Wave
-desc: ' 'Wave' is a wave component, integrated in tuya-panel-kit@4.7.11 version, and can also be installed separately using tuya-panel-animation-wave.'
 demo: /animation/wave
 ---
+
+<Desc>
+
+`Wave` is a wave component, integrated in tuya-panel-kit@4.7.11 version, and can also be installed separately using tuya-panel-animation-wave.
+
+</Desc>
 
 ## Code demo
 

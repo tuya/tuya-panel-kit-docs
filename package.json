@@ -24,12 +24,12 @@
   },
   "dependencies": {
     "tuya-panel-animation-diffusion": "^0.1.1",
-    "tuya-panel-animation-wave": "^0.1.1",
-    "tuya-panel-animation-drawer": "^0.1.1"
+    "tuya-panel-animation-drawer": "^0.1.1",
+    "tuya-panel-animation-wave": "^0.1.1"
   },
   "devDependencies": {
     "@saber2pr/ts-compiler": "^0.1.8",
-    "@tuya/dumi-theme-tuya": "^2.7.0",
+    "@tuya/dumi-theme-tuya": "^2.7.1",
     "@types/react-native": "^0.64.13",
     "@types/tuya-panel-kit": "^4.0.8",
     "@typescript/twoslash": "^3.0.0",

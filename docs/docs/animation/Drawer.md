@@ -2,9 +2,14 @@
 group:
   title: 动画
 title: Drawer 抽屉组件
-desc: '`Drawer` 是抽屉组件，在 tuya-panel-kit@4.7.11 版本集成, 也可以单独安装 tuya-panel-animation-drawer 使用'
 demo: /animation/drawer
 ---
+
+<Desc>
+
+`Drawer` 是抽屉组件，在 tuya-panel-kit@4.7.11 版本集成, 也可以单独安装 tuya-panel-animation-drawer 使用
+
+</Desc>
 
 ## 代码演示
 

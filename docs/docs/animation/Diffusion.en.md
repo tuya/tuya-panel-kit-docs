@@ -3,9 +3,14 @@ group:
   title: Animation
   order: 4
 title: Diffusion
-desc: ' 'Diffusion' is a water ripple component, integrated in tuya-panel-kit@4.7.11 version, and can also be installed separately using tuya-panel-animation-diffusion.'
 demo: /animation/diffusion
 ---
+
+<Desc>
+
+`Diffusion` is a water ripple component, integrated in tuya-panel-kit@4.7.11 version, and can also be installed separately using tuya-panel-animation-diffusion.
+
+</Desc>
 
 ## Code demo
 

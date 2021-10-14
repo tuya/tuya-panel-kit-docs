@@ -7,6 +7,12 @@ desc: '`Diffusion` 是水波纹组件，在 tuya-panel-kit@4.7.11 版本集成, 
 demo: /animation/diffusion
 ---
 
+<Desc>
+
+`Diffusion` 是水波纹组件，在 tuya-panel-kit@4.7.11 版本集成, 也可以单独安装 tuya-panel-animation-diffusion 使用
+
+</Desc>
+
 ## 代码演示
 
 ### 基础样式
