@@ -7,7 +7,7 @@ demo: /animation/wave
 
 <Desc>
 
-`Wave` 是波浪组件，在 tuya-panel-kit@4.7.11 版本集成, 也可以单独安装 tuya-panel-animation-wave 使用
+`Wave` 是波浪组件，在 tuya-panel-kit@4.7.11 版本集成，也可以单独安装 tuya-panel-animation-wave 使用。
 
 </Desc>
 

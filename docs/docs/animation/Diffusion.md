@@ -3,13 +3,12 @@ group:
   title: 动画
   order: 4
 title: Diffusion 水波纹组件
-desc: '`Diffusion` 是水波纹组件，在 tuya-panel-kit@4.7.11 版本集成, 也可以单独安装 tuya-panel-animation-diffusion 使用'
 demo: /animation/diffusion
 ---
 
 <Desc>
 
-`Diffusion` 是水波纹组件，在 tuya-panel-kit@4.7.11 版本集成, 也可以单独安装 tuya-panel-animation-diffusion 使用
+`Diffusion` 是水波纹组件，在 tuya-panel-kit@4.7.11 版本集成， 也可以单独安装 tuya-panel-animation-diffusion 使用。
 
 </Desc>
 

@@ -7,7 +7,7 @@ demo: /animation/drawer
 
 <Desc>
 
-`Drawer` 是抽屉组件，在 tuya-panel-kit@4.7.11 版本集成, 也可以单独安装 tuya-panel-animation-drawer 使用
+`Drawer` 是抽屉组件，在 tuya-panel-kit@4.7.11 版本集成， 也可以单独安装 tuya-panel-animation-drawer 使用。
 
 </Desc>
 
