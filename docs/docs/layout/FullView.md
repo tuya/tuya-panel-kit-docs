@@ -69,7 +69,7 @@ location: '设备Wi-Fi信号弱，请更换设备位置',
 
 ![Offline](https://images.tuyacn.com/rms-static/57361300-40d7-11eb-a7fa-49239df0f48f-1608257919024.png?tyName=Offline.png)
 
-<h3 id="h3Title">一、WI-FI 离线</h3>
+### 一、WI-FI 离线
 
 #### 新版离线
 
@@ -121,7 +121,7 @@ help: '帮助';
 appoffline: '当前网络不可用\n请检查手机网络';
 ```
 
-<h3 id="h3Title">二、蓝牙离线</h3>
+### 二、蓝牙离线
 
 ![BleOfflineWifi](https://images.tuyacn.com/rms-static/397ee5b0-d954-11eb-bb1c-dd1a7461f245-1625024133004.png?tyName=Ble_zh_update.png)
 

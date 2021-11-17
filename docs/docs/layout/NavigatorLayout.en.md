@@ -22,7 +22,7 @@ Use `NavigatorLayout`, The following steps are required:
 
 ## Code demo
 
-<h3 id="h3Title">Jump between two pages</h3>
+### Jump between two pages
 
 > Can run our [demo](https://github.com/tuya/tuya-panel-kit/tree/master/demos/navigator-layout/basic-jump) on Github for preview
 
@@ -135,7 +135,7 @@ export default ({ navigator }) => (
 );
 ```
 
-<h3 id="h3Title">Custom transition animation effect</h3>
+### Custom transition animation effect
 
 > Can run our [demo](https://github.com/tuya/tuya-panel-kit/tree/master/demos/navigator-layout/screen-transition) on github for preview
 
@@ -237,7 +237,7 @@ class NavigatorLayout<P = {}, S = {}> extends React.Component<
 }
 ```
 
-<h3 id="h3Title">hookRoute</h3>
+### hookRoute
 
 > Used to control common page UI, see previous type signature. `hookRoute` receives a parameter `route` and needs to return a legal `NavigationOptions`, Inside `NavigatorLayout`, the return value of `hookRoute` will be used to render the relevant UI of the current page.
 
@@ -308,7 +308,7 @@ interface NavigationOptions {
 }
 ```
 
-<h3 id="h3Title">renderScene</h3>
+### renderScene
 
 > Used to render page components, see the previous type signature, `renderScene` receives two parameters, `route` and `navigator`, and needs to return a valid `JSXElement`.
 >

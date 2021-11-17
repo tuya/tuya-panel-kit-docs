@@ -42,7 +42,7 @@ export default {
 
 ## API
 
-<h3 id = 'h3Title'>1. 注入全局主题</h3>
+### 1. 注入全局主题
 
 > 添加 **Theme(ThemeProvider)** 到应用程序的顶层，将主题传递到 React 组件树。 然后，我们就可以通过后面三种方式去访问主题对象。
 
@@ -119,7 +119,7 @@ const composeLayout = (store, component) => {
 export default composeLayout;
 ```
 
-<h3 id = 'h3Title'>2. 获取全局主题</h3>
+### 2. 获取全局主题
 
 - styled: 通过被 **styled-components** 中 **styled** 包装过的组件访问主题
 

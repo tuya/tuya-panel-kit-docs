@@ -42,7 +42,7 @@ export default {
 
 ## API
 
-<h3 id = 'h3Title'>1. Inject the global theme</h3>
+### 1. Inject the global theme
 
 > Add **Theme(ThemeProvider)** to the top of the application，Pass the theme to the React component tree。Then, we can access the subject object in the following three ways.
 
@@ -119,7 +119,7 @@ const composeLayout = (store, component) => {
 export default composeLayout;
 ```
 
-<h3 id = 'h3Title'>2. Get global theme</h3>
+### 2. Get global theme
 
 - Access the theme through components wrapped by **styled** in **styled-components**
 

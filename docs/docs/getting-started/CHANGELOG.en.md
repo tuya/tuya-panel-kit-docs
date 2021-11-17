@@ -10,7 +10,7 @@ order: 2
 
 <p><font size='2' color='#595959'>All significant changes of the tuya-panel-kit will be recorded in this document, please refer to the &nbsp;<a href="https://github.com/conventional-changelog/standard-version">standard-version</a>&nbsp;guidelines for generating the standard version of changelog.</font></p>
 
-### Release cycle
+- Release cycle
 
 <font size='2' color='#595959'>
 · Revision number:&nbsp;&nbsp;daily bug fixes are carried out every week.<br />

@@ -10,7 +10,7 @@ order: 2
 
 <p><font size='2' color='#595959'>tuya-panel-kit 组件库的所有显著变化都将记录在这篇文档中，生成 CHANGELOG 的标准版本请参考&nbsp;<a href="https://github.com/conventional-changelog/standard-version">standard-version</a>&nbsp;准则。</font></p>
 
-### 发布周期
+- 发布周期
 
 <font size='2' color='#595959'>
 · 修订版本号：&nbsp;&nbsp;每周进行日常 bug 的修复。<br />

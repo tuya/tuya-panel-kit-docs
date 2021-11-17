@@ -72,7 +72,7 @@ The attributes that support user transmission are `background`:
 
 ![Offline](https://images.tuyacn.com/rms-static/60b60520-40d7-11eb-bdd0-95079b95c9b6-1608257934962.png?tyName=Offline_en.png)
 
-<h3 id="h3Title">一、WI-FI Offline</h3>
+### 一、WI-FI Offline
 
 #### New version offline
 
@@ -124,7 +124,7 @@ help: 'help';
 appoffline: 'Network error, please check ';
 ```
 
-<h3 id="h3Title">二、Bluetooth offline</h3>
+### 二、Bluetooth offline
 
 ![BleOfflineWifi](https://images.tuyacn.com/rms-static/398a0940-d954-11eb-815d-e39234ce96ff-1625024133076.png?tyName=Ble_en_update.png)
 

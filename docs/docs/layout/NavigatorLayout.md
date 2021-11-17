@@ -22,7 +22,7 @@ title: NavigatorLayout 导航布局
 
 ## 代码演示
 
-<h3 id="h3Title">在两个页面之间跳转</h3>
+### 在两个页面之间跳转
 
 > 可运行我们托管在 Github 提供的 [demo](https://github.com/tuya/tuya-panel-kit/tree/master/demos/navigator-layout/basic-jump) 查看效果
 
@@ -135,7 +135,7 @@ export default ({ navigator }) => (
 );
 ```
 
-<h3 id="h3Title">自定义过渡动画效果</h3>
+### 自定义过渡动画效果
 
 > 可运行我们托管在 Github 提供的 [demo](https://github.com/tuya/tuya-panel-kit/tree/master/demos/navigator-layout/screen-transition) 查看效果
 
@@ -235,7 +235,7 @@ class NavigatorLayout<P = {}, S = {}> extends React.Component<
 }
 ```
 
-<h3 id="h3Title">hookRoute</h3>
+### hookRoute
 
 > 用于控制常见页面 UI，参见此前类型签名，`hookRoute` 接收一个参数 `route`，需要返回一个合法的 `NavigationOptions`，`NavigatorLayout` 内部会通过 `hookRoute` 的返回值去对应渲染当前页面的相关 UI。
 
@@ -306,7 +306,7 @@ interface NavigationOptions {
 }
 ```
 
-<h3 id="h3Title">renderScene</h3>
+### renderScene
 
 > 用于渲染页面组件，参见此前类型签名，`renderScene` 接收两个参数，`route` 和 `navigator`，需要返回一个合法的 `JSXElement`，参数的具体类型签名见下，其中需要注意的是首页的 `route.id` 固定为 `main`。
 
