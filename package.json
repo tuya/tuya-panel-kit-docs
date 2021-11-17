@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@saber2pr/ts-compiler": "^0.1.8",
-    "@tuya/dumi-theme-tuya": "^2.7.1",
+    "@tuya/dumi-theme-tuya": "^2.8.0",
     "@types/react-native": "^0.64.13",
     "@types/tuya-panel-kit": "^4.0.8",
     "@typescript/twoslash": "^3.0.0",
