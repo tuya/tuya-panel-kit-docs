@@ -45,3 +45,8 @@ yarn add tuya-panel-kit
 - <ShieldsValue data="https://cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/shields.json" name="commitizen" href="http://commitizen.github.io/cz-cli/"></ShieldsValue>
 - <ShieldsValue data="https://cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/shields.json" name="Conventional Commits" href="https://conventionalcommits.org"></ShieldsValue>
 - <ShieldsValue data="https://cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/shields.json" name="codecov" href="https://codecov.io/gh/tuya/tuya-panel-kit"></ShieldsValue>
+
+## VS Code 插件
+
+- [vscode-tuya-panel-kit](https://marketplace.visualstudio.com/items?itemName=youngjuning.vscode-tuya-panel-kit)
+- [tuya-panel-kit-snippets](https://marketplace.visualstudio.com/items?itemName=youngjuning.tuya-panel-kit-snippets)
