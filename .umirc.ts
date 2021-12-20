@@ -109,7 +109,8 @@ export default defineConfig({
   hash: isProd,
   // base: isProd ? '/tuya-panel-kit-docs' : '/', // router base
   publicPath: isProd
-    ? '//cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/'
+//     ? '//cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/'
+    ? '/'
     : '/',
   headScripts: [
     {
