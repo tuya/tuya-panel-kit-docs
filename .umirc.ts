@@ -37,8 +37,7 @@ export default defineConfig({
     },
     qrcode:
       'tuyaSmart--addVirtualDev?productId=mvhcrizelobov3dw&token=release_common_component',
-    apiData:
-      'https://cdn.jsdelivr.net/npm/tuya-panel-kit-props-data/props.json',
+    apiData: 'https://unpkg.com/tuya-panel-kit-props-data/props.json',
     demoUrl:
       process.env.NODE_ENV === 'development'
         ? // ? 'http://localhost:8001'
@@ -46,8 +45,7 @@ export default defineConfig({
         : 'https://tuya.github.io/tuya-panel-kit/tuya-panel-kit/',
     demoInfoUrl:
       'https://github.com/tuya/tuya-panel-kit/blob/master/example/tuya-panel-kit/src/pages{demo}/index.tsx',
-    typeAssetsUrl:
-      'https://cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/types-assets.json',
+    typeAssetsUrl: 'https://panel-docs.tuyacn.com/types-assets.json',
   },
   navs: {
     zh: [
@@ -109,8 +107,8 @@ export default defineConfig({
   hash: isProd,
   // base: isProd ? '/tuya-panel-kit-docs' : '/', // router base
   publicPath: isProd
-//     ? '//cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/'
-    ? '/'
+    ? //     ? '//cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/'
+      '/'
     : '/',
   headScripts: [
     {

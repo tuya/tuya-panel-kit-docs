@@ -22,7 +22,7 @@ import { RotationView } from 'tuya-panel-kit'
     }}
     source={{
       uri:
-        'https://cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/assets/rotate-view-3.png',
+        'https://panel-docs.tuyacn.com/assets/rotate-view-3.png',
     }}
   />
 </RotationView>
@@ -42,7 +42,7 @@ import { RotationView } from 'tuya-panel-kit'
     }}
     source={{
       uri:
-        'https://cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/assets/rotate-view-4.png',
+        'https://panel-docs.tuyacn.com/assets/rotate-view-4.png',
     }}
   />
 </RotationView>

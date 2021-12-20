@@ -40,11 +40,11 @@ yarn add tuya-panel-kit
 
 ## 相关信息
 
-- <ShieldsValue data="https://cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/shields.json" name="npm@latest" href="https://www.npmjs.com/package/tuya-panel-kit"></ShieldsValue>
-- <ShieldsValue data="https://cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/shields.json" name="license"></ShieldsValue>
-- <ShieldsValue data="https://cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/shields.json" name="commitizen" href="http://commitizen.github.io/cz-cli/"></ShieldsValue>
-- <ShieldsValue data="https://cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/shields.json" name="Conventional Commits" href="https://conventionalcommits.org"></ShieldsValue>
-- <ShieldsValue data="https://cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/shields.json" name="codecov" href="https://codecov.io/gh/tuya/tuya-panel-kit"></ShieldsValue>
+- <ShieldsValue data="https://panel-docs.tuyacn.com/shields.json" name="npm@latest" href="https://www.npmjs.com/package/tuya-panel-kit"></ShieldsValue>
+- <ShieldsValue data="https://panel-docs.tuyacn.com/shields.json" name="license"></ShieldsValue>
+- <ShieldsValue data="https://panel-docs.tuyacn.com/shields.json" name="commitizen" href="http://commitizen.github.io/cz-cli/"></ShieldsValue>
+- <ShieldsValue data="https://panel-docs.tuyacn.com/shields.json" name="Conventional Commits" href="https://conventionalcommits.org"></ShieldsValue>
+- <ShieldsValue data="https://panel-docs.tuyacn.com/shields.json" name="codecov" href="https://codecov.io/gh/tuya/tuya-panel-kit"></ShieldsValue>
 
 ## VS Code 插件
 
