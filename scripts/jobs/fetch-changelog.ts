@@ -2,7 +2,7 @@ import { resolve } from 'path';
 
 import { sys } from '../sys';
 
-const changelogHref = 'https://raw.githubusercontent.com/tuya/tuya-panel-kit/master/packages/tuya-panel-kit/CHANGELOG.md'
+const changelogHref = 'https://raw.githubusercontent.com/tuya/tuya-panel-kit/main/packages/tuya-panel-kit/CHANGELOG.md'
 const changelogPath = resolve(__dirname, '../../docs/docs/getting-started/CHANGELOG')
 
 const replaceContent = async (path: string, replacer: (old: string) => string) => {
