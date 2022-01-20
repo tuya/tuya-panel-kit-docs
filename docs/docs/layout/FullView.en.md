@@ -84,7 +84,7 @@ The attributes that support user transmission are `background`:
 - The return button at the top of the pop-up box directly returns to the App list page;
 - The device picture in the pop-up box is pulled from the cloud, if the pull fails, it will not be displayed;
 - The Wi-Fi offline copy can be configured by the product manager. When the copy exceeds 4, the "More Help" button will appear, otherwise, no more help button will appear;
-- Click "More Help", it will jump to the second page: help page, the first time you enter, there will be loading
+- Click "More Help", when `App version >= 3.34.5, and component library version >= 4.8.3`, it will jump to H5 link, page content does not support customization, content includes knowledge items, intelligent customer service and online customer service; Otherwise, the secondary page is displayed: The help page is loaded for the first time.
 
 ###### i18n strings
 
@@ -127,6 +127,10 @@ appoffline: 'Network error, please check ';
 ### 二、Bluetooth offline
 
 ![BleOfflineWifi](https://images.tuyacn.com/rms-static/398a0940-d954-11eb-815d-e39234ce96ff-1625024133076.png?tyName=Ble_en_update.png)
+
+###### Explanation
+
+- Click "View Help", when `App version >= 3.34.5, and component library version >= 4.8.3`, it will jump to H5 link, page content does not support customization, content includes knowledge items, intelligent customer service and online customer service; Otherwise, the secondary page is displayed: The help page is loaded for the first time.
 
 ###### i18n strings
 
