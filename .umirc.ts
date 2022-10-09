@@ -51,6 +51,14 @@ export default defineConfig({
     zh: [
       null,
       {
+        title: '智能小程序文档',
+        path: 'https://developer.tuya.com/cn/miniapp/',
+      },
+      {
+        title: '智能小程序物料广场',
+        path: 'https://developer.tuya.com/cn/material/',
+      },
+      {
         title: 'Github',
         path: 'https://github.com/tuya/tuya-panel-kit',
       },
@@ -76,6 +84,14 @@ export default defineConfig({
     ],
     en: [
       null,
+      {
+        title: 'MiniApp Document',
+        path: 'https://developer.tuya.com/cn/miniapp/',
+      },
+      {
+        title: 'MiniApp Material',
+        path: 'https://developer.tuya.com/cn/material/',
+      },
       {
         title: 'Github',
         path: 'https://github.com/tuya/tuya-panel-kit',
