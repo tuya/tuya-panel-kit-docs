@@ -12,6 +12,7 @@ demo: /presentation/linear-gradient
 
 ```jsx
 import { LinearGradient } from 'tuya-panel-kit'
+import { Rect } from 'react-native-svg';
 
 <LinearGradient
   gradientId="Gradient1"
@@ -37,6 +38,7 @@ import { LinearGradient } from 'tuya-panel-kit'
 
 ```jsx
 import { LinearGradient } from 'tuya-panel-kit'
+import { Rect } from 'react-native-svg';
 
 <LinearGradient
   gradientId="Gradient2"
@@ -59,7 +61,6 @@ import { LinearGradient } from 'tuya-panel-kit'
 
 ```jsx
 import { LinearGradient } from 'tuya-panel-kit'
-
 import _ from 'lodash';
 import React from 'react';
 import { View } from 'react-native';
